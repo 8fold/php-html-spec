@@ -1,0 +1,10 @@
+{
+    "disabled": {
+        "name": "disabled",
+        "elements": [
+            "link"
+        ],
+        "description": "Whether the link is disabled",
+        "misc": "Boolean attribute"
+    }
+}

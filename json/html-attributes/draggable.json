@@ -1,0 +1,10 @@
+{
+    "draggable": {
+        "name": "draggable",
+        "elements": [
+            "HTML elements"
+        ],
+        "description": "Whether the element is draggable",
+        "misc": "\"true\"; \"false\""
+    }
+}

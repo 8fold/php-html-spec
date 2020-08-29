@@ -1,0 +1,10 @@
+{
+    "cite": {
+        "name": "cite",
+        "elements": [
+            "blockquote;\n          del;\n          ins;\n          q"
+        ],
+        "description": "Link to the source of the quotation or more information about the edit",
+        "misc": "Valid URL potentially surrounded by spaces"
+    }
+}

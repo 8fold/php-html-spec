@@ -1,0 +1,10 @@
+{
+    "enterkeyhint": {
+        "name": "enterkeyhint",
+        "elements": [
+            "HTML elements"
+        ],
+        "description": "Hint for selecting an enter key action",
+        "misc": "\"enter\";\n          \"done\";\n          \"go\";\n          \"next\";\n          \"previous\";\n          \"search\";\n          \"send\""
+    }
+}

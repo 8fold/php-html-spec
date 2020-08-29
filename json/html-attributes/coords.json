@@ -1,0 +1,10 @@
+{
+    "coords": {
+        "name": "coords",
+        "elements": [
+            "area"
+        ],
+        "description": "Coordinates for the shape to be created in an image map",
+        "misc": "Valid list of floating-point numbers*"
+    }
+}

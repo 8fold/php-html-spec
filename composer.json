@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "description": "",
+  "name": "8fold/html-spec-structured",
+  "description": "The elements of the HTML specification as structured data",
   "type": "library",
   "license": "MIT",
   "authors": [],
@@ -12,10 +12,12 @@
   },
   "autoload": {
     "psr-4": {
+      "Eightfold\\HtmlSpecStructured\\":"./src"
     }
   },
   "autoload-dev": {
     "psr-4": {
+      "Eightfold\\HtmlSpecStructured\\Tests\\":"./tests"
     }
   },
   "config": {

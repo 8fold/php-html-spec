@@ -1,0 +1,10 @@
+{
+    "enctype": {
+        "name": "enctype",
+        "elements": [
+            "form"
+        ],
+        "description": "Entry list encoding type to use for form submission",
+        "misc": "\"application\/x-www-form-urlencoded\"; \"multipart\/form-data\"; \"text\/plain\""
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "class": {
+        "name": "class",
+        "elements": [
+            "HTML elements"
+        ],
+        "description": "Classes to which the element belongs",
+        "misc": "Set of space-separated tokens"
+    }
+}

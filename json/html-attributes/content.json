@@ -1,0 +1,10 @@
+{
+    "content": {
+        "name": "content",
+        "elements": [
+            "meta"
+        ],
+        "description": "Value of the element",
+        "misc": "Text*"
+    }
+}

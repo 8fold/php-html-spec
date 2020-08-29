@@ -1,0 +1,10 @@
+{
+    "accesskey": {
+        "name": "accesskey",
+        "elements": [
+            "HTML elements"
+        ],
+        "description": "Keyboard shortcut to activate or focus element",
+        "misc": "Ordered set of unique space-separated tokens, none of which are identical to another, each consisting of one code point in length"
+    }
+}

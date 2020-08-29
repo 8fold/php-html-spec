@@ -1,0 +1,10 @@
+{
+    "headers": {
+        "name": "headers",
+        "elements": [
+            "td;\n          th"
+        ],
+        "description": "The header cells for this cell",
+        "misc": "Unordered set of unique space-separated tokens consisting of IDs*"
+    }
+}

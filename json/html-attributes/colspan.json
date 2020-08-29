@@ -1,0 +1,10 @@
+{
+    "colspan": {
+        "name": "colspan",
+        "elements": [
+            "td;\n          th"
+        ],
+        "description": "Number of columns that the cell is to span",
+        "misc": "Valid non-negative integer greater than zero"
+    }
+}

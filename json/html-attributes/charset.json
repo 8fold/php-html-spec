@@ -1,0 +1,10 @@
+{
+    "charset": {
+        "name": "charset",
+        "elements": [
+            "meta"
+        ],
+        "description": "Character encoding declaration",
+        "misc": "\"utf-8\""
+    }
+}

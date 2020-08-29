@@ -1,0 +1,10 @@
+{
+    "http-equiv": {
+        "name": "http-equiv",
+        "elements": [
+            "meta"
+        ],
+        "description": "Pragma directive",
+        "misc": "\"content-type\";\n          \"default-style\";\n          \"refresh\";\n          \"x-ua-compatible\";\n          \"content-security-policy\""
+    }
+}

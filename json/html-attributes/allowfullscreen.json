@@ -1,0 +1,10 @@
+{
+    "allowfullscreen": {
+        "name": "allowfullscreen",
+        "elements": [
+            "iframe"
+        ],
+        "description": "Whether to allow the iframe's contents to use requestFullscreen()",
+        "misc": "Boolean attribute"
+    }
+}

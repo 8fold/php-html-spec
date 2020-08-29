@@ -1,0 +1,10 @@
+{
+    "checked": {
+        "name": "checked",
+        "elements": [
+            "input"
+        ],
+        "description": "Whether the control is checked",
+        "misc": "Boolean attribute"
+    }
+}

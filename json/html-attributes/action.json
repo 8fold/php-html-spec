@@ -1,0 +1,10 @@
+{
+    "action": {
+        "name": "action",
+        "elements": [
+            "form"
+        ],
+        "description": "URL to use for form submission",
+        "misc": "Valid non-empty URL potentially surrounded by spaces"
+    }
+}
