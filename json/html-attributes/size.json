@@ -1,0 +1,11 @@
+{
+    "size": {
+        "name": "size",
+        "elements": [
+            "input",
+            "select"
+        ],
+        "description": "Size of the control",
+        "misc": "Valid non-negative integer greater than zero"
+    }
+}

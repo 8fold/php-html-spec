@@ -1,0 +1,10 @@
+{
+    "readonly": {
+        "name": "readonly",
+        "elements": [
+            "form-associatedcustomelements"
+        ],
+        "description": "Affects willValidate, plus any behavior added by the custom element author",
+        "misc": "Boolean attribute"
+    }
+}

@@ -2,7 +2,8 @@
     "formaction": {
         "name": "formaction",
         "elements": [
-            "button;\n          input"
+            "button",
+            "input"
         ],
         "description": "URL to use for form submission",
         "misc": "Valid non-empty URL potentially surrounded by spaces"

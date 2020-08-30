@@ -1,0 +1,10 @@
+{
+    "srcdoc": {
+        "name": "srcdoc",
+        "elements": [
+            "iframe"
+        ],
+        "description": "A document to render in the iframe",
+        "misc": "The source of an iframe srcdoc document*"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "placeholder": {
+        "name": "placeholder",
+        "elements": [
+            "input",
+            "textarea"
+        ],
+        "description": "User-visible label to be placed within the form control",
+        "misc": "Text*"
+    }
+}

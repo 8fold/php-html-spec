@@ -2,7 +2,8 @@
     "formnovalidate": {
         "name": "formnovalidate",
         "elements": [
-            "button;\n          input"
+            "button",
+            "input"
         ],
         "description": "Bypass form control validation for form submission",
         "misc": "Boolean attribute"

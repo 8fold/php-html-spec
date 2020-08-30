@@ -1,0 +1,14 @@
+{
+    "sectioning": {
+        "name": "Sectioning content",
+        "slug": "sectioning",
+        "slugAlt": "sectioning-content",
+        "elements": [
+            "article",
+            "aside",
+            "nav",
+            "section"
+        ],
+        "exceptions": []
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "onmessageerror": {
+        "name": "onmessageerror",
+        "elements": [
+            "body"
+        ],
+        "description": "messageerror event handler for Window object",
+        "misc": "Event handler content attribute"
+    }
+}

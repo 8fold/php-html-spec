@@ -10,7 +10,6 @@ class PhpToJsonTest extends PHPUnitTestCase
 {
     /**
      * @test
-     * @group current
      */
     public function generates_element_files_and_folders()
     {

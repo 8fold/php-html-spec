@@ -1,0 +1,10 @@
+{
+    "start": {
+        "name": "start",
+        "elements": [
+            "ol"
+        ],
+        "description": "Starting value of the list",
+        "misc": "Valid integer"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": {
+        "name": "name",
+        "elements": [
+            "slot"
+        ],
+        "description": "Name of shadow tree slot",
+        "misc": "Text"
+    }
+}

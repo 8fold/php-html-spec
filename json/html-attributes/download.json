@@ -2,7 +2,8 @@
     "download": {
         "name": "download",
         "elements": [
-            "a;\n          area"
+            "a",
+            "area"
         ],
         "description": "Whether to download the resource instead of navigating to it, and its file name if so",
         "misc": "Text"

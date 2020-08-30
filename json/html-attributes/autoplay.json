@@ -2,7 +2,8 @@
     "autoplay": {
         "name": "autoplay",
         "elements": [
-            "audio;\n          video"
+            "audio",
+            "video"
         ],
         "description": "Hint that the media resource can be started automatically when the page is loaded",
         "misc": "Boolean attribute"

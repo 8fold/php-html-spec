@@ -1,0 +1,11 @@
+{
+    "sizes": {
+        "name": "sizes",
+        "elements": [
+            "img",
+            "source"
+        ],
+        "description": "Image sizes for different page layouts",
+        "misc": "Valid source size list"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "onpagehide": {
+        "name": "onpagehide",
+        "elements": [
+            "body"
+        ],
+        "description": "pagehide event handler for Window object",
+        "misc": "Event handler content attribute"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "span": {
+        "name": "span",
+        "elements": [
+            "col",
+            "colgroup"
+        ],
+        "description": "Number of columns spanned by the element",
+        "misc": "Valid non-negative integer greater than zero"
+    }
+}

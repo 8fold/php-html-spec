@@ -2,7 +2,14 @@
     "form": {
         "name": "form",
         "elements": [
-            "button;\n          fieldset;\n          input;\n          object;\n          output;\n          select;\n          textarea;\n          form-associated custom elements"
+            "button",
+            "fieldset",
+            "input",
+            "object",
+            "output",
+            "select",
+            "textarea",
+            "form-associatedcustomelements"
         ],
         "description": "Associates the element with a form element",
         "misc": "ID*"

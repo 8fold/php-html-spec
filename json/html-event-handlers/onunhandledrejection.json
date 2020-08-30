@@ -1,0 +1,10 @@
+{
+    "onunhandledrejection": {
+        "name": "onunhandledrejection",
+        "elements": [
+            "body"
+        ],
+        "description": "unhandledrejection event handler for Window object",
+        "misc": "Event handler content attribute"
+    }
+}

@@ -2,7 +2,13 @@
     "height": {
         "name": "height",
         "elements": [
-            "canvas;\n          embed;\n          iframe;\n          img;\n          input;\n          object;\n          video"
+            "canvas",
+            "embed",
+            "iframe",
+            "img",
+            "input",
+            "object",
+            "video"
         ],
         "description": "Vertical dimension",
         "misc": "Valid non-negative integer"

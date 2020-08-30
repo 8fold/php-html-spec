@@ -1,0 +1,17 @@
+{
+    "listed": {
+        "name": "Listed elements",
+        "slug": "listed",
+        "slugAlt": "listed-elements",
+        "elements": [
+            "button",
+            "fieldset",
+            "input",
+            "object",
+            "output",
+            "select",
+            "textarea"
+        ],
+        "exceptions": []
+    }
+}

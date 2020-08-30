@@ -5,36 +5,26 @@ namespace Eightfold\HtmlSpecStructured;
 
 use \DomDocument;
 
-use Eightfold\HtmlSpecStructured\PhpToJson\HtmlElement;
+use Eightfold\HtmlSpecStructured\PhpToJson\HtmlIndex;
+use Eightfold\HtmlSpecStructured\PhpToJson\HtmlElements;
 use Eightfold\HtmlSpecStructured\PhpToJson\HtmlAttribute;
+use Eightfold\HtmlSpecStructured\PhpToJson\HtmlEventHandler;
+use Eightfold\HtmlSpecStructured\PhpToJson\HtmlContentCategory;
 
 class PhpToJson
 {
     static public function compile(): void
     {
-        HtmlAttribute::storeHtmlAttributes();
-        HtmlElement::storeHtmlElements();
-        HtmlElement::updateElementAttributes();
-        HtmlElement::updateElementDetails();
-    }
+        HtmlIndex::storeInitial(); // Establish base for reference.
 
-    static public function updateHtmlElementIndex(HtmlElement $element)
-    {
-        if (! file_exists(HtmlElement::pathToHtmlElementIndex())) {
-            if (! file_exists(static::pathToHtml())) {
-                mkdir(static::pathToHtml(), 0755, true);
-            }
-            file_put_contents(HtmlElement::pathToHtmlElementIndex(), "{}");
-        }
+        HtmlContentCategory::storeInitial();
+        HtmlAttribute::storeInitial();
+        HtmlEventHandler::storeInitial();
 
-        $path = HtmlElement::pathToHtmlElementIndex();
-
-        $json = file_get_contents($path);
-        $index = json_decode($json);
-        $index->{$element->name()} = array_values($element->filePathPartsRelative());
-
-        $json = json_encode($index, JSON_PRETTY_PRINT);
-        file_put_contents($path, $json);
+        HtmlIndex::storeDetails(); // This takes forever - never ends ??
+        // HtmlIndex::storeAttributes(); // This takes forever - never ends ??
+        // HtmlElement::updateEventHandlers();
+        // HtmlElement::updateAriaAttributes();
     }
 
     static public function specSourceDom(): DomDocument
@@ -57,25 +47,19 @@ class PhpToJson
         return $data;
     }
 
-    static public function pathToHtml()
-    {
-        $parts = static::pathPartsToHtml();
-        return implode("/", $parts);
-    }
-
-    static private function pathPartsToHtml()
-    {
-        $parts = static::pathPartsToJson();
-        $parts[] = "html";
-        return $parts;
-    }
-
     static public function pathPartsToJson()
+    {
+        $dir = static::pathPartsToProjectRoot();
+        $dir[] = "json";
+
+        return $dir;
+    }
+
+    static public function pathPartsToProjectRoot()
     {
         $dir = __DIR__;
         $dir = explode("/", $dir);
         array_pop($dir);
-        $dir[] = "json";
 
         return $dir;
     }

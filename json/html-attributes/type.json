@@ -1,0 +1,10 @@
+{
+    "type": {
+        "name": "type",
+        "elements": [
+            "script"
+        ],
+        "description": "Type of script",
+        "misc": "\"module\"; a valid MIME type string that is not a JavaScript MIME type essence match"
+    }
+}

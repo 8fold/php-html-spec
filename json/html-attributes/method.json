@@ -1,0 +1,10 @@
+{
+    "method": {
+        "name": "method",
+        "elements": [
+            "form"
+        ],
+        "description": "Variant to use for form submission",
+        "misc": "\"GET\";\n          \"POST\";\n          \"dialog\""
+    }
+}

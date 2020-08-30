@@ -2,7 +2,9 @@
     "alt": {
         "name": "alt",
         "elements": [
-            "area;\n          img;\n          input"
+            "area",
+            "img",
+            "input"
         ],
         "description": "Replacement text for use when images are not available",
         "misc": "Text*"

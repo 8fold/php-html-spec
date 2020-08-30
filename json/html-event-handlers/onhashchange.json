@@ -1,0 +1,10 @@
+{
+    "onhashchange": {
+        "name": "onhashchange",
+        "elements": [
+            "body"
+        ],
+        "description": "hashchange event handler for Window object",
+        "misc": "Event handler content attribute"
+    }
+}

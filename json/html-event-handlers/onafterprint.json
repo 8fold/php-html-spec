@@ -1,0 +1,10 @@
+{
+    "onafterprint": {
+        "name": "onafterprint",
+        "elements": [
+            "body"
+        ],
+        "description": "afterprint event handler for Window object",
+        "misc": "Event handler content attribute"
+    }
+}

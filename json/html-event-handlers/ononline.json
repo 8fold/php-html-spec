@@ -1,0 +1,10 @@
+{
+    "ononline": {
+        "name": "ononline",
+        "elements": [
+            "body"
+        ],
+        "description": "online event handler for Window object",
+        "misc": "Event handler content attribute"
+    }
+}

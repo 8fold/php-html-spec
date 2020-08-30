@@ -1,0 +1,15 @@
+{
+    "submittable": {
+        "name": "Submittable elements",
+        "slug": "submittable",
+        "slugAlt": "submittable-elements",
+        "elements": [
+            "button",
+            "input",
+            "object",
+            "select",
+            "textarea"
+        ],
+        "exceptions": []
+    }
+}

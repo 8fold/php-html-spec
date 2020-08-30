@@ -1,0 +1,11 @@
+{
+    "srcset": {
+        "name": "srcset",
+        "elements": [
+            "img",
+            "source"
+        ],
+        "description": "Images to use in different situations, e.g., high-resolution displays, small monitors, etc.",
+        "misc": "Comma-separated list of image candidate strings"
+    }
+}

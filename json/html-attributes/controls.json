@@ -2,7 +2,8 @@
     "controls": {
         "name": "controls",
         "elements": [
-            "audio;\n          video"
+            "audio",
+            "video"
         ],
         "description": "Show user agent controls",
         "misc": "Boolean attribute"

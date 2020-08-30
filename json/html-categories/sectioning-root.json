@@ -1,0 +1,17 @@
+{
+    "sectioning-root": {
+        "name": "Sectioning roots",
+        "slug": "sectioning-root",
+        "slugAlt": "sectioning-roots",
+        "elements": [
+            "blockquote",
+            "body",
+            "details",
+            "dialog",
+            "fieldset",
+            "figure",
+            "td"
+        ],
+        "exceptions": []
+    }
+}

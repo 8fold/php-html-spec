@@ -1,0 +1,10 @@
+{
+    "novalidate": {
+        "name": "novalidate",
+        "elements": [
+            "form"
+        ],
+        "description": "Bypass form control validation for form submission",
+        "misc": "Boolean attribute"
+    }
+}

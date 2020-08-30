@@ -2,7 +2,11 @@
     "crossorigin": {
         "name": "crossorigin",
         "elements": [
-            "audio;\n          img;\n          link;\n          script;\n          video"
+            "audio",
+            "img",
+            "link",
+            "script",
+            "video"
         ],
         "description": "How the element handles crossorigin requests",
         "misc": "\"anonymous\"; \"use-credentials\""

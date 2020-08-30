@@ -1,0 +1,10 @@
+{
+    "reversed": {
+        "name": "reversed",
+        "elements": [
+            "ol"
+        ],
+        "description": "Number the list backwards",
+        "misc": "Boolean attribute"
+    }
+}

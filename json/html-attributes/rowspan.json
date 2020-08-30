@@ -1,0 +1,11 @@
+{
+    "rowspan": {
+        "name": "rowspan",
+        "elements": [
+            "td",
+            "th"
+        ],
+        "description": "Number of rows that the cell is to span",
+        "misc": "Valid non-negative integer"
+    }
+}

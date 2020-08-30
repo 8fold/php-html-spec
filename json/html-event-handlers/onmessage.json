@@ -1,0 +1,10 @@
+{
+    "onmessage": {
+        "name": "onmessage",
+        "elements": [
+            "body"
+        ],
+        "description": "message event handler for Window object",
+        "misc": "Event handler content attribute"
+    }
+}

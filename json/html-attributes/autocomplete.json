@@ -2,7 +2,9 @@
     "autocomplete": {
         "name": "autocomplete",
         "elements": [
-            "input;\n          select;\n          textarea"
+            "input",
+            "select",
+            "textarea"
         ],
         "description": "Hint for form autofill feature",
         "misc": "Autofill field name and related tokens*"

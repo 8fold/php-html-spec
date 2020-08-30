@@ -1,0 +1,14 @@
+{
+    "resettable": {
+        "name": "Resettable elements",
+        "slug": "resettable",
+        "slugAlt": "resettable-elements",
+        "elements": [
+            "input",
+            "output",
+            "select",
+            "textarea"
+        ],
+        "exceptions": []
+    }
+}

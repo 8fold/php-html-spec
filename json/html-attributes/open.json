@@ -1,0 +1,10 @@
+{
+    "open": {
+        "name": "open",
+        "elements": [
+            "dialog"
+        ],
+        "description": "Whether the dialog box is showing",
+        "misc": "Boolean attribute"
+    }
+}

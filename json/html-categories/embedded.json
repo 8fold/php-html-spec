@@ -1,0 +1,18 @@
+{
+    "embedded": {
+        "name": "Embedded content",
+        "slug": "embedded",
+        "slugAlt": "embedded-content",
+        "elements": [
+            "audio",
+            "canvas",
+            "embed",
+            "iframe",
+            "img",
+            "object",
+            "picture",
+            "video"
+        ],
+        "exceptions": []
+    }
+}

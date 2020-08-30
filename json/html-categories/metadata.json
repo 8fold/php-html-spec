@@ -1,0 +1,18 @@
+{
+    "metadata": {
+        "name": "Metadata content",
+        "slug": "metadata",
+        "slugAlt": "metadata-content",
+        "elements": [
+            "base",
+            "link",
+            "meta",
+            "noscript",
+            "script",
+            "style",
+            "template",
+            "title"
+        ],
+        "exceptions": []
+    }
+}

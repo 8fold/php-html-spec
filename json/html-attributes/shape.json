@@ -1,0 +1,10 @@
+{
+    "shape": {
+        "name": "shape",
+        "elements": [
+            "area"
+        ],
+        "description": "The kind of shape to be created in an image map",
+        "misc": "\"circle\";\n          \"default\";\n          \"poly\";\n          \"rect\""
+    }
+}

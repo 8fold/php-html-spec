@@ -1,0 +1,10 @@
+{
+    "list": {
+        "name": "list",
+        "elements": [
+            "input"
+        ],
+        "description": "List of autocomplete options",
+        "misc": "ID*"
+    }
+}

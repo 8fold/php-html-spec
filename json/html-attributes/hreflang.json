@@ -2,7 +2,8 @@
     "hreflang": {
         "name": "hreflang",
         "elements": [
-            "a;\n          link"
+            "a",
+            "link"
         ],
         "description": "Language of the linked resource",
         "misc": "Valid BCP 47 language tag"

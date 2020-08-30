@@ -2,7 +2,8 @@
     "formtarget": {
         "name": "formtarget",
         "elements": [
-            "button;\n          input"
+            "button",
+            "input"
         ],
         "description": "Browsing context for form submission",
         "misc": "Valid browsing context name or keyword"

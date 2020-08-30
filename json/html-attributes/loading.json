@@ -2,7 +2,8 @@
     "loading": {
         "name": "loading",
         "elements": [
-            "img;\n          iframe"
+            "img",
+            "iframe"
         ],
         "description": "Used when determining loading deferral",
         "misc": "\"lazy\";\n          \"eager\""

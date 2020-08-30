@@ -1,0 +1,10 @@
+{
+    "onoffline": {
+        "name": "onoffline",
+        "elements": [
+            "body"
+        ],
+        "description": "offline event handler for Window object",
+        "misc": "Event handler content attribute"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "categories": {
+    "metadata-content":"metadata",
+    "embedded-content":"embedded",
+    "flow-content":"flow",
+    "form-associated-elements":"form-associated",
+    "heading-content":"heading",
+    "interactive-content":"interactive",
+    "labelable-elements":"labelable",
+    "listed-elements":"listed",
+    "palpable-content":"palpable",
+    "phrasing-content":"phrasing",
+    "resettable-elements":"resettable",
+    "script-supporting-elements":"script-supporting",
+    "sectioning-content":"sectioning",
+    "sectioning-roots":"sectioning-root",
+    "submittable-elements":"submittable"
+  }
+}

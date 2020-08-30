@@ -1,0 +1,11 @@
+{
+    "title": {
+        "name": "title",
+        "elements": [
+            "link",
+            "style"
+        ],
+        "description": "CSS style sheet set name",
+        "misc": "Text"
+    }
+}
