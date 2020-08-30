@@ -3,19 +3,13 @@ declare(strict_types=1);
 
 namespace Eightfold\HtmlSpecStructured\PhpToJson;
 
-use \ArrayAccess;
-use \Iterator;
+use Eightfold\HtmlSpecStructured\Read\HtmlIndex as HtmlIndexReader;
 
 use Eightfold\HtmlSpecStructured\PhpToJson;
 use Eightfold\HtmlSpecStructured\PhpToJson\HtmlElement;
-// use Eightfold\HtmlSpecStructured\PhpToJson\HtmlAttribute;
 
-class HtmlIndex implements ArrayAccess, Iterator
+class HtmlIndex extends HtmlIndexReader
 {
-    private $index;
-
-    private $elements;
-
     static public function storeInitial(): void
     {
         $index = static::all();
@@ -174,64 +168,6 @@ class HtmlIndex implements ArrayAccess, Iterator
         $elements->saveElements();
     }
 
-    // TODO: PHP 8 - bool -> array|object
-    static public function all()
-    {
-        return new static();
-    }
-
-    static public function path(): string
-    {
-        $parts = PhpToJson::pathPartsToJson();
-        $parts[] = "html";
-        $parts[] = "index.json";
-
-        $path = implode("/", $parts);
-        if (! file_exists($path)) {
-            file_put_contents($path, '{}');
-        }
-        return $path;
-    }
-
-    public function __construct()
-    {
-        $json = file_get_contents(static::path());
-        $this->index = (array) json_decode($json);
-
-        $keys = $this->elementNames();
-        $this->elements = array_flip($keys);
-    }
-
-    public function index(): array
-    {
-        return $this->index;
-    }
-
-    public function indexForElementNamed(string $name): array
-    {
-        $index = $this->index();
-        return $index[$name];
-    }
-
-    public function elementNames(): array
-    {
-        return array_keys($this->index);
-    }
-
-    public function elements(): array
-    {
-        return $this->elements;
-    }
-
-    public function elementNamed(string $name): HtmlElement
-    {
-        $parts = PhpToJson::pathPartsToJson();
-        $index = $this->index();
-        $parts = array_merge($parts, $this->indexForElementNamed($name));
-        $path = implode("/", $parts);
-        return HtmlElement::fromPath($path);
-    }
-
     public function addElement(HtmlElement $element): HtmlIndex
     {
         $name = $element->name();
@@ -252,71 +188,12 @@ class HtmlIndex implements ArrayAccess, Iterator
 
     public function saveElements(): HtmlIndex
     {
-        foreach ($this->elements as $element) {
+        foreach ($this->elements() as $element) {
             if (is_a($element, HtmlElement::class)) {
                 $element->save();
 
             }
         }
         return $this;
-    }
-
-// - ArrayAccess
-
-    public function offsetExists($offset): bool
-    {
-        if (isset($this->index[$offset]) and
-            ! is_a($this->index[$offset], HtmlElement::class)
-        ) {
-            $element = $this->elementNamed($offset);
-            $this->elements[$offset] = $element;
-
-        }
-
-        return (isset($this->index[$offset]) and
-            is_a($this->elements[$offset], HtmlElement::class));
-    }
-
-    public function offsetGet($offset): HtmlElement
-    {
-        if ($this->offsetExists($offset)) {
-            return $this->elements[$offset];
-        }
-        trigger_error("Could not find element {$offset}.");
-    }
-
-    public function offsetSet($offset, $value): void
-    {
-        die("offset set");
-    }
-
-    public function offsetUnset($offset): void
-    {
-        die("offset unset");
-    }
-
-// - Iterator
-    public function rewind()
-    {
-        reset($this->elements);
-    }
-
-    public function current()
-    {
-        return current($this->elements);
-    }
-
-    public function key()
-    {
-        return key($this->elements);
-    }
-
-    public function next()
-    {
-        next($this->elements);
-    }
-
-    public function valid() {
-        return key($this->elements) !== null;
     }
 }

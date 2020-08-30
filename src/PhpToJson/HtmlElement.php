@@ -99,7 +99,13 @@ class HtmlElement extends HtmlAbstract
         return $this;
     }
 
+    // TODO: definition
     public function element(): object
+    {
+        return $this->definition();
+    }
+
+    public function definition(): object
     {
         return $this->element;
     }

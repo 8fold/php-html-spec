@@ -11,6 +11,7 @@ class PhpToJsonTest extends PHPUnitTestCase
     // TODO: Make this a CLI utility or something
     /**
      * @test
+     * @group generate
      */
     public function generates_element_files_and_folders()
     {
