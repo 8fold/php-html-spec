@@ -207,7 +207,7 @@ class HtmlIndex implements ArrayAccess, Iterator
         return $this->index;
     }
 
-    public function indexForElementNamed(string $name): HtmlElement
+    public function indexForElementNamed(string $name): array
     {
         $index = $this->index();
         return $index[$name];
