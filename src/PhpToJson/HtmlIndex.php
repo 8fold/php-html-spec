@@ -207,6 +207,12 @@ class HtmlIndex implements ArrayAccess, Iterator
         return $this->index;
     }
 
+    public function indexForElementNamed(string $name): HtmlElement
+    {
+        $index = $this->index();
+        return $index[$name];
+    }
+
     public function elementNames(): array
     {
         return array_keys($this->index);
@@ -221,7 +227,7 @@ class HtmlIndex implements ArrayAccess, Iterator
     {
         $parts = PhpToJson::pathPartsToJson();
         $index = $this->index();
-        $parts = array_merge($parts, $index[$name]);
+        $parts = array_merge($parts, $this->indexForElementNamed($name));
         $path = implode("/", $parts);
         return HtmlElement::fromPath($path);
     }
