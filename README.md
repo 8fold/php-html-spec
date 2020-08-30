@@ -8,11 +8,11 @@ The information architecture of the `html` directory matches the URL of the docu
 
 ## Installation
 
-{how does one install the product}
+```composer require 8fold/html-spec-structured```
 
 ## Usage
 
-{brief example of how to use the product}
+As it is essentially a no-SQL database, there is no programmatic interface and users may slice and dice however they see fit for the appropriate structured data set.
 
 ## Details
 
@@ -22,8 +22,6 @@ The scripts do not scrape HTML-like version of the specification or any other we
 2. When we learn of updates to the specification or list of elements, the scripts are run again and any manual updates are performed before submitting a new release.
 
 ## Other
-
-{links or descriptions or license, versioning, and governance}
 
 ### Versioning
 
