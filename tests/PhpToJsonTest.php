@@ -8,9 +8,7 @@ use Eightfold\HtmlSpecStructured\PhpToJson;
 
 class PhpToJsonTest extends PHPUnitTestCase
 {
-    /**
-     * @test
-     */
+    // TODO: Make this a CLI utility or something
     public function generates_element_files_and_folders()
     {
         PhpToJson::compile();
