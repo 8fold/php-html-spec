@@ -19,7 +19,8 @@
         "none"
     ],
     "children": [
-        "none"
+        "head",
+        "body"
     ],
     "interfaces": [
         "HTMLHtmlElement",

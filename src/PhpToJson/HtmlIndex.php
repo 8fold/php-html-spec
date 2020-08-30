@@ -134,7 +134,7 @@ class HtmlIndex implements ArrayAccess, Iterator
                             $children = array_map(function($v) {
                                 $v = trim($v);
                                 return str_replace("*", "", $v);
-                            }, $parents);
+                            }, $children);
 
                             $interface = $interfaces[$elementName];
 

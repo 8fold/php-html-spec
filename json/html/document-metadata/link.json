@@ -23,9 +23,7 @@
         "phrasing"
     ],
     "children": [
-        "head",
-        "noscript",
-        "phrasing"
+        "empty"
     ],
     "interfaces": [
         "HTMLLinkElement",

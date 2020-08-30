@@ -22,7 +22,7 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "transparent"
     ],
     "interfaces": [
         "HTMLAnchorElement",

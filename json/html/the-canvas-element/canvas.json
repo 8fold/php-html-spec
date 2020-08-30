@@ -17,7 +17,7 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "transparent"
     ],
     "interfaces": [
         "HTMLCanvasElement",

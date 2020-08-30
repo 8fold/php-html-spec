@@ -19,7 +19,7 @@
         "head"
     ],
     "children": [
-        "head"
+        "empty"
     ],
     "interfaces": [
         "HTMLBaseElement",

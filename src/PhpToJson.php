@@ -20,6 +20,7 @@ class PhpToJson
         HtmlContentCategory::storeInitial();
         HtmlAttribute::storeInitial();
         HtmlEventHandler::storeInitial();
+        // TODO: ARIA attributes
 
         HtmlIndex::storeDetails(); // This takes forever - never ends ??
         // HtmlIndex::storeAttributes(); // This takes forever - never ends ??

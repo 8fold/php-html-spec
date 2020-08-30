@@ -20,7 +20,8 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "transparent",
+        "area"
     ],
     "interfaces": [
         "HTMLMapElement",

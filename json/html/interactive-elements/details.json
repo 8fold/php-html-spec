@@ -16,6 +16,7 @@
         "flow"
     ],
     "children": [
+        "summary",
         "flow"
     ],
     "interfaces": [

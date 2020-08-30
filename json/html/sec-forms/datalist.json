@@ -15,7 +15,9 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "phrasing",
+        "option",
+        "script-supporting elements"
     ],
     "interfaces": [
         "HTMLDataListElement",

@@ -21,10 +21,9 @@
         "tfoot"
     ],
     "children": [
-        "table",
-        "thead",
-        "tbody",
-        "tfoot"
+        "th",
+        "td",
+        "script-supporting elements"
     ],
     "interfaces": [
         "HTMLTableRowElement",

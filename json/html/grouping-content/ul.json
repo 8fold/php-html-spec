@@ -20,7 +20,8 @@
         "flow"
     ],
     "children": [
-        "flow"
+        "li",
+        "script-supporting elements"
     ],
     "interfaces": [
         "HTMLUListElement",

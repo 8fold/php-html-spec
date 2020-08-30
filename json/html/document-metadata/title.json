@@ -19,7 +19,7 @@
         "head"
     ],
     "children": [
-        "head"
+        "text"
     ],
     "interfaces": [
         "HTMLTitleElement",

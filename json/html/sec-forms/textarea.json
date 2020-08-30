@@ -27,7 +27,7 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "text"
     ],
     "interfaces": [
         "HTMLTextAreaElement",

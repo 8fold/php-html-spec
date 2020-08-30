@@ -14,7 +14,7 @@
         "figure"
     ],
     "children": [
-        "figure"
+        "flow"
     ],
     "interfaces": [
         "HTMLElement"

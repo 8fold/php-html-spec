@@ -20,7 +20,7 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "empty"
     ],
     "interfaces": [
         "HTMLIFrameElement",

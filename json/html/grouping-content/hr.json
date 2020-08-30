@@ -19,7 +19,7 @@
         "flow"
     ],
     "children": [
-        "flow"
+        "empty"
     ],
     "interfaces": [
         "HTMLHRElement",

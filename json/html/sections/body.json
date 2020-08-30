@@ -19,7 +19,7 @@
         "html"
     ],
     "children": [
-        "html"
+        "flow"
     ],
     "interfaces": [
         "HTMLBodyElement",

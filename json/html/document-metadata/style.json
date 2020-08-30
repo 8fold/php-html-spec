@@ -19,8 +19,7 @@
         "noscript"
     ],
     "children": [
-        "head",
-        "noscript"
+        "text"
     ],
     "interfaces": [
         "HTMLStyleElement",

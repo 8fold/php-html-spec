@@ -16,6 +16,7 @@
         "flow"
     ],
     "children": [
+        "figcaption",
         "flow"
     ],
     "interfaces": [

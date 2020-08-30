@@ -27,7 +27,9 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "option",
+        "optgroup",
+        "script-supporting elements"
     ],
     "interfaces": [
         "HTMLSelectElement",

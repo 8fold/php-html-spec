@@ -21,9 +21,7 @@
         "optgroup"
     ],
     "children": [
-        "select",
-        "datalist",
-        "optgroup"
+        "text"
     ],
     "interfaces": [
         "HTMLOptionElement",

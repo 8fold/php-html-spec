@@ -19,7 +19,13 @@
         "flow"
     ],
     "children": [
-        "flow"
+        "caption",
+        "colgroup",
+        "thead",
+        "tbody",
+        "tfoot",
+        "tr",
+        "script-supporting elements"
     ],
     "interfaces": [
         "HTMLTableElement",

@@ -16,9 +16,7 @@
         "audio"
     ],
     "children": [
-        "picture",
-        "video",
-        "audio"
+        "empty"
     ],
     "interfaces": [
         "HTMLSourceElement",

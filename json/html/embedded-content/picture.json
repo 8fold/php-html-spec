@@ -15,7 +15,9 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "source",
+        "one img",
+        "script-supporting elements"
     ],
     "interfaces": [
         "HTMLPictureElement",

@@ -14,9 +14,13 @@
         "flow"
     ],
     "children": [
-        "legend",
-        "summary",
-        "flow"
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "script-supporting elements"
     ],
     "interfaces": [
         "HTMLElement"

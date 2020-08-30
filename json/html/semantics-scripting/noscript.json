@@ -20,8 +20,7 @@
         "phrasing"
     ],
     "children": [
-        "head",
-        "phrasing"
+        "varies"
     ],
     "interfaces": [
         "HTMLElement"

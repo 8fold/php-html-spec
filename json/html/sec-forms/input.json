@@ -27,7 +27,7 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "empty"
     ],
     "interfaces": [
         "HTMLInputElement",

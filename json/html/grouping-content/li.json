@@ -21,9 +21,7 @@
         "menu"
     ],
     "children": [
-        "ol",
-        "ul",
-        "menu"
+        "flow"
     ],
     "interfaces": [
         "HTMLLIElement",

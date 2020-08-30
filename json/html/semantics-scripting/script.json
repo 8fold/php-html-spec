@@ -23,9 +23,7 @@
         "script-supporting"
     ],
     "children": [
-        "head",
-        "phrasing",
-        "script-supporting"
+        "script, data, or script documentation"
     ],
     "interfaces": [
         "HTMLScriptElement",

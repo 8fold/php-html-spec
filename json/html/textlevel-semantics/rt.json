@@ -15,7 +15,7 @@
         "ruby"
     ],
     "children": [
-        "ruby"
+        "phrasing"
     ],
     "interfaces": [
         "HTMLElement"

@@ -18,7 +18,9 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "source",
+        "track",
+        "transparent"
     ],
     "interfaces": [
         "HTMLVideoElement",

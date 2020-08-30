@@ -19,7 +19,7 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "transparent"
     ],
     "interfaces": [
         "HTMLModElement",

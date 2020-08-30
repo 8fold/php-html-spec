@@ -20,7 +20,7 @@
         "flow"
     ],
     "children": [
-        "flow"
+        "phrasing"
     ],
     "interfaces": [
         "HTMLParagraphElement",

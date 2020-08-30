@@ -20,7 +20,10 @@
         "flow"
     ],
     "children": [
-        "flow"
+        "dt",
+        "dd",
+        "div",
+        "script-supporting elements"
     ],
     "interfaces": [
         "HTMLDListElement",

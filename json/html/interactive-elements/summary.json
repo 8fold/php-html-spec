@@ -13,7 +13,8 @@
         "details"
     ],
     "children": [
-        "details"
+        "phrasing",
+        "heading content"
     ],
     "interfaces": [
         "HTMLElement"

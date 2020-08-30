@@ -17,7 +17,8 @@
         "table"
     ],
     "children": [
-        "table"
+        "col",
+        "template"
     ],
     "interfaces": [
         "HTMLTableColElement",

@@ -23,9 +23,7 @@
         "flow"
     ],
     "children": [
-        "legend",
-        "summary",
-        "flow"
+        "phrasing"
     ],
     "interfaces": [
         "HTMLHeadingElement",

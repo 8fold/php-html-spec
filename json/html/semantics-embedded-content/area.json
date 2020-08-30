@@ -19,7 +19,7 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "empty"
     ],
     "interfaces": [
         "HTMLAreaElement",

@@ -25,8 +25,7 @@
         "picture"
     ],
     "children": [
-        "phrasing",
-        "picture"
+        "empty"
     ],
     "interfaces": [
         "HTMLImageElement",

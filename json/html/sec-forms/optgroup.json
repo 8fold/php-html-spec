@@ -17,7 +17,8 @@
         "select"
     ],
     "children": [
-        "select"
+        "option",
+        "script-supporting elements"
     ],
     "interfaces": [
         "HTMLOptGroupElement",

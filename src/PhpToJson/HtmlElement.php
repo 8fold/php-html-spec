@@ -10,6 +10,8 @@ use Eightfold\HtmlSpecStructured\PhpToJson;
 use Eightfold\HtmlSpecStructured\PhpToJson\HtmlIndex;
 use Eightfold\HtmlSpecStructured\PhpToJson\HtmlAttribute;
 
+// TODO: Consider separating out write functionality to separate class; so,
+//      this class can be used for read operations safely.
 class HtmlElement extends HtmlAbstract
 {
     private $element;

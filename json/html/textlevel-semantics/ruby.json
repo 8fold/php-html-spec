@@ -17,7 +17,9 @@
         "phrasing"
     ],
     "children": [
-        "phrasing"
+        "phrasing",
+        "rt",
+        "rp"
     ],
     "interfaces": [
         "HTMLElement"

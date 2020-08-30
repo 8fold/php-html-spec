@@ -17,7 +17,8 @@
         "table"
     ],
     "children": [
-        "table"
+        "tr",
+        "script-supporting elements"
     ],
     "interfaces": [
         "HTMLTableSectionElement",

@@ -15,8 +15,7 @@
         "video"
     ],
     "children": [
-        "audio",
-        "video"
+        "empty"
     ],
     "interfaces": [
         "HTMLTrackElement",
