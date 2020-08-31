@@ -1,10 +1,11 @@
 {
-    "as": {
-        "name": "as",
-        "elements": [
-            "link"
-        ],
-        "description": "Potential destination for a preload request (for rel=\"preload\" and rel=\"modulepreload\")",
-        "misc": "Potential destination, for rel=\"preload\"; script-like destination, for rel=\"modulepreload\""
-    }
+    "name": "as",
+    "elements": [
+        "link"
+    ],
+    "description": "Potential destination for a preload request (for rel=\"preload\" and rel=\"modulepreload\")",
+    "misc": "Potential destination, for rel=\"preload\"; script-like destination, for rel=\"modulepreload\"",
+    "categories": [
+        "other"
+    ]
 }

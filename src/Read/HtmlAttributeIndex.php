@@ -27,23 +27,23 @@ class HtmlAttributeIndex implements ArrayAccess, Iterator
         return PhpToJson::pathPartsToJson();
     }
 
-    static public function path()
-    {
-        $parts = static::pathParts();
-        return implode("/", $parts);
-    }
+    // static public function path()
+    // {
+    //     $parts = static::pathParts();
+    //     return implode("/", $parts);
+    // }
 
-    public function pathPartsFor(string $name, string $in = "any"): array
-    {
-        $index = [];
-        if ($in === "any") {
-            $index = $this->indexFor();
-        }
-        var_dump(__FILE__);
-        var_dump(__LINE__);
-        var_dump($name);
-        return $index[$name];
-    }
+    // public function pathPartsFor(string $name, string $in = "any"): array
+    // {
+    //     $index = [];
+    //     if ($in === "any") {
+    //         $index = $this->indexFor();
+    //     }
+    //     var_dump(__FILE__);
+    //     var_dump(__LINE__);
+    //     var_dump($name);
+    //     return $index[$name];
+    // }
 
     public function index(): array
     {
@@ -60,25 +60,27 @@ class HtmlAttributeIndex implements ArrayAccess, Iterator
             }
             $json   = file_get_contents($otherPath);
             $object = json_decode($json);
-
-            $this->index["other"] = (array) $object;
+            $this->index = (array) $object;
         }
-
         return $this->index;
     }
 
     public function components(): array
     {
         if ($this->components === null) {
-            $keys = $this->componentNames();
-            $this->components = array_flip($keys);
+            $index = $this->index();
+            $build = [];
+            foreach ($index as $category => $attributes) {
+                $build = array_merge($build, (array) $attributes);
+            }
+            $this->components = $build;
         }
         return $this->components;
     }
 
     public function componentNames(): array
     {
-        return array_keys($this->index());
+        return array_keys($this->components());
     }
 
     public function componentNamed(string $name): HtmlElement
@@ -113,6 +115,12 @@ class HtmlAttributeIndex implements ArrayAccess, Iterator
         $relativePathParts[] = $this->fileName();
 
         return $relativePathParts;
+    }
+
+    public function pathPartsFor(string $name): array
+    {
+        $components = $this->components();
+        return $components[$name];
     }
 
 // - ArrayAccess

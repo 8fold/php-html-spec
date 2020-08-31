@@ -1,11 +1,12 @@
 {
-    "hreflang": {
-        "name": "hreflang",
-        "elements": [
-            "a",
-            "link"
-        ],
-        "description": "Language of the linked resource",
-        "misc": "Valid BCP 47 language tag"
-    }
+    "name": "hreflang",
+    "elements": [
+        "a",
+        "link"
+    ],
+    "description": "Language of the linked resource",
+    "misc": "Valid BCP 47 language tag",
+    "categories": [
+        "other"
+    ]
 }

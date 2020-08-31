@@ -1,14 +1,15 @@
 {
-    "crossorigin": {
-        "name": "crossorigin",
-        "elements": [
-            "audio",
-            "img",
-            "link",
-            "script",
-            "video"
-        ],
-        "description": "How the element handles crossorigin requests",
-        "misc": "\"anonymous\"; \"use-credentials\""
-    }
+    "name": "crossorigin",
+    "elements": [
+        "audio",
+        "img",
+        "link",
+        "script",
+        "video"
+    ],
+    "description": "How the element handles crossorigin requests",
+    "misc": "\"anonymous\"; \"use-credentials\"",
+    "categories": [
+        "other"
+    ]
 }

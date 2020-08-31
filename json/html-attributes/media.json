@@ -1,12 +1,13 @@
 {
-    "media": {
-        "name": "media",
-        "elements": [
-            "link",
-            "source",
-            "style"
-        ],
-        "description": "Applicable media",
-        "misc": "Valid media query list"
-    }
+    "name": "media",
+    "elements": [
+        "link",
+        "source",
+        "style"
+    ],
+    "description": "Applicable media",
+    "misc": "Valid media query list",
+    "categories": [
+        "other"
+    ]
 }

@@ -1,10 +1,11 @@
 {
-    "imagesizes": {
-        "name": "imagesizes",
-        "elements": [
-            "link"
-        ],
-        "description": "Image sizes for different page layouts (for rel=\"preload\")",
-        "misc": "Valid source size list"
-    }
+    "name": "imagesizes",
+    "elements": [
+        "link"
+    ],
+    "description": "Image sizes for different page layouts (for rel=\"preload\")",
+    "misc": "Valid source size list",
+    "categories": [
+        "other"
+    ]
 }

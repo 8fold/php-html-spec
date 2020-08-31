@@ -70,18 +70,22 @@ class HtmlAttributeIndex extends HtmlAttributeIndexReader implements IndexWriter
 
         $dictionary = $object->{$name};
         if (count($dictionary["elements"]) === 1 and
-            ($dictionary["elements"][0] == "HTML elements" or $dictionary["elements"][0] == "HTMLelements")
+            ($dictionary["elements"][0] === "HTML elements" or $dictionary["elements"][0] === "HTMLelements")
         ) {
             // TODO: breaking DRY
             $pathParts[] = "html-attributes-global";
+            $dictionary["categories"] = ["global"];
 
         } elseif ($dictionary["misc"] === "Boolean attribute") {
             $pathParts[] = "html-attributes-boolean";
+            $dictionary["categories"] = ["boolean"];
 
         } else {
             $pathParts[] = "html-attributes";
+            $dictionary["categories"] = ["other"];
 
         }
+        $object = (object) $dictionary;
 
         $folderPath = implode("/", $pathParts);
         if (! file_exists($folderPath)) {

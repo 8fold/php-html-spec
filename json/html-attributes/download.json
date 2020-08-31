@@ -1,11 +1,12 @@
 {
-    "download": {
-        "name": "download",
-        "elements": [
-            "a",
-            "area"
-        ],
-        "description": "Whether to download the resource instead of navigating to it, and its file name if so",
-        "misc": "Text"
-    }
+    "name": "download",
+    "elements": [
+        "a",
+        "area"
+    ],
+    "description": "Whether to download the resource instead of navigating to it, and its file name if so",
+    "misc": "Text",
+    "categories": [
+        "other"
+    ]
 }

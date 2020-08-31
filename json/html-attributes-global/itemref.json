@@ -1,10 +1,11 @@
 {
-    "itemref": {
-        "name": "itemref",
-        "elements": [
-            "HTMLelements"
-        ],
-        "description": "Referenced elements",
-        "misc": "Unordered set of unique space-separated tokens consisting of IDs*"
-    }
+    "name": "itemref",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "Referenced elements",
+    "misc": "Unordered set of unique space-separated tokens consisting of IDs*",
+    "categories": [
+        "global"
+    ]
 }

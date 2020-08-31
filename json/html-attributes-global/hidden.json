@@ -1,10 +1,11 @@
 {
-    "hidden": {
-        "name": "hidden",
-        "elements": [
-            "HTMLelements"
-        ],
-        "description": "Whether the element is relevant",
-        "misc": "Boolean attribute"
-    }
+    "name": "hidden",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "Whether the element is relevant",
+    "misc": "Boolean attribute",
+    "categories": [
+        "global"
+    ]
 }

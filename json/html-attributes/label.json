@@ -1,12 +1,13 @@
 {
-    "label": {
-        "name": "label",
-        "elements": [
-            "optgroup",
-            "option",
-            "track"
-        ],
-        "description": "User-visible label",
-        "misc": "Text"
-    }
+    "name": "label",
+    "elements": [
+        "optgroup",
+        "option",
+        "track"
+    ],
+    "description": "User-visible label",
+    "misc": "Text",
+    "categories": [
+        "other"
+    ]
 }

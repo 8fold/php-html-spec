@@ -1,10 +1,11 @@
 {
-    "optimum": {
-        "name": "optimum",
-        "elements": [
-            "meter"
-        ],
-        "description": "Optimum value in gauge",
-        "misc": "Valid floating-point number*"
-    }
+    "name": "optimum",
+    "elements": [
+        "meter"
+    ],
+    "description": "Optimum value in gauge",
+    "misc": "Valid floating-point number*",
+    "categories": [
+        "other"
+    ]
 }

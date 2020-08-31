@@ -1,10 +1,11 @@
 {
-    "for": {
-        "name": "for",
-        "elements": [
-            "output"
-        ],
-        "description": "Specifies controls from which the output was calculated",
-        "misc": "Unordered set of unique space-separated tokens consisting of IDs*"
-    }
+    "name": "for",
+    "elements": [
+        "output"
+    ],
+    "description": "Specifies controls from which the output was calculated",
+    "misc": "Unordered set of unique space-separated tokens consisting of IDs*",
+    "categories": [
+        "other"
+    ]
 }

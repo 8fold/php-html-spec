@@ -1,10 +1,11 @@
 {
-    "min": {
-        "name": "min",
-        "elements": [
-            "meter"
-        ],
-        "description": "Lower bound of range",
-        "misc": "Valid floating-point number*"
-    }
+    "name": "min",
+    "elements": [
+        "meter"
+    ],
+    "description": "Lower bound of range",
+    "misc": "Valid floating-point number*",
+    "categories": [
+        "other"
+    ]
 }

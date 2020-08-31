@@ -1,11 +1,12 @@
 {
-    "sizes": {
-        "name": "sizes",
-        "elements": [
-            "img",
-            "source"
-        ],
-        "description": "Image sizes for different page layouts",
-        "misc": "Valid source size list"
-    }
+    "name": "sizes",
+    "elements": [
+        "img",
+        "source"
+    ],
+    "description": "Image sizes for different page layouts",
+    "misc": "Valid source size list",
+    "categories": [
+        "other"
+    ]
 }

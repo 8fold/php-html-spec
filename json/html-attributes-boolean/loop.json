@@ -1,11 +1,12 @@
 {
-    "loop": {
-        "name": "loop",
-        "elements": [
-            "audio",
-            "video"
-        ],
-        "description": "Whether to loop the media resource",
-        "misc": "Boolean attribute"
-    }
+    "name": "loop",
+    "elements": [
+        "audio",
+        "video"
+    ],
+    "description": "Whether to loop the media resource",
+    "misc": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
 }

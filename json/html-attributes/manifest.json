@@ -1,10 +1,11 @@
 {
-    "manifest": {
-        "name": "manifest",
-        "elements": [
-            "html"
-        ],
-        "description": "Application cache manifest",
-        "misc": "Valid non-empty URL potentially surrounded by spaces"
-    }
+    "name": "manifest",
+    "elements": [
+        "html"
+    ],
+    "description": "Application cache manifest",
+    "misc": "Valid non-empty URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
 }

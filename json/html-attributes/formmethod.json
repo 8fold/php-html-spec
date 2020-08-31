@@ -1,11 +1,12 @@
 {
-    "formmethod": {
-        "name": "formmethod",
-        "elements": [
-            "button",
-            "input"
-        ],
-        "description": "Variant to use for form submission",
-        "misc": "\"GET\";\n          \"POST\";\n          \"dialog\""
-    }
+    "name": "formmethod",
+    "elements": [
+        "button",
+        "input"
+    ],
+    "description": "Variant to use for form submission",
+    "misc": "\"GET\";\n          \"POST\";\n          \"dialog\"",
+    "categories": [
+        "other"
+    ]
 }

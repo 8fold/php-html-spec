@@ -1,10 +1,11 @@
 {
-    "color": {
-        "name": "color",
-        "elements": [
-            "link"
-        ],
-        "description": "Color to use when customizing a site's icon (for rel=\"mask-icon\")",
-        "misc": "CSS"
-    }
+    "name": "color",
+    "elements": [
+        "link"
+    ],
+    "description": "Color to use when customizing a site's icon (for rel=\"mask-icon\")",
+    "misc": "CSS",
+    "categories": [
+        "other"
+    ]
 }

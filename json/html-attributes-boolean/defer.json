@@ -1,10 +1,11 @@
 {
-    "defer": {
-        "name": "defer",
-        "elements": [
-            "script"
-        ],
-        "description": "Defer script execution",
-        "misc": "Boolean attribute"
-    }
+    "name": "defer",
+    "elements": [
+        "script"
+    ],
+    "description": "Defer script execution",
+    "misc": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
 }

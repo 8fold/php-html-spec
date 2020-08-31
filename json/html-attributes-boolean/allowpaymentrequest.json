@@ -1,10 +1,11 @@
 {
-    "allowpaymentrequest": {
-        "name": "allowpaymentrequest",
-        "elements": [
-            "iframe"
-        ],
-        "description": "Whether the iframe's contents are allowed to use the PaymentRequest interface to make payment requests",
-        "misc": "Boolean attribute"
-    }
+    "name": "allowpaymentrequest",
+    "elements": [
+        "iframe"
+    ],
+    "description": "Whether the iframe's contents are allowed to use the PaymentRequest interface to make payment requests",
+    "misc": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
 }

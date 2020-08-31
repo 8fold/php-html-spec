@@ -1,10 +1,11 @@
 {
-    "poster": {
-        "name": "poster",
-        "elements": [
-            "video"
-        ],
-        "description": "Poster frame to show prior to video playback",
-        "misc": "Valid non-empty URL potentially surrounded by spaces"
-    }
+    "name": "poster",
+    "elements": [
+        "video"
+    ],
+    "description": "Poster frame to show prior to video playback",
+    "misc": "Valid non-empty URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
 }

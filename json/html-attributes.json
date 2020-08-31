@@ -1,382 +1,88 @@
 {
-    "global": {
+    "other": {
         "abbr": [
-            "html-attributes-global",
+            "html-attributes",
             "abbr.json"
         ],
         "accept": [
-            "html-attributes-global",
+            "html-attributes",
             "accept.json"
         ],
         "accept-charset": [
-            "html-attributes-global",
+            "html-attributes",
             "accept-charset.json"
         ],
-        "accesskey": [
-            "html-attributes-global",
-            "accesskey.json"
-        ],
         "action": [
-            "html-attributes-global",
+            "html-attributes",
             "action.json"
         ],
         "allow": [
-            "html-attributes-global",
+            "html-attributes",
             "allow.json"
         ],
-        "allowfullscreen": [
-            "html-attributes-global",
-            "allowfullscreen.json"
-        ],
-        "allowpaymentrequest": [
-            "html-attributes-global",
-            "allowpaymentrequest.json"
-        ],
-        "as": [
-            "html-attributes-global",
-            "as.json"
-        ],
-        "async": [
-            "html-attributes-global",
-            "async.json"
-        ],
-        "autocapitalize": [
-            "html-attributes-global",
-            "autocapitalize.json"
-        ],
-        "autocomplete": [
-            "html-attributes-global",
-            "autocomplete.json"
-        ],
-        "autofocus": [
-            "html-attributes-global",
-            "autofocus.json"
-        ],
-        "charset": [
-            "html-attributes-global",
-            "charset.json"
-        ],
-        "checked": [
-            "html-attributes-global",
-            "checked.json"
-        ],
-        "class": [
-            "html-attributes-global",
-            "class.json"
-        ],
-        "color": [
-            "html-attributes-global",
-            "color.json"
-        ],
-        "cols": [
-            "html-attributes-global",
-            "cols.json"
-        ],
-        "content": [
-            "html-attributes-global",
-            "content.json"
-        ],
-        "contenteditable": [
-            "html-attributes-global",
-            "contenteditable.json"
-        ],
-        "coords": [
-            "html-attributes-global",
-            "coords.json"
-        ],
-        "data": [
-            "html-attributes-global",
-            "data.json"
-        ],
-        "datetime": [
-            "html-attributes-global",
-            "datetime.json"
-        ],
-        "decoding": [
-            "html-attributes-global",
-            "decoding.json"
-        ],
-        "default": [
-            "html-attributes-global",
-            "default.json"
-        ],
-        "defer": [
-            "html-attributes-global",
-            "defer.json"
-        ],
-        "dir": [
-            "html-attributes-global",
-            "dir.json"
-        ],
-        "disabled": [
-            "html-attributes-global",
-            "disabled.json"
-        ],
-        "draggable": [
-            "html-attributes-global",
-            "draggable.json"
-        ],
-        "enctype": [
-            "html-attributes-global",
-            "enctype.json"
-        ],
-        "enterkeyhint": [
-            "html-attributes-global",
-            "enterkeyhint.json"
-        ],
-        "for": [
-            "html-attributes-global",
-            "for.json"
-        ],
-        "hidden": [
-            "html-attributes-global",
-            "hidden.json"
-        ],
-        "high": [
-            "html-attributes-global",
-            "high.json"
-        ],
-        "href": [
-            "html-attributes-global",
-            "href.json"
-        ],
-        "http-equiv": [
-            "html-attributes-global",
-            "http-equiv.json"
-        ],
-        "id": [
-            "html-attributes-global",
-            "id.json"
-        ],
-        "imagesizes": [
-            "html-attributes-global",
-            "imagesizes.json"
-        ],
-        "imagesrcset": [
-            "html-attributes-global",
-            "imagesrcset.json"
-        ],
-        "inputmode": [
-            "html-attributes-global",
-            "inputmode.json"
-        ],
-        "is": [
-            "html-attributes-global",
-            "is.json"
-        ],
-        "ismap": [
-            "html-attributes-global",
-            "ismap.json"
-        ],
-        "itemid": [
-            "html-attributes-global",
-            "itemid.json"
-        ],
-        "itemprop": [
-            "html-attributes-global",
-            "itemprop.json"
-        ],
-        "itemref": [
-            "html-attributes-global",
-            "itemref.json"
-        ],
-        "itemscope": [
-            "html-attributes-global",
-            "itemscope.json"
-        ],
-        "itemtype": [
-            "html-attributes-global",
-            "itemtype.json"
-        ],
-        "kind": [
-            "html-attributes-global",
-            "kind.json"
-        ],
-        "lang": [
-            "html-attributes-global",
-            "lang.json"
-        ],
-        "list": [
-            "html-attributes-global",
-            "list.json"
-        ],
-        "low": [
-            "html-attributes-global",
-            "low.json"
-        ],
-        "manifest": [
-            "html-attributes-global",
-            "manifest.json"
-        ],
-        "max": [
-            "html-attributes-global",
-            "max.json"
-        ],
-        "method": [
-            "html-attributes-global",
-            "method.json"
-        ],
-        "min": [
-            "html-attributes-global",
-            "min.json"
-        ],
-        "name": [
-            "html-attributes-global",
-            "name.json"
-        ],
-        "nomodule": [
-            "html-attributes-global",
-            "nomodule.json"
-        ],
-        "nonce": [
-            "html-attributes-global",
-            "nonce.json"
-        ],
-        "novalidate": [
-            "html-attributes-global",
-            "novalidate.json"
-        ],
-        "open": [
-            "html-attributes-global",
-            "open.json"
-        ],
-        "optimum": [
-            "html-attributes-global",
-            "optimum.json"
-        ],
-        "pattern": [
-            "html-attributes-global",
-            "pattern.json"
-        ],
-        "playsinline": [
-            "html-attributes-global",
-            "playsinline.json"
-        ],
-        "poster": [
-            "html-attributes-global",
-            "poster.json"
-        ],
-        "readonly": [
-            "html-attributes-global",
-            "readonly.json"
-        ],
-        "rel": [
-            "html-attributes-global",
-            "rel.json"
-        ],
-        "reversed": [
-            "html-attributes-global",
-            "reversed.json"
-        ],
-        "rows": [
-            "html-attributes-global",
-            "rows.json"
-        ],
-        "sandbox": [
-            "html-attributes-global",
-            "sandbox.json"
-        ],
-        "scope": [
-            "html-attributes-global",
-            "scope.json"
-        ],
-        "selected": [
-            "html-attributes-global",
-            "selected.json"
-        ],
-        "shape": [
-            "html-attributes-global",
-            "shape.json"
-        ],
-        "sizes": [
-            "html-attributes-global",
-            "sizes.json"
-        ],
-        "slot": [
-            "html-attributes-global",
-            "slot.json"
-        ],
-        "spellcheck": [
-            "html-attributes-global",
-            "spellcheck.json"
-        ],
-        "srcdoc": [
-            "html-attributes-global",
-            "srcdoc.json"
-        ],
-        "srclang": [
-            "html-attributes-global",
-            "srclang.json"
-        ],
-        "start": [
-            "html-attributes-global",
-            "start.json"
-        ],
-        "step": [
-            "html-attributes-global",
-            "step.json"
-        ],
-        "style": [
-            "html-attributes-global",
-            "style.json"
-        ],
-        "tabindex": [
-            "html-attributes-global",
-            "tabindex.json"
-        ],
-        "target": [
-            "html-attributes-global",
-            "target.json"
-        ],
-        "title": [
-            "html-attributes-global",
-            "title.json"
-        ],
-        "translate": [
-            "html-attributes-global",
-            "translate.json"
-        ],
-        "type": [
-            "html-attributes-global",
-            "type.json"
-        ],
-        "value": [
-            "html-attributes-global",
-            "value.json"
-        ],
-        "wrap": [
-            "html-attributes-global",
-            "wrap.json"
-        ]
-    },
-    "other": {
         "alt": [
             "html-attributes",
             "alt.json"
         ],
+        "as": [
+            "html-attributes",
+            "as.json"
+        ],
         "autocomplete": [
             "html-attributes",
             "autocomplete.json"
+        ],
+        "charset": [
+            "html-attributes",
+            "charset.json"
         ],
         "cite": [
             "html-attributes",
             "cite.json"
         ],
+        "color": [
+            "html-attributes",
+            "color.json"
+        ],
+        "cols": [
+            "html-attributes",
+            "cols.json"
+        ],
         "colspan": [
             "html-attributes",
             "colspan.json"
+        ],
+        "content": [
+            "html-attributes",
+            "content.json"
+        ],
+        "coords": [
+            "html-attributes",
+            "coords.json"
         ],
         "crossorigin": [
             "html-attributes",
             "crossorigin.json"
         ],
+        "data": [
+            "html-attributes",
+            "data.json"
+        ],
         "datetime": [
             "html-attributes",
             "datetime.json"
         ],
+        "decoding": [
+            "html-attributes",
+            "decoding.json"
+        ],
         "loading": [
             "html-attributes",
             "loading.json"
+        ],
+        "dir": [
+            "html-attributes",
+            "dir.json"
         ],
         "dirname": [
             "html-attributes",
@@ -385,6 +91,14 @@
         "download": [
             "html-attributes",
             "download.json"
+        ],
+        "enctype": [
+            "html-attributes",
+            "enctype.json"
+        ],
+        "for": [
+            "html-attributes",
+            "for.json"
         ],
         "form": [
             "html-attributes",
@@ -414,6 +128,10 @@
             "html-attributes",
             "height.json"
         ],
+        "high": [
+            "html-attributes",
+            "high.json"
+        ],
         "href": [
             "html-attributes",
             "href.json"
@@ -422,13 +140,41 @@
             "html-attributes",
             "hreflang.json"
         ],
+        "http-equiv": [
+            "html-attributes",
+            "http-equiv.json"
+        ],
+        "imagesizes": [
+            "html-attributes",
+            "imagesizes.json"
+        ],
+        "imagesrcset": [
+            "html-attributes",
+            "imagesrcset.json"
+        ],
         "integrity": [
             "html-attributes",
             "integrity.json"
         ],
+        "kind": [
+            "html-attributes",
+            "kind.json"
+        ],
         "label": [
             "html-attributes",
             "label.json"
+        ],
+        "list": [
+            "html-attributes",
+            "list.json"
+        ],
+        "low": [
+            "html-attributes",
+            "low.json"
+        ],
+        "manifest": [
+            "html-attributes",
+            "manifest.json"
         ],
         "max": [
             "html-attributes",
@@ -442,6 +188,14 @@
             "html-attributes",
             "media.json"
         ],
+        "method": [
+            "html-attributes",
+            "method.json"
+        ],
+        "min": [
+            "html-attributes",
+            "min.json"
+        ],
         "minlength": [
             "html-attributes",
             "minlength.json"
@@ -450,6 +204,14 @@
             "html-attributes",
             "name.json"
         ],
+        "optimum": [
+            "html-attributes",
+            "optimum.json"
+        ],
+        "pattern": [
+            "html-attributes",
+            "pattern.json"
+        ],
         "ping": [
             "html-attributes",
             "ping.json"
@@ -457,6 +219,10 @@
         "placeholder": [
             "html-attributes",
             "placeholder.json"
+        ],
+        "poster": [
+            "html-attributes",
+            "poster.json"
         ],
         "preload": [
             "html-attributes",
@@ -470,9 +236,25 @@
             "html-attributes",
             "rel.json"
         ],
+        "rows": [
+            "html-attributes",
+            "rows.json"
+        ],
         "rowspan": [
             "html-attributes",
             "rowspan.json"
+        ],
+        "sandbox": [
+            "html-attributes",
+            "sandbox.json"
+        ],
+        "scope": [
+            "html-attributes",
+            "scope.json"
+        ],
+        "shape": [
+            "html-attributes",
+            "shape.json"
         ],
         "size": [
             "html-attributes",
@@ -490,9 +272,25 @@
             "html-attributes",
             "src.json"
         ],
+        "srcdoc": [
+            "html-attributes",
+            "srcdoc.json"
+        ],
+        "srclang": [
+            "html-attributes",
+            "srclang.json"
+        ],
         "srcset": [
             "html-attributes",
             "srcset.json"
+        ],
+        "start": [
+            "html-attributes",
+            "start.json"
+        ],
+        "step": [
+            "html-attributes",
+            "step.json"
         ],
         "target": [
             "html-attributes",
@@ -517,16 +315,146 @@
         "width": [
             "html-attributes",
             "width.json"
+        ],
+        "wrap": [
+            "html-attributes",
+            "wrap.json"
+        ]
+    },
+    "global": {
+        "accesskey": [
+            "html-attributes-global",
+            "accesskey.json"
+        ],
+        "autocapitalize": [
+            "html-attributes-global",
+            "autocapitalize.json"
+        ],
+        "autofocus": [
+            "html-attributes-global",
+            "autofocus.json"
+        ],
+        "class": [
+            "html-attributes-global",
+            "class.json"
+        ],
+        "contenteditable": [
+            "html-attributes-global",
+            "contenteditable.json"
+        ],
+        "dir": [
+            "html-attributes-global",
+            "dir.json"
+        ],
+        "draggable": [
+            "html-attributes-global",
+            "draggable.json"
+        ],
+        "enterkeyhint": [
+            "html-attributes-global",
+            "enterkeyhint.json"
+        ],
+        "hidden": [
+            "html-attributes-global",
+            "hidden.json"
+        ],
+        "id": [
+            "html-attributes-global",
+            "id.json"
+        ],
+        "inputmode": [
+            "html-attributes-global",
+            "inputmode.json"
+        ],
+        "is": [
+            "html-attributes-global",
+            "is.json"
+        ],
+        "itemid": [
+            "html-attributes-global",
+            "itemid.json"
+        ],
+        "itemprop": [
+            "html-attributes-global",
+            "itemprop.json"
+        ],
+        "itemref": [
+            "html-attributes-global",
+            "itemref.json"
+        ],
+        "itemscope": [
+            "html-attributes-global",
+            "itemscope.json"
+        ],
+        "itemtype": [
+            "html-attributes-global",
+            "itemtype.json"
+        ],
+        "lang": [
+            "html-attributes-global",
+            "lang.json"
+        ],
+        "nonce": [
+            "html-attributes-global",
+            "nonce.json"
+        ],
+        "slot": [
+            "html-attributes-global",
+            "slot.json"
+        ],
+        "spellcheck": [
+            "html-attributes-global",
+            "spellcheck.json"
+        ],
+        "style": [
+            "html-attributes-global",
+            "style.json"
+        ],
+        "tabindex": [
+            "html-attributes-global",
+            "tabindex.json"
+        ],
+        "title": [
+            "html-attributes-global",
+            "title.json"
+        ],
+        "translate": [
+            "html-attributes-global",
+            "translate.json"
         ]
     },
     "boolean": {
+        "allowfullscreen": [
+            "html-attributes-boolean",
+            "allowfullscreen.json"
+        ],
+        "allowpaymentrequest": [
+            "html-attributes-boolean",
+            "allowpaymentrequest.json"
+        ],
+        "async": [
+            "html-attributes-boolean",
+            "async.json"
+        ],
         "autoplay": [
             "html-attributes-boolean",
             "autoplay.json"
         ],
+        "checked": [
+            "html-attributes-boolean",
+            "checked.json"
+        ],
         "controls": [
             "html-attributes-boolean",
             "controls.json"
+        ],
+        "default": [
+            "html-attributes-boolean",
+            "default.json"
+        ],
+        "defer": [
+            "html-attributes-boolean",
+            "defer.json"
         ],
         "disabled": [
             "html-attributes-boolean",
@@ -535,6 +463,10 @@
         "formnovalidate": [
             "html-attributes-boolean",
             "formnovalidate.json"
+        ],
+        "ismap": [
+            "html-attributes-boolean",
+            "ismap.json"
         ],
         "loop": [
             "html-attributes-boolean",
@@ -548,6 +480,22 @@
             "html-attributes-boolean",
             "muted.json"
         ],
+        "nomodule": [
+            "html-attributes-boolean",
+            "nomodule.json"
+        ],
+        "novalidate": [
+            "html-attributes-boolean",
+            "novalidate.json"
+        ],
+        "open": [
+            "html-attributes-boolean",
+            "open.json"
+        ],
+        "playsinline": [
+            "html-attributes-boolean",
+            "playsinline.json"
+        ],
         "readonly": [
             "html-attributes-boolean",
             "readonly.json"
@@ -555,6 +503,14 @@
         "required": [
             "html-attributes-boolean",
             "required.json"
+        ],
+        "reversed": [
+            "html-attributes-boolean",
+            "reversed.json"
+        ],
+        "selected": [
+            "html-attributes-boolean",
+            "selected.json"
         ]
     }
 }

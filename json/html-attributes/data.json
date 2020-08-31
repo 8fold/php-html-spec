@@ -1,10 +1,11 @@
 {
-    "data": {
-        "name": "data",
-        "elements": [
-            "object"
-        ],
-        "description": "Address of the resource",
-        "misc": "Valid non-empty URL potentially surrounded by spaces"
-    }
+    "name": "data",
+    "elements": [
+        "object"
+    ],
+    "description": "Address of the resource",
+    "misc": "Valid non-empty URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
 }

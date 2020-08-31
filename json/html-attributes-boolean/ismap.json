@@ -1,10 +1,11 @@
 {
-    "ismap": {
-        "name": "ismap",
-        "elements": [
-            "img"
-        ],
-        "description": "Whether the image is a server-side image map",
-        "misc": "Boolean attribute"
-    }
+    "name": "ismap",
+    "elements": [
+        "img"
+    ],
+    "description": "Whether the image is a server-side image map",
+    "misc": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
 }

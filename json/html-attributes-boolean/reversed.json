@@ -1,10 +1,11 @@
 {
-    "reversed": {
-        "name": "reversed",
-        "elements": [
-            "ol"
-        ],
-        "description": "Number the list backwards",
-        "misc": "Boolean attribute"
-    }
+    "name": "reversed",
+    "elements": [
+        "ol"
+    ],
+    "description": "Number the list backwards",
+    "misc": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
 }

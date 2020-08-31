@@ -1,15 +1,16 @@
 {
-    "referrerpolicy": {
-        "name": "referrerpolicy",
-        "elements": [
-            "a",
-            "area",
-            "iframe",
-            "img",
-            "link",
-            "script"
-        ],
-        "description": "Referrer policy for fetches initiated by the element",
-        "misc": "Referrer policy"
-    }
+    "name": "referrerpolicy",
+    "elements": [
+        "a",
+        "area",
+        "iframe",
+        "img",
+        "link",
+        "script"
+    ],
+    "description": "Referrer policy for fetches initiated by the element",
+    "misc": "Referrer policy",
+    "categories": [
+        "other"
+    ]
 }

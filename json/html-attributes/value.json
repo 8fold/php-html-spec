@@ -1,10 +1,11 @@
 {
-    "value": {
-        "name": "value",
-        "elements": [
-            "param"
-        ],
-        "description": "Value of parameter",
-        "misc": "Text"
-    }
+    "name": "value",
+    "elements": [
+        "param"
+    ],
+    "description": "Value of parameter",
+    "misc": "Text",
+    "categories": [
+        "other"
+    ]
 }

@@ -1,10 +1,11 @@
 {
-    "async": {
-        "name": "async",
-        "elements": [
-            "script"
-        ],
-        "description": "Execute script when available, without blocking while fetching",
-        "misc": "Boolean attribute"
-    }
+    "name": "async",
+    "elements": [
+        "script"
+    ],
+    "description": "Execute script when available, without blocking while fetching",
+    "misc": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
 }

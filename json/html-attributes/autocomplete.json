@@ -1,12 +1,13 @@
 {
-    "autocomplete": {
-        "name": "autocomplete",
-        "elements": [
-            "input",
-            "select",
-            "textarea"
-        ],
-        "description": "Hint for form autofill feature",
-        "misc": "Autofill field name and related tokens*"
-    }
+    "name": "autocomplete",
+    "elements": [
+        "input",
+        "select",
+        "textarea"
+    ],
+    "description": "Hint for form autofill feature",
+    "misc": "Autofill field name and related tokens*",
+    "categories": [
+        "other"
+    ]
 }

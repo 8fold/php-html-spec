@@ -1,10 +1,11 @@
 {
-    "nomodule": {
-        "name": "nomodule",
-        "elements": [
-            "script"
-        ],
-        "description": "Prevents execution in user agents that support module scripts",
-        "misc": "Boolean attribute"
-    }
+    "name": "nomodule",
+    "elements": [
+        "script"
+    ],
+    "description": "Prevents execution in user agents that support module scripts",
+    "misc": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
 }

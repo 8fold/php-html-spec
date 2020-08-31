@@ -13,8 +13,6 @@ interface HtmlComponent
 
     public function categories(): array;
 
-    public function save(): HtmlComponent;
-
     public function folderPathParts(): array;
 
     public function filePathParts(): array;

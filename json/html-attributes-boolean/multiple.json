@@ -1,11 +1,12 @@
 {
-    "multiple": {
-        "name": "multiple",
-        "elements": [
-            "input",
-            "select"
-        ],
-        "description": "Whether to allow multiple values",
-        "misc": "Boolean attribute"
-    }
+    "name": "multiple",
+    "elements": [
+        "input",
+        "select"
+    ],
+    "description": "Whether to allow multiple values",
+    "misc": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
 }

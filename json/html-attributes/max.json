@@ -1,11 +1,12 @@
 {
-    "max": {
-        "name": "max",
-        "elements": [
-            "meter",
-            "progress"
-        ],
-        "description": "Upper bound of range",
-        "misc": "Valid floating-point number*"
-    }
+    "name": "max",
+    "elements": [
+        "meter",
+        "progress"
+    ],
+    "description": "Upper bound of range",
+    "misc": "Valid floating-point number*",
+    "categories": [
+        "other"
+    ]
 }

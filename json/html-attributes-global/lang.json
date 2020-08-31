@@ -1,10 +1,11 @@
 {
-    "lang": {
-        "name": "lang",
-        "elements": [
-            "HTMLelements"
-        ],
-        "description": "Language of the element",
-        "misc": "Valid BCP 47 language tag or the empty string"
-    }
+    "name": "lang",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "Language of the element",
+    "misc": "Valid BCP 47 language tag or the empty string",
+    "categories": [
+        "global"
+    ]
 }

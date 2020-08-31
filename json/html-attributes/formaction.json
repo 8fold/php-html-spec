@@ -1,11 +1,12 @@
 {
-    "formaction": {
-        "name": "formaction",
-        "elements": [
-            "button",
-            "input"
-        ],
-        "description": "URL to use for form submission",
-        "misc": "Valid non-empty URL potentially surrounded by spaces"
-    }
+    "name": "formaction",
+    "elements": [
+        "button",
+        "input"
+    ],
+    "description": "URL to use for form submission",
+    "misc": "Valid non-empty URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
 }

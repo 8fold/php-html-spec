@@ -1,10 +1,11 @@
 {
-    "contenteditable": {
-        "name": "contenteditable",
-        "elements": [
-            "HTMLelements"
-        ],
-        "description": "Whether the element is editable",
-        "misc": "\"true\"; \"false\""
-    }
+    "name": "contenteditable",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "Whether the element is editable",
+    "misc": "\"true\"; \"false\"",
+    "categories": [
+        "global"
+    ]
 }

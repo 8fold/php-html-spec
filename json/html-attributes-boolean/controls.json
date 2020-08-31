@@ -1,11 +1,12 @@
 {
-    "controls": {
-        "name": "controls",
-        "elements": [
-            "audio",
-            "video"
-        ],
-        "description": "Show user agent controls",
-        "misc": "Boolean attribute"
-    }
+    "name": "controls",
+    "elements": [
+        "audio",
+        "video"
+    ],
+    "description": "Show user agent controls",
+    "misc": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
 }

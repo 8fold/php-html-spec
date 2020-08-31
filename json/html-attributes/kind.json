@@ -1,10 +1,11 @@
 {
-    "kind": {
-        "name": "kind",
-        "elements": [
-            "track"
-        ],
-        "description": "The type of text track",
-        "misc": "\"subtitles\";\n          \"captions\";\n          \"descriptions\";\n          \"chapters\";\n          \"metadata\""
-    }
+    "name": "kind",
+    "elements": [
+        "track"
+    ],
+    "description": "The type of text track",
+    "misc": "\"subtitles\";\n          \"captions\";\n          \"descriptions\";\n          \"chapters\";\n          \"metadata\"",
+    "categories": [
+        "other"
+    ]
 }

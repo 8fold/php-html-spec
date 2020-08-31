@@ -1,10 +1,11 @@
 {
-    "allow": {
-        "name": "allow",
-        "elements": [
-            "iframe"
-        ],
-        "description": "Permissions policy to be applied to the iframe's contents",
-        "misc": "Serialized permissions policy"
-    }
+    "name": "allow",
+    "elements": [
+        "iframe"
+    ],
+    "description": "Permissions policy to be applied to the iframe's contents",
+    "misc": "Serialized permissions policy",
+    "categories": [
+        "other"
+    ]
 }

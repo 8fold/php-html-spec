@@ -1,10 +1,11 @@
 {
-    "imagesrcset": {
-        "name": "imagesrcset",
-        "elements": [
-            "link"
-        ],
-        "description": "Images to use in different situations, e.g., high-resolution displays, small monitors, etc. (for rel=\"preload\")",
-        "misc": "Comma-separated list of image candidate strings"
-    }
+    "name": "imagesrcset",
+    "elements": [
+        "link"
+    ],
+    "description": "Images to use in different situations, e.g., high-resolution displays, small monitors, etc. (for rel=\"preload\")",
+    "misc": "Comma-separated list of image candidate strings",
+    "categories": [
+        "other"
+    ]
 }

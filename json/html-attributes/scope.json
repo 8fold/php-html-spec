@@ -1,10 +1,11 @@
 {
-    "scope": {
-        "name": "scope",
-        "elements": [
-            "th"
-        ],
-        "description": "Specifies which cells the header cell applies to",
-        "misc": "\"row\";\n          \"col\";\n          \"rowgroup\";\n          \"colgroup\""
-    }
+    "name": "scope",
+    "elements": [
+        "th"
+    ],
+    "description": "Specifies which cells the header cell applies to",
+    "misc": "\"row\";\n          \"col\";\n          \"rowgroup\";\n          \"colgroup\"",
+    "categories": [
+        "other"
+    ]
 }

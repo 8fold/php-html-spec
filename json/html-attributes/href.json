@@ -1,10 +1,11 @@
 {
-    "href": {
-        "name": "href",
-        "elements": [
-            "base"
-        ],
-        "description": "Document base URL",
-        "misc": "Valid URL potentially surrounded by spaces"
-    }
+    "name": "href",
+    "elements": [
+        "base"
+    ],
+    "description": "Document base URL",
+    "misc": "Valid URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
 }

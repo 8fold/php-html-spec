@@ -1,10 +1,11 @@
 {
-    "rows": {
-        "name": "rows",
-        "elements": [
-            "textarea"
-        ],
-        "description": "Number of lines to show",
-        "misc": "Valid non-negative integer greater than zero"
-    }
+    "name": "rows",
+    "elements": [
+        "textarea"
+    ],
+    "description": "Number of lines to show",
+    "misc": "Valid non-negative integer greater than zero",
+    "categories": [
+        "other"
+    ]
 }

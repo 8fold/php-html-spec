@@ -1,11 +1,12 @@
 {
-    "loading": {
-        "name": "loading",
-        "elements": [
-            "img",
-            "iframe"
-        ],
-        "description": "Used when determining loading deferral",
-        "misc": "\"lazy\";\n          \"eager\""
-    }
+    "name": "loading",
+    "elements": [
+        "img",
+        "iframe"
+    ],
+    "description": "Used when determining loading deferral",
+    "misc": "\"lazy\";\n          \"eager\"",
+    "categories": [
+        "other"
+    ]
 }

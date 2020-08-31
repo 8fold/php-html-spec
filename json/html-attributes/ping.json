@@ -1,11 +1,12 @@
 {
-    "ping": {
-        "name": "ping",
-        "elements": [
-            "a",
-            "area"
-        ],
-        "description": "URLs to ping",
-        "misc": "Set of space-separated tokens consisting of valid non-empty URLs"
-    }
+    "name": "ping",
+    "elements": [
+        "a",
+        "area"
+    ],
+    "description": "URLs to ping",
+    "misc": "Set of space-separated tokens consisting of valid non-empty URLs",
+    "categories": [
+        "other"
+    ]
 }

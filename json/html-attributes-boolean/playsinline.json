@@ -1,10 +1,11 @@
 {
-    "playsinline": {
-        "name": "playsinline",
-        "elements": [
-            "video"
-        ],
-        "description": "Encourage the user agent to display video content within the element's playback area",
-        "misc": "Boolean attribute"
-    }
+    "name": "playsinline",
+    "elements": [
+        "video"
+    ],
+    "description": "Encourage the user agent to display video content within the element's playback area",
+    "misc": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
 }

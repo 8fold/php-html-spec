@@ -1,11 +1,12 @@
 {
-    "headers": {
-        "name": "headers",
-        "elements": [
-            "td",
-            "th"
-        ],
-        "description": "The header cells for this cell",
-        "misc": "Unordered set of unique space-separated tokens consisting of IDs*"
-    }
+    "name": "headers",
+    "elements": [
+        "td",
+        "th"
+    ],
+    "description": "The header cells for this cell",
+    "misc": "Unordered set of unique space-separated tokens consisting of IDs*",
+    "categories": [
+        "other"
+    ]
 }

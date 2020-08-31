@@ -1,10 +1,11 @@
 {
-    "dir": {
-        "name": "dir",
-        "elements": [
-            "bdo"
-        ],
-        "description": "The text directionality of the element",
-        "misc": "\"ltr\"; \"rtl\""
-    }
+    "name": "dir",
+    "elements": [
+        "bdo"
+    ],
+    "description": "The text directionality of the element",
+    "misc": "\"ltr\"; \"rtl\"",
+    "categories": [
+        "other"
+    ]
 }

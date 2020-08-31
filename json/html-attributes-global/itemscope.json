@@ -1,10 +1,11 @@
 {
-    "itemscope": {
-        "name": "itemscope",
-        "elements": [
-            "HTMLelements"
-        ],
-        "description": "Introduces a microdata item",
-        "misc": "Boolean attribute"
-    }
+    "name": "itemscope",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "Introduces a microdata item",
+    "misc": "Boolean attribute",
+    "categories": [
+        "global"
+    ]
 }

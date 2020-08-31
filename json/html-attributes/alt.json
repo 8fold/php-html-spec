@@ -1,12 +1,13 @@
 {
-    "alt": {
-        "name": "alt",
-        "elements": [
-            "area",
-            "img",
-            "input"
-        ],
-        "description": "Replacement text for use when images are not available",
-        "misc": "Text*"
-    }
+    "name": "alt",
+    "elements": [
+        "area",
+        "img",
+        "input"
+    ],
+    "description": "Replacement text for use when images are not available",
+    "misc": "Text*",
+    "categories": [
+        "other"
+    ]
 }

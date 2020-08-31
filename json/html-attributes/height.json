@@ -1,16 +1,17 @@
 {
-    "height": {
-        "name": "height",
-        "elements": [
-            "canvas",
-            "embed",
-            "iframe",
-            "img",
-            "input",
-            "object",
-            "video"
-        ],
-        "description": "Vertical dimension",
-        "misc": "Valid non-negative integer"
-    }
+    "name": "height",
+    "elements": [
+        "canvas",
+        "embed",
+        "iframe",
+        "img",
+        "input",
+        "object",
+        "video"
+    ],
+    "description": "Vertical dimension",
+    "misc": "Valid non-negative integer",
+    "categories": [
+        "other"
+    ]
 }

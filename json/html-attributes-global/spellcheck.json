@@ -1,10 +1,11 @@
 {
-    "spellcheck": {
-        "name": "spellcheck",
-        "elements": [
-            "HTMLelements"
-        ],
-        "description": "Whether the element is to have its spelling and grammar checked",
-        "misc": "\"true\"; \"false\""
-    }
+    "name": "spellcheck",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "Whether the element is to have its spelling and grammar checked",
+    "misc": "\"true\"; \"false\"",
+    "categories": [
+        "global"
+    ]
 }

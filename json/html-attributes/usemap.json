@@ -1,11 +1,12 @@
 {
-    "usemap": {
-        "name": "usemap",
-        "elements": [
-            "img",
-            "object"
-        ],
-        "description": "Name of image map to use",
-        "misc": "Valid hash-name reference*"
-    }
+    "name": "usemap",
+    "elements": [
+        "img",
+        "object"
+    ],
+    "description": "Name of image map to use",
+    "misc": "Valid hash-name reference*",
+    "categories": [
+        "other"
+    ]
 }

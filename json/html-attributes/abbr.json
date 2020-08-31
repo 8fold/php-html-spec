@@ -1,10 +1,11 @@
 {
-    "abbr": {
-        "name": "abbr",
-        "elements": [
-            "th"
-        ],
-        "description": "Alternative label to use for the header cell when referencing the cell in other contexts",
-        "misc": "Text*"
-    }
+    "name": "abbr",
+    "elements": [
+        "th"
+    ],
+    "description": "Alternative label to use for the header cell when referencing the cell in other contexts",
+    "misc": "Text*",
+    "categories": [
+        "other"
+    ]
 }

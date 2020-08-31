@@ -1,10 +1,11 @@
 {
-    "title": {
-        "name": "title",
-        "elements": [
-            "HTMLelements"
-        ],
-        "description": "Advisory information for the element",
-        "misc": "Text"
-    }
+    "name": "title",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "Advisory information for the element",
+    "misc": "Text",
+    "categories": [
+        "global"
+    ]
 }

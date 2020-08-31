@@ -1,10 +1,11 @@
 {
-    "rel": {
-        "name": "rel",
-        "elements": [
-            "link"
-        ],
-        "description": "Relationship between the document containing the hyperlink and the destination resource",
-        "misc": "Unordered set of unique space-separated tokens*"
-    }
+    "name": "rel",
+    "elements": [
+        "link"
+    ],
+    "description": "Relationship between the document containing the hyperlink and the destination resource",
+    "misc": "Unordered set of unique space-separated tokens*",
+    "categories": [
+        "other"
+    ]
 }

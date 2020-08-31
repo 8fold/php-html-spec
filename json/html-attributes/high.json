@@ -1,10 +1,11 @@
 {
-    "high": {
-        "name": "high",
-        "elements": [
-            "meter"
-        ],
-        "description": "Low limit of high range",
-        "misc": "Valid floating-point number*"
-    }
+    "name": "high",
+    "elements": [
+        "meter"
+    ],
+    "description": "Low limit of high range",
+    "misc": "Valid floating-point number*",
+    "categories": [
+        "other"
+    ]
 }
