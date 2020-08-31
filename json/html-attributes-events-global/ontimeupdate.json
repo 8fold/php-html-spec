@@ -1,0 +1,11 @@
+{
+    "name": "ontimeupdate",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "timeupdate event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

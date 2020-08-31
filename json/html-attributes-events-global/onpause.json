@@ -1,0 +1,11 @@
+{
+    "name": "onpause",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "pause event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

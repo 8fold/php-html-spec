@@ -1,0 +1,11 @@
+{
+    "name": "onrejectionhandled",
+    "elements": [
+        "body"
+    ],
+    "description": "rejectionhandled event handler for Window object",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "other-events"
+    ]
+}

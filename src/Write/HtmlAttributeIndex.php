@@ -27,16 +27,15 @@ class HtmlAttributeIndex extends HtmlAttributeIndexReader implements IndexWriter
 
     static public function storeInitial()
     {
-        static::storeAttributesTable();
-        // static::storeEventHandlingTable();
-        // static::storeAriaTable();
-
+        static::storeAttributesTable("attributes-1");
+        static::storeAttributesTable("ix-event-handlers");
+        // static::storeAttributesAria();
     }
 
-    static public function storeAttributesTable()
+    static public function storeAttributesTable(string $id)
     {
         $index = static::all();
-        $rows = static::rowsForTableWithId("attributes-1");
+        $rows = static::rowsForTableWithId($id);
         for ($i = 0; $i < count($rows); $i++) {
             $row       = $rows[$i];
             $pathParts = PhpToJson::pathPartsToJson();
@@ -69,9 +68,23 @@ class HtmlAttributeIndex extends HtmlAttributeIndexReader implements IndexWriter
         $object = static::objectFromTableCells($name, $cells);
 
         $dictionary = $object->{$name};
-        if (count($dictionary["elements"]) === 1 and
+        $n = $dictionary["name"];
+        $isEvent  = substr($n, 0, 2) === "on";
+        $isGlobal = (count($dictionary["elements"]) === 1 and
             ($dictionary["elements"][0] === "HTML elements" or $dictionary["elements"][0] === "HTMLelements")
-        ) {
+        );
+
+        if ($isEvent) {
+            if ($isGlobal) {
+                $pathParts[] = "html-attributes-events-global";
+                $dictionary["categories"] = ["global-events"];
+
+            } else {
+                $pathParts[] = "html-attributes-events";
+                $dictionary["categories"] = ["other-events"];
+            }
+
+        } elseif ($isGlobal) {
             // TODO: breaking DRY
             $pathParts[] = "html-attributes-global";
             $dictionary["categories"] = ["global"];
@@ -102,13 +115,52 @@ class HtmlAttributeIndex extends HtmlAttributeIndexReader implements IndexWriter
         return HtmlAttribute::fromObject($object);
     }
 
+    // static public function storeAttributesEvents()
+    // {
+    //     $index = static::all();
+    //     $rows = static::rowsForTableWithId("ix-event-handlers");
+    //     for ($i = 0; $i < count($rows); $i++) {
+    //         $row       = $rows[$i];
+    //         $pathParts = PhpToJson::pathPartsToJson();
+
+    //         $indexPathParts   = $pathParts;
+    //         $indexPathParts[] = "html-attributes.json";
+
+    //         $attribute = static::processRowForPathParts($row, $pathParts);
+
+    //         $index->addComponent($attribute);
+    //     }
+    //     $index->saveComponents()->save();
+    // }
+
+    static public function storeAttributesAria()
+    {
+        var_dump(__FILE__);
+        var_dump(__LINE__);
+/**
+{
+    "name": {name},
+    "roles": [
+        #{name}
+    ],
+    "description": {#inde_stat_prop definitions},
+    "misc": "Text*",
+    "categories": [
+        #global_states, #attrs_widgets, #attrs_liveregions, #attrs_dragdrop, #attrs_relationships
+    ]
+}
+*/
+    }
+
     public function addComponent(HtmlComponent $component): IndexWriter
     {
+        $index = $this->index();
         $categories = $component->categories();
         foreach ($categories as $category) {
-            $this->index[$category][$component->name()] = $component->filePathPartsRelative();
+            $index[$category][$component->name()] = $component->filePathPartsRelative();
 
         }
+        $this->index = $index;
         return $this;
     }
 
@@ -125,7 +177,13 @@ class HtmlAttributeIndex extends HtmlAttributeIndexReader implements IndexWriter
 
     public function save(): IndexWriter
     {
-        $json = json_encode($this->index(), JSON_PRETTY_PRINT);
+        $index = $this->index();
+        ksort($index, SORT_NATURAL);
+        foreach ($index as $category => $components) {
+            ksort($components);
+            $index[$category] = $components;
+        }
+        $json = json_encode($index, JSON_PRETTY_PRINT);
         file_put_contents($this->filePath(), $json);
 
         return $this;

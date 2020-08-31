@@ -1,0 +1,11 @@
+{
+    "name": "onmouseover",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "mouseover event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

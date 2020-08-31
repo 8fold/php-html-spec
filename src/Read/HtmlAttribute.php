@@ -109,6 +109,14 @@ class HtmlAttribute implements HtmlComponent
         } elseif (in_array("boolean", $this->categories())) {
             $parts[] = "html-attributes-boolean";
 
+        } elseif (substr($this->name(), 0, 2) === "on") {
+            if (in_array("global", $this->categories())) {
+                $parts[] = "html-attributes-events-global";
+
+            } else {
+                $parts[] = "html-attributes-events";
+
+            }
         }
 
         $path = implode("/", $parts);

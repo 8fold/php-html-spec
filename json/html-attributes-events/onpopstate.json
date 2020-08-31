@@ -1,0 +1,11 @@
+{
+    "name": "onpopstate",
+    "elements": [
+        "body"
+    ],
+    "description": "popstate event handler for Window object",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "other-events"
+    ]
+}

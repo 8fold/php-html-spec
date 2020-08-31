@@ -11,7 +11,7 @@ use Eightfold\HtmlSpecStructured\PhpToJson\HtmlIndex as HtmlIndexWriter;
 use Eightfold\HtmlSpecStructured\PhpToJson\HtmlElement;
 // use Eightfold\HtmlSpecStructured\PhpToJson\HtmlAttribute;
 
-class HtmlAttributeIndex implements ArrayAccess, Iterator
+class HtmlAttributeIndex // implements ArrayAccess, Iterator
 {
     protected $index;
 
@@ -58,9 +58,8 @@ class HtmlAttributeIndex implements ArrayAccess, Iterator
             if (! file_exists($otherPath)) {
                 file_put_contents($otherPath, '{}');
             }
-            $json   = file_get_contents($otherPath);
-            $object = json_decode($json);
-            $this->index = (array) $object;
+            $json        = file_get_contents($otherPath);
+            $this->index = json_decode($json, true);
         }
         return $this->index;
     }
@@ -125,61 +124,61 @@ class HtmlAttributeIndex implements ArrayAccess, Iterator
 
 // - ArrayAccess
 
-    public function offsetExists($offset): bool
-    {
-        $index = $this->index();
-        if (isset($index[$offset]) and
-            ! is_a($index[$offset], HtmlElement::class)
-        ) {
-            $element = $this->elementNamed($offset);
-            $this->elements[$offset] = $element;
+//     public function offsetExists($offset): bool
+//     {
+//         $index = $this->index();
+//         if (isset($index[$offset]) and
+//             ! is_a($index[$offset], HtmlElement::class)
+//         ) {
+//             $element = $this->elementNamed($offset);
+//             $this->elements[$offset] = $element;
 
-        }
+//         }
 
-        return (isset($index[$offset]) and
-            is_a($this->elements[$offset], HtmlElement::class));
-    }
+//         return (isset($index[$offset]) and
+//             is_a($this->elements[$offset], HtmlElement::class));
+//     }
 
-    public function offsetGet($offset): HtmlElement
-    {
-        if ($this->offsetExists($offset)) {
-            return $this->elements[$offset];
-        }
-        trigger_error("Could not find element {$offset}.");
-    }
+//     public function offsetGet($offset): HtmlElement
+//     {
+//         if ($this->offsetExists($offset)) {
+//             return $this->elements[$offset];
+//         }
+//         trigger_error("Could not find element {$offset}.");
+//     }
 
-    public function offsetSet($offset, $value): void
-    {
-        die("offset set");
-    }
+//     public function offsetSet($offset, $value): void
+//     {
+//         die("offset set");
+//     }
 
-    public function offsetUnset($offset): void
-    {
-        die("offset unset");
-    }
+//     public function offsetUnset($offset): void
+//     {
+//         die("offset unset");
+//     }
 
-// - Iterator
-    public function rewind()
-    {
-        reset($this->elements);
-    }
+// // - Iterator
+//     public function rewind()
+//     {
+//         reset($this->elements);
+//     }
 
-    public function current()
-    {
-        return current($this->elements);
-    }
+//     public function current()
+//     {
+//         return current($this->elements);
+//     }
 
-    public function key()
-    {
-        return key($this->elements);
-    }
+//     public function key()
+//     {
+//         return key($this->elements);
+//     }
 
-    public function next()
-    {
-        next($this->elements);
-    }
+//     public function next()
+//     {
+//         next($this->elements);
+//     }
 
-    public function valid() {
-        return key($this->elements) !== null;
-    }
+//     public function valid() {
+//         return key($this->elements) !== null;
+//     }
 }

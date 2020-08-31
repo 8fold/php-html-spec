@@ -1,0 +1,11 @@
+{
+    "name": "ondblclick",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "dblclick event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

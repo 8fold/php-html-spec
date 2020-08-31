@@ -1,0 +1,11 @@
+{
+    "name": "onstorage",
+    "elements": [
+        "body"
+    ],
+    "description": "storage event handler for Window object",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "other-events"
+    ]
+}

@@ -27,6 +27,7 @@ class PhpToJson
 
         // HtmlIndex::storeDetails(); // This takes forever - never ends ??
         // HtmlIndex::storeAttributes(); // This takes forever - never ends ??
+        // HtmlIndex::storeAriaRoles();
         // HtmlElement::updateEventHandlers();
         // HtmlElement::updateAriaAttributes();
     }

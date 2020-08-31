@@ -146,6 +146,11 @@ class HtmlIndex extends HtmlIndexReader
         $elements->saveElements();
     }
 
+    public function storeAriaRoles()
+    {
+        die("here");
+    }
+
     public function addElement(HtmlElement $element): HtmlIndex
     {
         $name = $element->name();
