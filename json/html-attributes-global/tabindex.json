@@ -1,0 +1,10 @@
+{
+    "tabindex": {
+        "name": "tabindex",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "Whether the element is focusable and sequentially focusable, and\n     the relative order of the element for the purposes of sequential focus navigation",
+        "misc": "Valid integer"
+    }
+}

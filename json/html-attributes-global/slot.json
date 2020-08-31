@@ -1,0 +1,10 @@
+{
+    "slot": {
+        "name": "slot",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "The element's desired slot",
+        "misc": "Text"
+    }
+}

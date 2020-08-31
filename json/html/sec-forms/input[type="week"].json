@@ -1,8 +1,0 @@
-{
-    "element": "input[type=\"week\"]",
-    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#week-state-typeweek",
-    "specs": [
-        "5.1",
-        "5.2"
-    ]
-}

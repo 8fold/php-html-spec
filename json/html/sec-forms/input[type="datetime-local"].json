@@ -1,8 +1,0 @@
-{
-    "element": "input[type=\"datetime-local\"]",
-    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#local-date-and-time-state-typedatetimelocal",
-    "specs": [
-        "5.1",
-        "5.2"
-    ]
-}

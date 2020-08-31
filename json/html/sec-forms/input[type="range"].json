@@ -1,9 +1,0 @@
-{
-    "element": "input[type=\"range\"]",
-    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#range-state-typerange",
-    "specs": [
-        "5",
-        "5.1",
-        "5.2"
-    ]
-}

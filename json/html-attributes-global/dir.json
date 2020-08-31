@@ -1,0 +1,10 @@
+{
+    "dir": {
+        "name": "dir",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "The text directionality of the element",
+        "misc": "\"ltr\"; \"rtl\"; \"auto\""
+    }
+}

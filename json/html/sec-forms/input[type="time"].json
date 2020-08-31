@@ -1,9 +1,0 @@
-{
-    "element": "input[type=\"time\"]",
-    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#time-state-typetime",
-    "specs": [
-        "5",
-        "5.1",
-        "5.2"
-    ]
-}

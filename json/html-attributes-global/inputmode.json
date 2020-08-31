@@ -1,0 +1,10 @@
+{
+    "inputmode": {
+        "name": "inputmode",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "Hint for selecting an input modality",
+        "misc": "\"none\";\n          \"text\";\n          \"tel\";\n          \"email\";\n          \"url\";\n          \"numeric\";\n          \"decimal\";\n          \"search\""
+    }
+}

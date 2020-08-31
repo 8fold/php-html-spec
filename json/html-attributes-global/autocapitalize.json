@@ -1,0 +1,10 @@
+{
+    "autocapitalize": {
+        "name": "autocapitalize",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "Recommended autocapitalization behavior (for supported input methods)",
+        "misc": "\"on\";\n          \"off\";\n          \"none\";\n          \"sentences\";\n          \"words\";\n          \"characters\""
+    }
+}

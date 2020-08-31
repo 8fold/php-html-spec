@@ -1,0 +1,10 @@
+{
+    "id": {
+        "name": "id",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "The element's ID",
+        "misc": "Text*"
+    }
+}

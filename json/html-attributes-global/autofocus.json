@@ -1,0 +1,10 @@
+{
+    "autofocus": {
+        "name": "autofocus",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "Automatically focus the element when the page is loaded",
+        "misc": "Boolean attribute"
+    }
+}

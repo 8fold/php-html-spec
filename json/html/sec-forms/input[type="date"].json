@@ -1,9 +1,0 @@
-{
-    "element": "input[type=\"date\"]",
-    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#date-state-typedate",
-    "specs": [
-        "5",
-        "5.1",
-        "5.2"
-    ]
-}

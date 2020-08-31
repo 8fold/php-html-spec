@@ -1,0 +1,10 @@
+{
+    "style": {
+        "name": "style",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "Presentational and formatting instructions",
+        "misc": "CSS declarations*"
+    }
+}

@@ -146,28 +146,6 @@ class HtmlIndex extends HtmlIndexReader
         $elements->saveElements();
     }
 
-    static public function storeAttributes(): void
-    {
-        $elements = static::all();
-        foreach (HtmlAttribute::all() as $attribute) {
-            $attrName = $attribute->name;
-            $elem = $attribute->elements;
-            foreach ($elem as $elementsForAttribute) {
-                $elementNames = ($elementsForAttribute === "HTML elements" or
-                    $elementsForAttribute === "HTMLelements"
-                )
-                    ? $elements->elementNames()
-                    : [$elementsForAttribute];
-
-                foreach ($elementNames as $elementName) {
-                    $element = $elements[$elementName];
-                    $element->addAttribute($attrName);
-                }
-            }
-        }
-        $elements->saveElements();
-    }
-
     public function addElement(HtmlElement $element): HtmlIndex
     {
         $name = $element->name();

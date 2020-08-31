@@ -1,0 +1,10 @@
+{
+    "is": {
+        "name": "is",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "Creates a customized built-in element",
+        "misc": "Valid custom element name of a defined customized built-in element"
+    }
+}

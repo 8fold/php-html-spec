@@ -1,0 +1,10 @@
+{
+    "translate": {
+        "name": "translate",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "Whether the element is to be translated when the page is localized",
+        "misc": "\"yes\"; \"no\""
+    }
+}

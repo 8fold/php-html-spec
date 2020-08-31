@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace Eightfold\HtmlSpecStructured\PhpToJson;
 
+use \DomNode;
+
 use Eightfold\HtmlSpecStructured\PhpToJson;
 
 abstract class HtmlAbstract
@@ -10,39 +12,48 @@ abstract class HtmlAbstract
     const SUB_FOLDER_NAME = "default";
     const TABLE_ID = "default";
 
-    static public function tableBody()
+    static public function tableBodyWithId(string $id)
     {
-        $table = PhpToJson::specSourceDom()->getElementById(static::TABLE_ID);
+        $table = PhpToJson::specSourceDom()->getElementById($id);
         return $table->getElementsByTagName("tbody")[0];
+    }
+
+    static public function rowsForTableWithId(string $id = "")
+    {
+        $tableBody = static::tableBodyWithId($id);
+        return $tableBody->getElementsByTagName("tr");
+    }
+
+    static public function processRowForPathParts(DomNode $row, array $pathParts): void
+    {
+        $name = trim($row->getElementsByTagName("th")[0]->nodeValue);
+
+        $cells = $row->getElementsByTagName("td");
+        $build = [];
+        for ($j = 0; $j < count($cells); $j++) {
+            $cell = $cells[$j];
+            $build[] = strip_tags($cell->nodeValue);
+        }
+        $cells = array_map("trim", $build);
+
+        $content = static::objectFromTableCells($name, $cells);
+
+
+        $pathParts[] = "{$name}.json";
+        $filePath = implode("/", $pathParts);
+
+        $json = json_encode($content, JSON_PRETTY_PRINT);
+        file_put_contents($filePath, $json);
     }
 
     static public function storeInitial(): void
     {
-        $tableBody = static::tableBody();
-
-        $rows = $tableBody->getElementsByTagName("tr");
+        $rows = rowsForTableWithId(static::TABLE_ID);
         for ($i = 0; $i < count($rows); $i++) {
-            $row = $rows[$i];
-
-            $name = trim($row->getElementsByTagName("th")[0]->nodeValue);
-
-            $cells = $row->getElementsByTagName("td");
-            $build = [];
-            for ($j = 0; $j < count($cells); $j++) {
-                $cell = $cells[$j];
-                $build[] = strip_tags($cell->nodeValue);
-            }
-            $cells = array_map("trim", $build);
-
-            $content = static::objectFromTableCells($name, $cells);
-
+            $row       = $rows[$i];
             $pathParts = static::folderPathParts();
-            $pathParts[] = "{$name}.json";
-            $filePath = implode("/", $pathParts);
 
-            $json = json_encode($content, JSON_PRETTY_PRINT);
-            file_put_contents($filePath, $json);
-
+            static::processRowForPathParts($row, $pathParts);
             static::updateGlobalElements();
         }
     }

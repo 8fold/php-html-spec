@@ -5,9 +5,12 @@ namespace Eightfold\HtmlSpecStructured;
 
 use \DomDocument;
 
-use Eightfold\HtmlSpecStructured\PhpToJson\HtmlIndex;
+use Eightfold\HtmlSpecStructured\PhpToJson\HtmlIndex; // TODO: move to Write
+
+use Eightfold\HtmlSpecStructured\Write\HtmlAttributeIndex;
+
 use Eightfold\HtmlSpecStructured\PhpToJson\HtmlElements;
-use Eightfold\HtmlSpecStructured\PhpToJson\HtmlAttribute;
+
 use Eightfold\HtmlSpecStructured\PhpToJson\HtmlEventHandler;
 use Eightfold\HtmlSpecStructured\PhpToJson\HtmlContentCategory;
 
@@ -15,14 +18,14 @@ class PhpToJson
 {
     static public function compile(): void
     {
-        HtmlIndex::storeInitial(); // Establish base for reference.
+        // HtmlIndex::storeInitial(); // Establish base for reference.
 
-        HtmlContentCategory::storeInitial();
-        HtmlAttribute::storeInitial();
-        HtmlEventHandler::storeInitial();
+        // HtmlContentCategory::storeInitial();
+        HtmlAttributeIndex::storeInitial();
+        // HtmlEventHandler::storeInitial();
         // TODO: ARIA attributes
 
-        HtmlIndex::storeDetails(); // This takes forever - never ends ??
+        // HtmlIndex::storeDetails(); // This takes forever - never ends ??
         // HtmlIndex::storeAttributes(); // This takes forever - never ends ??
         // HtmlElement::updateEventHandlers();
         // HtmlElement::updateAriaAttributes();

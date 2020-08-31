@@ -1,0 +1,10 @@
+{
+    "itemid": {
+        "name": "itemid",
+        "elements": [
+            "HTMLelements"
+        ],
+        "description": "Global identifier for a microdata item",
+        "misc": "Valid URL potentially surrounded by spaces"
+    }
+}
