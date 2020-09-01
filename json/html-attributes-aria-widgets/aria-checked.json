@@ -1,0 +1,16 @@
+{
+    "name": "aria-checked",
+    "property": false,
+    "categories": [
+        "aria-widgets"
+    ],
+    "roles": [
+        "option",
+        "treeitem"
+    ],
+    "role-description": "An option item of a tree. This is an element within a tree that\n              may be expanded or collapsed if it contains a sub-level group of treeitems.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "interactive"
+}

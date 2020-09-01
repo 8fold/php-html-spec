@@ -1,0 +1,16 @@
+{
+    "name": "aria-placeholder",
+    "property": true,
+    "categories": [
+        "aria-widgets"
+    ],
+    "roles": [
+        "searchbox",
+        "textbox"
+    ],
+    "role-description": "Input that allows free-form text as its value.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "interactive"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "onwheel",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "wheel event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "element": "article",
+    "link": "https:\/\/w3c.github.io\/html\/sections.html#the-article-element",
+    "specs": [
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Self-contained syndicatable or reusable composition",
+    "categories": [
+        "flow",
+        "sectioning",
+        "palpable"
+    ],
+    "parents": [
+        "flow"
+    ],
+    "children": [
+        "flow"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

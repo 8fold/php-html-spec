@@ -1,0 +1,25 @@
+{
+    "element": "figure",
+    "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-figure-element",
+    "specs": [
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Figure with optional caption",
+    "categories": [
+        "flow",
+        "sectioning root",
+        "palpable"
+    ],
+    "parents": [
+        "flow"
+    ],
+    "children": [
+        "figcaption",
+        "flow"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

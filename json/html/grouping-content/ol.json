@@ -1,0 +1,30 @@
+{
+    "element": "ol",
+    "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-ol-element",
+    "specs": [
+        "2.0",
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Ordered list",
+    "categories": [
+        "flow",
+        "palpable"
+    ],
+    "parents": [
+        "flow"
+    ],
+    "children": [
+        "li",
+        "script-supporting elements"
+    ],
+    "interfaces": [
+        "HTMLOListElement",
+        "HTMLElement"
+    ]
+}

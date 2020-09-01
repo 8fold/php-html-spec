@@ -1,0 +1,22 @@
+{
+    "name": "aria-readonly",
+    "property": true,
+    "categories": [
+        "aria-widgets"
+    ],
+    "roles": [
+        "columnheader",
+        "grid",
+        "gridcell",
+        "rowheader",
+        "searchbox",
+        "spinbutton",
+        "textbox",
+        "treegrid"
+    ],
+    "role-description": "A grid whose rows can be expanded and collapsed in the same\n              manner as for a tree.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "flow"
+}

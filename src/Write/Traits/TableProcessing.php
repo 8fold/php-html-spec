@@ -3,11 +3,13 @@ declare(strict_types=1);
 
 namespace Eightfold\HtmlSpecStructured\Write\Traits;
 
+use Illuminate\Support\Str;
+
 use Eightfold\HtmlSpecStructured\PhpToJson;
 
 trait TableProcessing
 {
-    static public function tableBodyWithId(string $id)
+    static public function tableBodyWithId(string $id, bool $useSpec = true)
     {
         $table = PhpToJson::specSourceDom()->getElementById($id);
         return $table->getElementsByTagName("tbody")[0];
@@ -66,5 +68,31 @@ trait TableProcessing
                 "misc"        => $cells[2]
             ]
         ];
+    }
+
+    static private function stringToSlug(string $string): string
+    {
+        $replacements = static::replacements();
+        $string = trim($string);
+
+        $slugAlt = Str::slug($string);
+
+        $slug = $slugAlt;
+        if (array_key_exists($slugAlt, $replacements)) {
+            $slug = $replacements[$slug];
+        }
+        return $slug;
+    }
+
+    static private function replacements(): array
+    {
+        $parts = PhpToJson::pathPartsToProjectRoot();
+        $parts[] = "local";
+        $parts[] = "replacements.json";
+        $path = implode("/", $parts);
+        $json = file_get_contents($path);
+        $array = json_decode($json, true);
+
+        return $array["categories"];
     }
 }

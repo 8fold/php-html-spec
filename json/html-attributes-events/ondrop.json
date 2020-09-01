@@ -1,0 +1,11 @@
+{
+    "name": "ondrop",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "drop event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

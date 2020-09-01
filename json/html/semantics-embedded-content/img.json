@@ -1,0 +1,34 @@
+{
+    "element": "img",
+    "link": "https:\/\/w3c.github.io\/html\/semantics-embedded-content.html#the-img-element",
+    "specs": [
+        "2.0",
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Image",
+    "categories": [
+        "flow",
+        "phrasing",
+        "embedded",
+        "interactive",
+        "form-associated",
+        "palpable"
+    ],
+    "parents": [
+        "phrasing",
+        "picture"
+    ],
+    "children": [
+        "empty"
+    ],
+    "interfaces": [
+        "HTMLImageElement",
+        "HTMLElement"
+    ]
+}

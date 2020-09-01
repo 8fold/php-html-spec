@@ -1,0 +1,11 @@
+{
+    "name": "oninput",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "input event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

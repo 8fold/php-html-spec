@@ -1,0 +1,29 @@
+{
+    "element": "template",
+    "link": "https:\/\/w3c.github.io\/html\/semantics-scripting.html#the-template-element",
+    "specs": [
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Template",
+    "categories": [
+        "metadata",
+        "flow",
+        "phrasing",
+        "script-supporting"
+    ],
+    "parents": [
+        "metadata",
+        "phrasing",
+        "script-supporting",
+        "colgroup"
+    ],
+    "children": [
+        "empty"
+    ],
+    "interfaces": [
+        "HTMLTemplateElement",
+        "HTMLElement"
+    ]
+}

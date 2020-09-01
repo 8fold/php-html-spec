@@ -1,0 +1,13 @@
+{
+    "element": "input[type=\"file\"]",
+    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#file-upload-state-typefile",
+    "specs": [
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ]
+}

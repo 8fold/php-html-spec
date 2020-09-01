@@ -1,0 +1,23 @@
+{
+    "element": "header",
+    "link": "https:\/\/w3c.github.io\/html\/sections.html#the-header-element",
+    "specs": [
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Introductory or navigational aids for a page or section",
+    "categories": [
+        "flow",
+        "palpable"
+    ],
+    "parents": [
+        "flow"
+    ],
+    "children": [
+        "flow"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

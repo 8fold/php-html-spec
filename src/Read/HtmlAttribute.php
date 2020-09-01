@@ -61,34 +61,7 @@ class HtmlAttribute implements HtmlComponent
     public function categories(): array
     {
         return $this->component()->categories;
-        // if ($this->isGlobal()) {
-        //     return ["global"];
-
-        // } elseif ($this->isBoolean()) {
-        //     return ["boolean"];
-
-        // }
-        // return ["other"];
     }
-
-    // public function isGlobal(): bool
-    // {
-    //     $elements = $this->elements();
-    //     if (count($elements) !== 1) {
-    //         return false;
-
-    //     } elseif ($elements[0] !== "HTML elements" and
-    //         $elements[0] !== "HTMLelements"
-    //     ) {
-    //         return false;
-    //     }
-    //     return true;
-    // }
-
-    // public function isBoolean(): bool
-    // {
-    //     return ($this->misc() === "Boolean attribute");
-    // }
 
     public function folderPathParts(): array
     {
@@ -99,8 +72,42 @@ class HtmlAttribute implements HtmlComponent
     public function filePathParts(): array
     {
         $parts = $this->folderPathParts();
+        if (in_array("aria-widgets", $this->categories())) {
+            $build = "html-attributes-aria-widgets";
+            if (in_array("global", $this->categories())) {
+                $build .= "-global";
+            }
+            $parts[] = $build;
 
-        if (in_array("other", $this->categories())) {
+        } elseif (in_array("aria-live-regions", $this->categories())) {
+            $build = "html-attributes-aria-live-regions";
+            if (in_array("global", $this->categories())) {
+                $build .= "-global";
+            }
+            $parts[] = $build;
+
+        } elseif (in_array("aria-drag-and-drop", $this->categories())) {
+            $build = "html-attributes-aria-drag-and-drop";
+            if (in_array("global", $this->categories())) {
+                $build .= "-global";
+            }
+            $parts[] = $build;
+
+        } elseif (in_array("aria-relationships", $this->categories())) {
+            $build = "html-attributes-aria-relationships";
+            if (in_array("global", $this->categories())) {
+                $build .= "-global";
+            }
+            $parts[] = $build;
+
+        } elseif (in_array("aria-other", $this->categories())) {
+            $build = "html-attributes-aria-other";
+            if (in_array("global", $this->categories())) {
+                $build .= "-global";
+            }
+            $parts[] = $build;
+
+        } elseif (in_array("other", $this->categories())) {
             $parts[] = "html-attributes";
 
         } elseif (in_array("global", $this->categories())) {

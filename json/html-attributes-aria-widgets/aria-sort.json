@@ -1,0 +1,15 @@
+{
+    "name": "aria-sort",
+    "property": true,
+    "categories": [
+        "aria-widgets"
+    ],
+    "roles": [
+        "columnheader"
+    ],
+    "role-description": "A cell containing header information for a column.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "flow"
+}

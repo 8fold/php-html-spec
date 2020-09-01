@@ -1,0 +1,11 @@
+{
+    "name": "oncuechange",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "cuechange event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

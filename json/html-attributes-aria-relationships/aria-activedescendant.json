@@ -1,0 +1,29 @@
+{
+    "name": "aria-activedescendant",
+    "property": true,
+    "categories": [
+        "aria-relationships"
+    ],
+    "roles": [
+        "application",
+        "combobox",
+        "grid",
+        "group",
+        "listbox",
+        "menu",
+        "menubar",
+        "radiogroup",
+        "row",
+        "searchbox",
+        "tablist",
+        "textbox",
+        "toolbar",
+        "tree",
+        "treegrid"
+    ],
+    "role-description": "A grid whose rows can be expanded and collapsed in the same\n              manner as for a tree.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "flow"
+}

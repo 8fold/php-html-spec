@@ -1,0 +1,27 @@
+{
+    "element": "caption",
+    "link": "https:\/\/w3c.github.io\/html\/tabular-data.html#the-caption-element",
+    "specs": [
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Table caption",
+    "categories": [
+        "none"
+    ],
+    "parents": [
+        "table"
+    ],
+    "children": [
+        "flow"
+    ],
+    "interfaces": [
+        "HTMLTableCaptionElement",
+        "HTMLElement"
+    ]
+}

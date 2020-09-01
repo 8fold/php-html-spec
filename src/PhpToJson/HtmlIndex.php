@@ -14,8 +14,7 @@ class HtmlIndex extends HtmlIndexReader
     {
         $index = static::all();
 
-        $json = PhpToJson::curlContent("https://raw.githubusercontent.com/w3c/elements-of-html/master/elements.json");
-        $elementList = json_decode($json);
+        $elementList = PhpToJson::htmlElementList();
         foreach ($elementList as $element) {
             $element = HtmlElement::fromObject($element);
 

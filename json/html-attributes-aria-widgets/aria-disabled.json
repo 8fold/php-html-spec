@@ -1,0 +1,15 @@
+{
+    "name": "aria-disabled",
+    "property": false,
+    "categories": [
+        "aria-widgets"
+    ],
+    "roles": [
+        "global"
+    ],
+    "role-description": "ARIA global states and properties can be used on any\n              HTML element.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "na"
+}

@@ -1,0 +1,38 @@
+{
+    "element": "select",
+    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-select-element",
+    "specs": [
+        "2.0",
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "List box control",
+    "categories": [
+        "flow",
+        "phrasing",
+        "interactive",
+        "listed",
+        "labelable",
+        "submittable",
+        "resettable",
+        "form-associated",
+        "palpable"
+    ],
+    "parents": [
+        "phrasing"
+    ],
+    "children": [
+        "option",
+        "optgroup",
+        "script-supporting elements"
+    ],
+    "interfaces": [
+        "HTMLSelectElement",
+        "HTMLElement"
+    ]
+}

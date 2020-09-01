@@ -1,0 +1,11 @@
+{
+    "name": "onseeked",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "seeked event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "ontoggle",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "toggle event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

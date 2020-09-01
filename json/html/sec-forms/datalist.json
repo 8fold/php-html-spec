@@ -1,0 +1,26 @@
+{
+    "element": "datalist",
+    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-datalist-element",
+    "specs": [
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Container for options for combo box control",
+    "categories": [
+        "flow",
+        "phrasing"
+    ],
+    "parents": [
+        "phrasing"
+    ],
+    "children": [
+        "phrasing",
+        "option",
+        "script-supporting elements"
+    ],
+    "interfaces": [
+        "HTMLDataListElement",
+        "HTMLElement"
+    ]
+}

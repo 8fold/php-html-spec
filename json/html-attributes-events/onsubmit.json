@@ -1,0 +1,11 @@
+{
+    "name": "onsubmit",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "submit event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

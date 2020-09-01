@@ -1,0 +1,17 @@
+{
+    "name": "aria-colcount",
+    "property": true,
+    "categories": [
+        "aria-relationships"
+    ],
+    "roles": [
+        "grid",
+        "table",
+        "treegrid"
+    ],
+    "role-description": "A grid whose rows can be expanded and collapsed in the same\n              manner as for a tree.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "flow"
+}

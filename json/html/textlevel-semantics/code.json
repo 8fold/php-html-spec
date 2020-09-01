@@ -1,0 +1,29 @@
+{
+    "element": "code",
+    "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-code-element",
+    "specs": [
+        "2.0",
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Computer code",
+    "categories": [
+        "flow",
+        "phrasing",
+        "palpable"
+    ],
+    "parents": [
+        "phrasing"
+    ],
+    "children": [
+        "phrasing"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

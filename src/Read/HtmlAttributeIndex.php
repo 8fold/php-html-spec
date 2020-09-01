@@ -51,7 +51,12 @@ class HtmlAttributeIndex // implements ArrayAccess, Iterator
             $this->index = [];
             $pathParts   = static::pathParts();
 
-            $otherParts   = $pathParts;
+            $otherParts = $pathParts;
+            $folderPath = implode("/", $otherParts);
+            if (! file_exists($folderPath)) {
+                mkdir($folderPath, 0755, true);
+            }
+
             $otherParts[] = "html-attributes.json";
 
             $otherPath = implode("/", $otherParts);

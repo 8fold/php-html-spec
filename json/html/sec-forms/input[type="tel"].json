@@ -1,0 +1,9 @@
+{
+    "element": "input[type=\"tel\"]",
+    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#telephone-state-typetel",
+    "specs": [
+        "5",
+        "5.1",
+        "5.2"
+    ]
+}

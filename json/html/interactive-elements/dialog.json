@@ -1,0 +1,22 @@
+{
+    "element": "dialog",
+    "link": "https:\/\/w3c.github.io\/html\/interactive-elements.html#the-dialog-element",
+    "specs": [
+        "5.2"
+    ],
+    "description": "Dialog box or window",
+    "categories": [
+        "flow",
+        "sectioning root"
+    ],
+    "parents": [
+        "flow"
+    ],
+    "children": [
+        "flow"
+    ],
+    "interfaces": [
+        "HTMLDialogElement",
+        "HTMLElement"
+    ]
+}

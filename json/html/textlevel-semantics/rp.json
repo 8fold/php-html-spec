@@ -1,0 +1,23 @@
+{
+    "element": "rp",
+    "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-rp-element",
+    "specs": [
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Parenthesis for ruby annotation text",
+    "categories": [
+        "none"
+    ],
+    "parents": [
+        "ruby"
+    ],
+    "children": [
+        "text"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

@@ -18,23 +18,47 @@ class PhpToJson
 {
     static public function compile(): void
     {
-        // HtmlIndex::storeInitial(); // Establish base for reference.
+        HtmlIndex::storeInitial(); // Initial HTML elements set.
 
-        // HtmlContentCategory::storeInitial();
-        HtmlAttributeIndex::storeInitial();
-        // HtmlEventHandler::storeInitial();
-        // TODO: ARIA attributes
+        HtmlAttributeIndex::storeInitial(); // Add attributes
 
-        // HtmlIndex::storeDetails(); // This takes forever - never ends ??
-        // HtmlIndex::storeAttributes(); // This takes forever - never ends ??
-        // HtmlIndex::storeAriaRoles();
-        // HtmlElement::updateEventHandlers();
-        // HtmlElement::updateAriaAttributes();
+        HtmlIndex::storeDetails(); // Update elements with details
+    }
+
+    static public function htmlElementList(): array
+    {
+        $json = PhpToJson::curlContent("https://raw.githubusercontent.com/w3c/elements-of-html/master/elements.json");
+        $elementList = json_decode($json);
+        return $elementList;
     }
 
     static public function specSourceDom(): DomDocument
     {
-        $content = PhpToJson::curlContent("https://raw.githubusercontent.com/whatwg/html/master/source");
+        return PhpToJson::domFromCurlContent("https://raw.githubusercontent.com/whatwg/html/master/source");
+    }
+
+    static public function specAriaDom(): DomDocument
+    {
+        return PhpToJson::domFromCurlContent("https://raw.githubusercontent.com/w3c/html-aria/gh-pages/index.html");
+    }
+
+    static public function specAriaPropertiesDom(): DomDocument
+    {
+        $parts   = PhpToJson::pathPartsToProjectRoot();
+        $parts[] = "local";
+        $parts[] = "aria.html";
+        $path    = implode("/", $parts);
+
+        // $content = PhpToJson::curlContent("https://raw.githubusercontent.com/w3c/aria/master/index.html");
+        $content = file_get_contents($path);
+        $dom = new \DomDocument();
+        @$dom->loadHtml($content);
+        return $dom;
+    }
+
+    static private function domFromCurlContent(string $path): DomDocument
+    {
+        $content = PhpToJson::curlContent($path);
         $dom = new \DomDocument();
         @$dom->loadHtml($content);
         return $dom;

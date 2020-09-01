@@ -1,0 +1,23 @@
+{
+    "element": "footer",
+    "link": "https:\/\/w3c.github.io\/html\/sections.html#the-footer-element",
+    "specs": [
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Footer for a page or section",
+    "categories": [
+        "flow",
+        "palpable"
+    ],
+    "parents": [
+        "flow"
+    ],
+    "children": [
+        "flow"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "element": "script",
+    "link": "https:\/\/w3c.github.io\/html\/semantics-scripting.html#the-script-element",
+    "specs": [
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Embedded script",
+    "categories": [
+        "metadata",
+        "flow",
+        "phrasing",
+        "script-supporting"
+    ],
+    "parents": [
+        "head",
+        "phrasing",
+        "script-supporting"
+    ],
+    "children": [
+        "script, data, or script documentation"
+    ],
+    "interfaces": [
+        "HTMLScriptElement",
+        "HTMLElement"
+    ]
+}

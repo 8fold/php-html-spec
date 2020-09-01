@@ -1,0 +1,11 @@
+{
+    "name": "onauxclick",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "auxclick event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

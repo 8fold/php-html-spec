@@ -1,0 +1,11 @@
+{
+    "name": "ondrag",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "drag event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

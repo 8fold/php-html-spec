@@ -1,0 +1,22 @@
+{
+    "element": "figcaption",
+    "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-figcaption-element",
+    "specs": [
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Caption for figure",
+    "categories": [
+        "none"
+    ],
+    "parents": [
+        "figure"
+    ],
+    "children": [
+        "flow"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

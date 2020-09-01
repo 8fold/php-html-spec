@@ -1,0 +1,17 @@
+{
+    "name": "aria-autocomplete",
+    "property": true,
+    "categories": [
+        "aria-widgets"
+    ],
+    "roles": [
+        "combobox",
+        "searchbox",
+        "textbox"
+    ],
+    "role-description": "Input that allows free-form text as its value.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "interactive"
+}

@@ -1,0 +1,28 @@
+{
+    "element": "ins",
+    "link": "https:\/\/w3c.github.io\/html\/edits.html#the-ins-element",
+    "specs": [
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "An addition to the document",
+    "categories": [
+        "flow",
+        "phrasing",
+        "palpable"
+    ],
+    "parents": [
+        "phrasing"
+    ],
+    "children": [
+        "transparent"
+    ],
+    "interfaces": [
+        "HTMLModElement",
+        "HTMLElement"
+    ]
+}

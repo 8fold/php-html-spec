@@ -1,0 +1,19 @@
+{
+    "name": "aria-multiselectable",
+    "property": true,
+    "categories": [
+        "aria-widgets"
+    ],
+    "roles": [
+        "grid",
+        "listbox",
+        "tablist",
+        "tree",
+        "treegrid"
+    ],
+    "role-description": "A grid whose rows can be expanded and collapsed in the same\n              manner as for a tree.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "flow"
+}

@@ -1,0 +1,8 @@
+{
+    "element": "input[type=\"month\"]",
+    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#month-state-typemonth",
+    "specs": [
+        "5.1",
+        "5.2"
+    ]
+}

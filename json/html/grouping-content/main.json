@@ -1,0 +1,23 @@
+{
+    "element": "main",
+    "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-main-element",
+    "specs": [
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Container for the dominant contents of the document",
+    "categories": [
+        "flow",
+        "palpable"
+    ],
+    "parents": [
+        "flow"
+    ],
+    "children": [
+        "flow"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

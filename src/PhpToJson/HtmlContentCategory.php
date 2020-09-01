@@ -15,6 +15,31 @@ class HtmlContentCategory extends HtmlAbstract
     const SUB_FOLDER_NAME = "html-categories";
     const HEADER_TEXT = "Element content categories";
 
+    // static private function stringToSlug(string $string): string
+    // {
+    //     $replacements = static::replacements();
+    //     $givenName = trim($catCell->nodeValue);
+
+    //     $slugAlt = Str::slug($givenName);
+
+    //     $slug = $slugAlt;
+    //     if (array_key_exists($slugAlt, $replacements)) {
+    //         $slug = $replacements[$slug];
+    //     }
+    // }
+
+    // static private function replacements(): array
+    // {
+    //     $parts = PhpToJson::pathPartsToProjectRoot();
+    //     $parts[] = "manual";
+    //     $parts[] = "replacements.json";
+    //     $path = implode("/", $parts);
+    //     $json = file_get_contents($path);
+    //     $array = json_decode($json, true);
+
+    //     return $array["categories"];
+    // }
+
     static public function storeInitial(): void
     {
         $elements = HtmlIndex::all();
@@ -40,14 +65,15 @@ class HtmlContentCategory extends HtmlAbstract
                         $cells = $row->getElementsByTagName("td");
 
                         $catCell = $cells[0];
-                        $givenName = trim($catCell->nodeValue);
+                        $slug    = static::stringToSlug($catCell->nodeValue);
+                        // $givenName = trim($catCell->nodeValue);
 
-                        $slugAlt = Str::slug($givenName);
+                        // $slugAlt = Str::slug($givenName);
 
-                        $slug = $slugAlt;
-                        if (array_key_exists($slugAlt, $replacements)) {
-                            $slug = $replacements[$slug];
-                        }
+                        // $slug = $slugAlt;
+                        // if (array_key_exists($slugAlt, $replacements)) {
+                        //     $slug = $replacements[$slug];
+                        // }
 
                         $elemCell = $cells[1];
                         $elems = $elemCell->nodeValue;
@@ -93,17 +119,5 @@ class HtmlContentCategory extends HtmlAbstract
                 }
             }
         }
-    }
-
-    static public function replacements(): array
-    {
-        $parts = PhpToJson::pathPartsToProjectRoot();
-        $parts[] = "manual";
-        $parts[] = "replacements.json";
-        $path = implode("/", $parts);
-        $json = file_get_contents($path);
-        $array = json_decode($json, true);
-
-        return $array["categories"];
     }
 }

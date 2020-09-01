@@ -1,0 +1,11 @@
+{
+    "name": "onstalled",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "stalled event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

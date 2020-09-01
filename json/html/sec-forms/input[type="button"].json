@@ -1,0 +1,12 @@
+{
+    "element": "input[type=\"button\"]",
+    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#button-state-typebutton",
+    "specs": [
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ]
+}

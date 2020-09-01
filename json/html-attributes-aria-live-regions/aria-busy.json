@@ -1,0 +1,15 @@
+{
+    "name": "aria-busy",
+    "property": false,
+    "categories": [
+        "aria-live-regions"
+    ],
+    "roles": [
+        "global"
+    ],
+    "role-description": "ARIA global states and properties can be used on any\n              HTML element.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "na"
+}

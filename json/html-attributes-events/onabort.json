@@ -1,0 +1,11 @@
+{
+    "name": "onabort",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "abort event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

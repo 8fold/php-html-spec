@@ -1,0 +1,19 @@
+{
+    "name": "aria-rowindex",
+    "property": true,
+    "categories": [
+        "aria-relationships"
+    ],
+    "roles": [
+        "cell",
+        "columnheader",
+        "gridcell",
+        "row",
+        "rowheader"
+    ],
+    "role-description": "A cell containing header information for a row in a grid.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "none"
+}

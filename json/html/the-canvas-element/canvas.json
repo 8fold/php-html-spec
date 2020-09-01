@@ -1,0 +1,26 @@
+{
+    "element": "canvas",
+    "link": "https:\/\/w3c.github.io\/html\/the-canvas-element.html#the-canvas-element",
+    "specs": [
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Scriptable bitmap canvas",
+    "categories": [
+        "flow",
+        "phrasing",
+        "embedded",
+        "palpable"
+    ],
+    "parents": [
+        "phrasing"
+    ],
+    "children": [
+        "transparent"
+    ],
+    "interfaces": [
+        "HTMLCanvasElement",
+        "HTMLElement"
+    ]
+}

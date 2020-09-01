@@ -1,0 +1,28 @@
+{
+    "element": "dfn",
+    "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-dfn-element",
+    "specs": [
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Defining instance",
+    "categories": [
+        "flow",
+        "phrasing",
+        "palpable"
+    ],
+    "parents": [
+        "phrasing"
+    ],
+    "children": [
+        "phrasing"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

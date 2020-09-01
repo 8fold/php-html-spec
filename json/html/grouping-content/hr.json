@@ -1,0 +1,28 @@
+{
+    "element": "hr",
+    "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-hr-element",
+    "specs": [
+        "2.0",
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Thematic break",
+    "categories": [
+        "flow"
+    ],
+    "parents": [
+        "flow"
+    ],
+    "children": [
+        "empty"
+    ],
+    "interfaces": [
+        "HTMLHRElement",
+        "HTMLElement"
+    ]
+}

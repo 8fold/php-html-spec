@@ -1,4 +1,206 @@
 {
+    "aria-drag-and-drop": {
+        "aria-dropeffect": [
+            "html-attributes-aria-drag-and-drop",
+            "aria-dropeffect.json"
+        ],
+        "aria-grabbed": [
+            "html-attributes-aria-drag-and-drop",
+            "aria-grabbed.json"
+        ]
+    },
+    "aria-live-regions": {
+        "aria-atomic": [
+            "html-attributes-aria-live-regions",
+            "aria-atomic.json"
+        ],
+        "aria-busy": [
+            "html-attributes-aria-live-regions",
+            "aria-busy.json"
+        ],
+        "aria-live": [
+            "html-attributes-aria-live-regions",
+            "aria-live.json"
+        ],
+        "aria-relevant": [
+            "html-attributes-aria-live-regions",
+            "aria-relevant.json"
+        ]
+    },
+    "aria-other": {
+        "aria-current": [
+            "html-attributes-aria-other",
+            "aria-current.json"
+        ],
+        "aria-keyshortcuts": [
+            "html-attributes-aria-other",
+            "aria-keyshortcuts.json"
+        ],
+        "aria-roledescription": [
+            "html-attributes-aria-other",
+            "aria-roledescription.json"
+        ]
+    },
+    "aria-relationships": {
+        "aria-activedescendant": [
+            "html-attributes-aria-relationships",
+            "aria-activedescendant.json"
+        ],
+        "aria-colcount": [
+            "html-attributes-aria-relationships",
+            "aria-colcount.json"
+        ],
+        "aria-colindex": [
+            "html-attributes-aria-relationships",
+            "aria-colindex.json"
+        ],
+        "aria-colspan": [
+            "html-attributes-aria-relationships",
+            "aria-colspan.json"
+        ],
+        "aria-controls": [
+            "html-attributes-aria-relationships",
+            "aria-controls.json"
+        ],
+        "aria-describedby": [
+            "html-attributes-aria-relationships",
+            "aria-describedby.json"
+        ],
+        "aria-details": [
+            "html-attributes-aria-relationships",
+            "aria-details.json"
+        ],
+        "aria-errormessage": [
+            "html-attributes-aria-relationships",
+            "aria-errormessage.json"
+        ],
+        "aria-flowto": [
+            "html-attributes-aria-relationships",
+            "aria-flowto.json"
+        ],
+        "aria-labelledby": [
+            "html-attributes-aria-relationships",
+            "aria-labelledby.json"
+        ],
+        "aria-owns": [
+            "html-attributes-aria-relationships",
+            "aria-owns.json"
+        ],
+        "aria-posinset": [
+            "html-attributes-aria-relationships",
+            "aria-posinset.json"
+        ],
+        "aria-rowcount": [
+            "html-attributes-aria-relationships",
+            "aria-rowcount.json"
+        ],
+        "aria-rowindex": [
+            "html-attributes-aria-relationships",
+            "aria-rowindex.json"
+        ],
+        "aria-rowspan": [
+            "html-attributes-aria-relationships",
+            "aria-rowspan.json"
+        ],
+        "aria-setsize": [
+            "html-attributes-aria-relationships",
+            "aria-setsize.json"
+        ]
+    },
+    "aria-widgets": {
+        "aria-autocomplete": [
+            "html-attributes-aria-widgets",
+            "aria-autocomplete.json"
+        ],
+        "aria-checked": [
+            "html-attributes-aria-widgets",
+            "aria-checked.json"
+        ],
+        "aria-disabled": [
+            "html-attributes-aria-widgets",
+            "aria-disabled.json"
+        ],
+        "aria-expanded": [
+            "html-attributes-aria-widgets",
+            "aria-expanded.json"
+        ],
+        "aria-haspopup": [
+            "html-attributes-aria-widgets",
+            "aria-haspopup.json"
+        ],
+        "aria-hidden": [
+            "html-attributes-aria-widgets",
+            "aria-hidden.json"
+        ],
+        "aria-invalid": [
+            "html-attributes-aria-widgets",
+            "aria-invalid.json"
+        ],
+        "aria-label": [
+            "html-attributes-aria-widgets",
+            "aria-label.json"
+        ],
+        "aria-level": [
+            "html-attributes-aria-widgets",
+            "aria-level.json"
+        ],
+        "aria-modal": [
+            "html-attributes-aria-widgets",
+            "aria-modal.json"
+        ],
+        "aria-multiline": [
+            "html-attributes-aria-widgets",
+            "aria-multiline.json"
+        ],
+        "aria-multiselectable": [
+            "html-attributes-aria-widgets",
+            "aria-multiselectable.json"
+        ],
+        "aria-orientation": [
+            "html-attributes-aria-widgets",
+            "aria-orientation.json"
+        ],
+        "aria-placeholder": [
+            "html-attributes-aria-widgets",
+            "aria-placeholder.json"
+        ],
+        "aria-pressed": [
+            "html-attributes-aria-widgets",
+            "aria-pressed.json"
+        ],
+        "aria-readonly": [
+            "html-attributes-aria-widgets",
+            "aria-readonly.json"
+        ],
+        "aria-required": [
+            "html-attributes-aria-widgets",
+            "aria-required.json"
+        ],
+        "aria-selected": [
+            "html-attributes-aria-widgets",
+            "aria-selected.json"
+        ],
+        "aria-sort": [
+            "html-attributes-aria-widgets",
+            "aria-sort.json"
+        ],
+        "aria-valuemax": [
+            "html-attributes-aria-widgets",
+            "aria-valuemax.json"
+        ],
+        "aria-valuemin": [
+            "html-attributes-aria-widgets",
+            "aria-valuemin.json"
+        ],
+        "aria-valuenow": [
+            "html-attributes-aria-widgets",
+            "aria-valuenow.json"
+        ],
+        "aria-valuetext": [
+            "html-attributes-aria-widgets",
+            "aria-valuetext.json"
+        ]
+    },
     "boolean": {
         "allowfullscreen": [
             "html-attributes-boolean",

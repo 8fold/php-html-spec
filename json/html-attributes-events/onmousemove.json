@@ -1,0 +1,11 @@
+{
+    "name": "onmousemove",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "mousemove event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

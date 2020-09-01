@@ -1,0 +1,11 @@
+{
+    "name": "onkeyup",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "keyup event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

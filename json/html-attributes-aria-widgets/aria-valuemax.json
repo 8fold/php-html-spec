@@ -1,0 +1,15 @@
+{
+    "name": "aria-valuemax",
+    "property": true,
+    "categories": [
+        "aria-widgets"
+    ],
+    "roles": [
+        "progressbar"
+    ],
+    "role-description": "An element that displays the progress status for tasks that take\n              a long time.",
+    "required-properties": [
+        "none"
+    ],
+    "children": "flow"
+}

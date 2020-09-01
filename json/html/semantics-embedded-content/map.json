@@ -1,0 +1,30 @@
+{
+    "element": "map",
+    "link": "https:\/\/w3c.github.io\/html\/semantics-embedded-content.html#the-map-element",
+    "specs": [
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Image map",
+    "categories": [
+        "flow",
+        "phrasing",
+        "palpable"
+    ],
+    "parents": [
+        "phrasing"
+    ],
+    "children": [
+        "transparent",
+        "area"
+    ],
+    "interfaces": [
+        "HTMLMapElement",
+        "HTMLElement"
+    ]
+}

@@ -29,7 +29,7 @@ class HtmlAttributeIndex extends HtmlAttributeIndexReader implements IndexWriter
     {
         static::storeAttributesTable("attributes-1");
         static::storeAttributesTable("ix-event-handlers");
-        // static::storeAttributesAria();
+        static::storeAttributesAria();
     }
 
     static public function storeAttributesTable(string $id)
@@ -44,10 +44,11 @@ class HtmlAttributeIndex extends HtmlAttributeIndexReader implements IndexWriter
             $indexPathParts[] = "html-attributes.json";
 
             $attribute = static::processRowForPathParts($row, $pathParts);
+            $attribute->save();
 
             $index->addComponent($attribute);
         }
-        $index->saveComponents()->save();
+        $index->save();
     }
 
     static public function processRowForPathParts(
@@ -135,21 +136,116 @@ class HtmlAttributeIndex extends HtmlAttributeIndexReader implements IndexWriter
 
     static public function storeAttributesAria()
     {
-        var_dump(__FILE__);
-        var_dump(__LINE__);
-/**
-{
-    "name": {name},
-    "roles": [
-        #{name}
-    ],
-    "description": {#inde_stat_prop definitions},
-    "misc": "Text*",
-    "categories": [
-        #global_states, #attrs_widgets, #attrs_liveregions, #attrs_dragdrop, #attrs_relationships
-    ]
-}
-*/
+        $index = static::all();
+        $dom = PhpToJson::specAriaDom();
+        $domDetails = PhpToJson::specAriaPropertiesDom();
+        $ids = [
+            "attrs_widgets"       => "aria-widgets",
+            "attrs_liveregions"   => "aria-live-regions",
+            "attrs_dragdrop"      => "aria-drag-and-drop",
+            "attrs_relationships" => "aria-relationships"
+        ];
+
+        $dictionary = [];
+        $categories = [];
+        foreach ($ids as $id => $category) {
+            $list      = $domDetails->getElementById($id)->getElementsByTagName("ul")[0];
+            $listItems = $list->getElementsByTagName("li");
+
+            for ($i = 0; $i < count($listItems); $i++) {
+                $node = $listItems[$i];
+
+                $name = $node->nodeValue;
+
+                $categories[$name] = [$category];
+            }
+        }
+
+        $table = $dom->getElementById("aria-table");
+        $tBody = $table->getElementsByTagName("tbody")[0];
+        $rows  = $tBody->getElementsByTagName("tr");
+
+        for ($i = 0; $i < count($rows); $i++) {
+            $node = $rows[$i];
+            $cells = $node->getElementsByTagName("td");
+
+            $roles = $cells[0];
+            $role  = trim($roles->nodeValue);
+            $role  = str_replace("`", "", $role);
+
+            $roleDescription = $cells[1];
+            $roleDescription = trim($roleDescription->nodeValue);
+            $roleDescription = strip_tags($roleDescription);
+
+            $requiredProps = $cells[2];
+            $isList = count($requiredProps->getElementsByTagName("ul")) > 0;
+            if ($isList) {
+                $list = $requiredProps->getElementsByTagName("ul")[0];
+                $requiredProps = $list->getElementsByTagName("li");
+                $r = [];
+                foreach ($requiredProps as $n) {
+                    $r[] = str_replace("`", "", trim($n->nodeValue));
+                }
+                $requiredProps = $r;
+
+            } else {
+                $requiredProps = [trim($requiredProps->nodeValue)];
+
+            }
+
+            $children = $cells[4];
+            $children = trim($children->nodeValue);
+            $children = static::stringToSlug($children);
+
+            $supportedProperties = $cells[3];
+            $isList = count($supportedProperties->getElementsByTagName("ul")) > 0;
+            if ($isList) {
+                $list = $supportedProperties->getElementsByTagName("ul")[0];
+                $supportedProperties = $list->getElementsByTagName("li");
+
+            } else {
+                $supportedProperties = [trim($supportedProperties->nodeValue)];
+
+            }
+
+            foreach ($supportedProperties as $listItem) {
+                $attrName = str_replace("`", "", trim($listItem->nodeValue));
+
+                if (strlen($attrName) > 0) {
+                    $property = true;
+                    if (strpos($attrName, " (state)") > 0) {
+                        $property = false;
+
+                    }
+                    list($n) = explode(" ", $attrName, 2);
+                    $attrName = $n;
+
+                    $dictionary[$attrName]["name"] = $attrName;
+                    $dictionary[$attrName]["property"] = $property;
+
+                    if (isset($categories[$attrName])) {
+                        $dictionary[$attrName]["categories"] = $categories[$attrName];
+
+                    } else {
+                        $dictionary[$attrName]["categories"] = ["aria-other"];
+
+                    }
+                    $dictionary[$attrName]["roles"][] = ($role === "any") ? "global" : $role;
+                    $dictionary[$attrName]["role-description"] = $roleDescription;
+                    $dictionary[$attrName]["required-properties"] = $requiredProps;
+                    $dictionary[$attrName]["children"] = $children;
+                }
+            }
+        }
+
+        foreach ($dictionary as $attrName => $definition) {
+            $object = (object) $definition;
+            $attr = HtmlAttribute::fromObject($object);
+            $attr->save();
+            $index->addComponent($attr);
+        }
+
+        $index->save();
     }
 
     public function addComponent(HtmlComponent $component): IndexWriter
@@ -166,7 +262,8 @@ class HtmlAttributeIndex extends HtmlAttributeIndexReader implements IndexWriter
 
     public function saveComponents(): IndexWriter
     {
-        foreach ($this->components() as $component) {
+        die(var_dump($this->index()));
+        foreach ($this->components() as $componentName) {
             if (is_a($component, HtmlComponent::class)) {
                 $component->save();
 

@@ -1,0 +1,23 @@
+{
+    "element": "rt",
+    "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-rt-element",
+    "specs": [
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Ruby annotation text",
+    "categories": [
+        "none"
+    ],
+    "parents": [
+        "ruby"
+    ],
+    "children": [
+        "phrasing"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

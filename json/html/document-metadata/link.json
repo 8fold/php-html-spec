@@ -1,0 +1,32 @@
+{
+    "element": "link",
+    "link": "https:\/\/w3c.github.io\/html\/document-metadata.html#the-link-element",
+    "specs": [
+        "2.0",
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Link metadata",
+    "categories": [
+        "metadata",
+        "flow",
+        "phrasing"
+    ],
+    "parents": [
+        "head",
+        "noscript",
+        "phrasing"
+    ],
+    "children": [
+        "empty"
+    ],
+    "interfaces": [
+        "HTMLLinkElement",
+        "HTMLElement"
+    ]
+}

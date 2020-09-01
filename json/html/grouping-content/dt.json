@@ -1,0 +1,28 @@
+{
+    "element": "dt",
+    "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-dt-element",
+    "specs": [
+        "2.0",
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "Legend for corresponding dd element(s)",
+    "categories": [
+        "none"
+    ],
+    "parents": [
+        "dl",
+        "div"
+    ],
+    "children": [
+        "flow"
+    ],
+    "interfaces": [
+        "HTMLElement"
+    ]
+}

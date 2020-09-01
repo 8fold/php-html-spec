@@ -1,0 +1,8 @@
+{
+    "element": "input[type=\"datetime\"]",
+    "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#date-and-time-state-typedatetime",
+    "specs": [
+        "5.1",
+        "5.2"
+    ]
+}

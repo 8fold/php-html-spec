@@ -1,0 +1,11 @@
+{
+    "name": "onratechange",
+    "elements": [
+        "HTMLelements"
+    ],
+    "description": "ratechange event handler",
+    "misc": "Event handler content attribute",
+    "categories": [
+        "global-events"
+    ]
+}

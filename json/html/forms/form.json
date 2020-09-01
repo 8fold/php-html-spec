@@ -1,0 +1,29 @@
+{
+    "element": "form",
+    "link": "https:\/\/w3c.github.io\/html\/forms.html#the-form-element",
+    "specs": [
+        "2.0",
+        "3.2",
+        "4.01",
+        "X1.0",
+        "X1.1",
+        "5",
+        "5.1",
+        "5.2"
+    ],
+    "description": "User-submittable form",
+    "categories": [
+        "flow",
+        "palpable"
+    ],
+    "parents": [
+        "flow"
+    ],
+    "children": [
+        "flow"
+    ],
+    "interfaces": [
+        "HTMLFormElement",
+        "HTMLElement"
+    ]
+}
