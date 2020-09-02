@@ -1,0 +1,12 @@
+{
+    "name": "role",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Bridge into ARIA attributes",
+    "value": "Text: known or custom ARIA role.",
+    "categories": [
+        "global"
+    ]
+}

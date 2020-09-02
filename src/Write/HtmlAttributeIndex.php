@@ -62,6 +62,21 @@ class HtmlAttributeIndex extends HtmlAttributeIndexReader
             $index->addComponent($attribute);
 
         }
+
+        // Add role - not stored in table
+        $template                = HtmlAttribute::TEMPLATE;
+        $template["name"]        = "role";
+        $template["elements"]    = ["HTML elements"];
+        $template["description"] = "Bridge into ARIA attributes";
+        $template["value"]       = "Text: known or custom ARIA role.";
+
+        $object = (object) $template;
+
+        $attribute = HtmlAttribute::fromObject($object);
+        $attribute->save();
+
+        $index->addComponent($attribute);
+
         $index->save();
     }
 
