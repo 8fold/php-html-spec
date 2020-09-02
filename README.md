@@ -40,6 +40,7 @@ Because the data are collected across multiple documents, in multiple repositori
 
 - The list of HTML elements is pulled from the w3c [Elements of HTML](https://raw.githubusercontent.com/w3c/elements-of-html/master/elements.json) repositiory. Note: If the element is not listed here, will not be listed anywhere else, even if referenced in other resources.
 - The list of non-ARIA HTML attributes and element details are pulled from the WHATWG [HTML Living Standard](https://raw.githubusercontent.com/whatwg/html/master/source).
+  - Note: `role` is not considered an attribute in that it is not listed in the attributes table; therefore, it is injected as a global attribute after the initial set is complete.
 - The list of ARIA attributes and HTML element roles is pulled from the w3c [HTML ARIA](https://raw.githubusercontent.com/w3c/html-aria/gh-pages/index.html) documentation.
 - The ATRIA attribute categories are pulled from a local copy of the w3c HTML ARIA 1.1 recommendation available in the local folder of this repository.
 
