@@ -1,0 +1,12 @@
+{
+    "name": "lang",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Language of the element",
+    "value": "Valid BCP 47 language tag or the empty string",
+    "categories": [
+        "global"
+    ]
+}

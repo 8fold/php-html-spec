@@ -1,7 +1,7 @@
 {
-    "element": "hr",
+    "name": "hr",
     "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-hr-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,17 +12,21 @@
         "5.2"
     ],
     "description": "Thematic break",
-    "categories": [
-        "flow"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLHRElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

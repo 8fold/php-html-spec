@@ -1,7 +1,7 @@
 {
-    "element": "object",
+    "name": "object",
     "link": "https:\/\/w3c.github.io\/html\/semantics-embedded-content.html#the-object-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "X1.1",
@@ -10,25 +10,29 @@
         "5.2"
     ],
     "description": "Image, nested browsing context, or plugin",
-    "categories": [
-        "flow",
-        "phrasing",
-        "embedded",
-        "interactive",
-        "listed",
-        "submittable",
-        "form-associated",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "param",
-        "transparent"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLObjectElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "embedded",
+            "interactive",
+            "listed",
+            "submittable",
+            "form-associated",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "param",
+            "transparent"
+        ]
+    }
 }

@@ -1,0 +1,12 @@
+{
+    "name": "sandbox",
+    "elements": [
+        "iframe"
+    ],
+    "roles": [],
+    "description": "Security rules for nested content",
+    "value": "Unordered set of unique space-separated tokens, ASCII case-insensitive, consisting of\n          \"allow-forms\",\n          \"allow-modals\",\n          \"allow-orientation-lock\",\n          \"allow-pointer-lock\",\n          \"allow-popups\",\n          \"allow-popups-to-escape-sandbox\",\n          \"allow-presentation\",\n          \"allow-same-origin\",\n          \"allow-scripts\" and\n          \"allow-top-navigation\"",
+    "categories": [
+        "other"
+    ]
+}

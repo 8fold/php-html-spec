@@ -1,0 +1,13 @@
+{
+    "name": "none",
+    "is-property": false,
+    "description": "An element whose implicit native role semantics will not be\n              mapped to the accessibility\n              API.\n              See synonym `presentation`",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "\u00a0"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

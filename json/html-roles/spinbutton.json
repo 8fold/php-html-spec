@@ -1,0 +1,13 @@
+{
+    "name": "spinbutton",
+    "is-property": false,
+    "description": "A form of range that expects the user to select from among discrete choices.",
+    "required-properties": [
+        "aria-valuemax",
+        "aria-valuemin",
+        "aria-valuenow"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow-content-interactive-content",
+    "descendent-restrictions": "Flow content"
+}

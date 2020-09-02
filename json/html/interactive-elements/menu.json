@@ -1,7 +1,7 @@
 {
-    "element": "menu",
+    "name": "menu",
     "link": "https:\/\/w3c.github.io\/html\/interactive-elements.html#the-menu-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -10,19 +10,23 @@
         "5.2"
     ],
     "description": "Menu of commands",
-    "categories": [
-        "flow",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "li",
-        "script-supporting elements"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLMenuElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "li",
+            "script-supporting elements"
+        ]
+    }
 }

@@ -1,7 +1,7 @@
 {
-    "element": "p",
+    "name": "p",
     "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-p-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,18 +12,22 @@
         "5.2"
     ],
     "description": "Paragraph",
-    "categories": [
-        "flow",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLParagraphElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

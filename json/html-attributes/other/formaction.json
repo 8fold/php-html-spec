@@ -1,0 +1,13 @@
+{
+    "name": "formaction",
+    "elements": [
+        "button",
+        "input"
+    ],
+    "roles": [],
+    "description": "URL to use for form submission",
+    "value": "Valid non-empty URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
+}

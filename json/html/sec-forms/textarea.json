@@ -1,7 +1,7 @@
 {
-    "element": "textarea",
+    "name": "textarea",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-textarea-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,25 +12,29 @@
         "5.2"
     ],
     "description": "Multiline text controls",
-    "categories": [
-        "flow",
-        "phrasing",
-        "interactive",
-        "listed",
-        "labelable",
-        "submittable",
-        "resettable",
-        "form-associated",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "text"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLTextAreaElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "interactive",
+            "listed",
+            "labelable",
+            "submittable",
+            "resettable",
+            "form-associated",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "text"
+        ]
+    }
 }

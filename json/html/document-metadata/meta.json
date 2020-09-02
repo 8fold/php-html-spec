@@ -1,7 +1,7 @@
 {
-    "element": "meta",
+    "name": "meta",
     "link": "https:\/\/w3c.github.io\/html\/document-metadata.html#the-meta-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,21 +12,25 @@
         "5.2"
     ],
     "description": "Text metadata",
-    "categories": [
-        "metadata",
-        "flow",
-        "phrasing"
-    ],
-    "parents": [
-        "head",
-        "noscript",
-        "phrasing"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLMetaElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "metadata",
+            "flow",
+            "phrasing"
+        ],
+        "parents": [
+            "head",
+            "noscript",
+            "phrasing"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

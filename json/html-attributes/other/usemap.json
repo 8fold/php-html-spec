@@ -1,0 +1,13 @@
+{
+    "name": "usemap",
+    "elements": [
+        "img",
+        "object"
+    ],
+    "roles": [],
+    "description": "Name of image map to use",
+    "value": "Valid hash-name reference*",
+    "categories": [
+        "other"
+    ]
+}

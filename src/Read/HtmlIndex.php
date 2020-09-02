@@ -3,137 +3,56 @@ declare(strict_types=1);
 
 namespace Eightfold\HtmlSpecStructured\Read;
 
-use \ArrayAccess;
-use \Iterator;
+use Eightfold\HtmlSpecStructured\Compiler;
 
-use Eightfold\HtmlSpecStructured\PhpToJson;
-use Eightfold\HtmlSpecStructured\PhpToJson\HtmlIndex as HtmlIndexWriter;
-use Eightfold\HtmlSpecStructured\PhpToJson\HtmlElement;
-// use Eightfold\HtmlSpecStructured\PhpToJson\HtmlAttribute;
+use Eightfold\HtmlSpecStructured\Read\AbstractIndex;
 
-class HtmlIndex implements ArrayAccess, Iterator
+use Eightfold\HtmlSpecStructured\Read\Interfaces\HtmlComponent;
+
+class HtmlIndex extends AbstractIndex
 {
-    private $index;
-
-    private $elements;
-
-    static public function all()
+    public function name()
     {
-        return new static();
+        return "html";
     }
 
-    static private function pathParts()
+    public function type(): string
     {
-        $parts   = PhpToJson::pathPartsToJson();
-        $parts[] = "html.json";
-        $path    = implode("/", $parts);
-        if (! file_exists($path)) {
-            file_put_contents($path, '{}');
-        }
-        return $parts;
+        return HtmlElement::class;
     }
 
-    static public function path()
+    public function hasComponentNamed(string $name): bool
     {
-        $parts = static::pathParts();
-        return implode("/", $parts);
+        return in_array($name, $this->componentNames());
     }
 
-    public function pathPartsFor(string $elementName): array
+    public function componentNames(): array
     {
         $index = $this->index();
-        return $index[$elementName];
-    }
 
-    private function index(): array
-    {
-        if ($this->index === null) {
-            $path        = static::path();
-            $json        = file_get_contents($path);
-            $this->index = (array) json_decode($json);
+        $names = [];
+        foreach ($index as $category => $components) {
+            $n     = array_keys($components);
+            $names = array_merge($names, $n);
         }
-        return $this->index;
+
+        return $names;
     }
 
-    public function elements(): array
-    {
-        if ($this->elements === null) {
-            $keys = $this->elementNames();
-            $this->elements = array_flip($keys);
-        }
-        return $this->elements;
-    }
-
-    public function elementNamed(string $name): HtmlElement
-    {
-        $parts = PhpToJson::pathPartsToJson();
-        $parts = array_merge($parts, $this->pathPartsFor($name));
-        $path  = implode("/", $parts);
-        return HtmlElement::fromPath($path);
-    }
-
-    public function elementNames(): array
-    {
-        return array_keys($this->index());
-    }
-
-// - ArrayAccess
-
-    public function offsetExists($offset): bool
+    public function filePathPartsFor(string $name): array
     {
         $index = $this->index();
-        if (isset($index[$offset]) and
-            ! is_a($index[$offset], HtmlElement::class)
-        ) {
-            $element = $this->elementNamed($offset);
-            $this->elements[$offset] = $element;
-
+        foreach ($index as $category => $elements) {
+            if (isset($elements[$name])) {
+                return $elements[$name];
+            }
         }
-
-        return (isset($index[$offset]) and
-            is_a($this->elements[$offset], HtmlElement::class));
+        var_dump($name);
     }
 
-    public function offsetGet($offset): HtmlElement
+    public function fileName(): string
     {
-        if ($this->offsetExists($offset)) {
-            return $this->elements[$offset];
-        }
-        trigger_error("Could not find element {$offset}.");
-    }
-
-    public function offsetSet($offset, $value): void
-    {
-        die("offset set");
-    }
-
-    public function offsetUnset($offset): void
-    {
-        die("offset unset");
-    }
-
-// - Iterator
-    public function rewind()
-    {
-        reset($this->elements);
-    }
-
-    public function current()
-    {
-        return current($this->elements);
-    }
-
-    public function key()
-    {
-        return key($this->elements);
-    }
-
-    public function next()
-    {
-        next($this->elements);
-    }
-
-    public function valid() {
-        return key($this->elements) !== null;
+        $name = $this->name();
+        return "{$name}.json";
     }
 }

@@ -1,0 +1,13 @@
+{
+    "name": "size",
+    "elements": [
+        "input",
+        "select"
+    ],
+    "roles": [],
+    "description": "Size of the control",
+    "value": "Valid non-negative integer greater than zero",
+    "categories": [
+        "other"
+    ]
+}

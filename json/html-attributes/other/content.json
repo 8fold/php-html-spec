@@ -1,0 +1,12 @@
+{
+    "name": "content",
+    "elements": [
+        "meta"
+    ],
+    "roles": [],
+    "description": "Value of the element",
+    "value": "Text*",
+    "categories": [
+        "other"
+    ]
+}

@@ -1,7 +1,7 @@
 {
-    "element": "pre",
+    "name": "pre",
     "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-pre-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,18 +12,22 @@
         "5.2"
     ],
     "description": "Block of preformatted text",
-    "categories": [
-        "flow",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLPreElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

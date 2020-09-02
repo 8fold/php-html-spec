@@ -1,0 +1,12 @@
+{
+    "name": "id",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "The element's ID",
+    "value": "Text*",
+    "categories": [
+        "global"
+    ]
+}

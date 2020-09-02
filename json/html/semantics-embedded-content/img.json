@@ -1,7 +1,7 @@
 {
-    "element": "img",
+    "name": "img",
     "link": "https:\/\/w3c.github.io\/html\/semantics-embedded-content.html#the-img-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,23 +12,27 @@
         "5.2"
     ],
     "description": "Image",
-    "categories": [
-        "flow",
-        "phrasing",
-        "embedded",
-        "interactive",
-        "form-associated",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing",
-        "picture"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLImageElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "embedded",
+            "interactive",
+            "form-associated",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing",
+            "picture"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

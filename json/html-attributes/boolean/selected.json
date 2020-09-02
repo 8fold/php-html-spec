@@ -1,0 +1,12 @@
+{
+    "name": "selected",
+    "elements": [
+        "option"
+    ],
+    "roles": [],
+    "description": "Whether the option is selected by default",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

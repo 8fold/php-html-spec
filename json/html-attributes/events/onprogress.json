@@ -1,0 +1,12 @@
+{
+    "name": "onprogress",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "progress event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

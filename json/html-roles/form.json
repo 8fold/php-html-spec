@@ -1,0 +1,13 @@
+{
+    "name": "form",
+    "is-property": false,
+    "description": "A landmark region that contains a collection of items and objects\n              that, as a whole, combine to create a form. See related `search`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

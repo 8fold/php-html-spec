@@ -1,0 +1,13 @@
+{
+    "name": "span",
+    "elements": [
+        "col",
+        "colgroup"
+    ],
+    "roles": [],
+    "description": "Number of columns spanned by the element",
+    "value": "Valid non-negative integer greater than zero",
+    "categories": [
+        "other"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "cell",
+    "is-property": false,
+    "description": "A cell in a tabular container.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

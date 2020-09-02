@@ -1,24 +1,28 @@
 {
-    "element": "aside",
+    "name": "aside",
     "link": "https:\/\/w3c.github.io\/html\/sections.html#the-aside-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Sidebar for tangentially related content",
-    "categories": [
-        "flow",
-        "sectioning",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "sectioning",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "flow"
+        ]
+    }
 }

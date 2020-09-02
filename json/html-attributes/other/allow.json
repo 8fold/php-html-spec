@@ -1,0 +1,12 @@
+{
+    "name": "allow",
+    "elements": [
+        "iframe"
+    ],
+    "roles": [],
+    "description": "Permissions policy to be applied to the iframe's contents",
+    "value": "Serialized permissions policy",
+    "categories": [
+        "other"
+    ]
+}

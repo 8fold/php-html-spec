@@ -1,0 +1,12 @@
+{
+    "name": "poster",
+    "elements": [
+        "video"
+    ],
+    "roles": [],
+    "description": "Poster frame to show prior to video playback",
+    "value": "Valid non-empty URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
+}

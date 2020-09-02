@@ -1,0 +1,12 @@
+{
+    "name": "ondragleave",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "dragleave event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

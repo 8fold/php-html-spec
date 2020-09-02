@@ -1,7 +1,7 @@
 {
-    "element": "label",
+    "name": "label",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-label-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "X1.1",
@@ -10,20 +10,24 @@
         "5.2"
     ],
     "description": "Caption for a form control",
-    "categories": [
-        "flow",
-        "phrasing",
-        "interactive",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLLabelElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "interactive",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

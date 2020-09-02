@@ -1,0 +1,12 @@
+{
+    "name": "itemref",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Referenced elements",
+    "value": "Unordered set of unique space-separated tokens consisting of IDs*",
+    "categories": [
+        "global"
+    ]
+}

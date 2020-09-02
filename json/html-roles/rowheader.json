@@ -1,0 +1,11 @@
+{
+    "name": "rowheader",
+    "is-property": false,
+    "description": "A cell containing header information for a row in a grid.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "none",
+    "descendent-restrictions": "Flow content"
+}

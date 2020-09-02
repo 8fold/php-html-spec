@@ -1,0 +1,12 @@
+{
+    "name": "open",
+    "elements": [
+        "dialog"
+    ],
+    "roles": [],
+    "description": "Whether the dialog box is showing",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

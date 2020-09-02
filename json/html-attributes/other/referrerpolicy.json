@@ -1,0 +1,17 @@
+{
+    "name": "referrerpolicy",
+    "elements": [
+        "a",
+        "area",
+        "iframe",
+        "img",
+        "link",
+        "script"
+    ],
+    "roles": [],
+    "description": "Referrer policy for fetches initiated by the element",
+    "value": "Referrer policy",
+    "categories": [
+        "other"
+    ]
+}

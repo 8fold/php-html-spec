@@ -1,7 +1,7 @@
 {
-    "element": "a",
+    "name": "a",
     "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-a-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,20 +12,24 @@
         "5.2"
     ],
     "description": "Hyperlink",
-    "categories": [
-        "flow",
-        "phrasing",
-        "interactive",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "transparent"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLAnchorElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "interactive",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "transparent"
+        ]
+    }
 }

@@ -1,7 +1,7 @@
 {
-    "element": "sub",
+    "name": "sub",
     "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-sub-element",
-    "specs": [
+    "versions": [
         "3.2",
         "4.01",
         "X1.0",
@@ -11,18 +11,22 @@
         "5.2"
     ],
     "description": "Subscript",
-    "categories": [
-        "flow",
-        "phrasing",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

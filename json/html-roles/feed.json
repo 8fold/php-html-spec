@@ -1,0 +1,13 @@
+{
+    "name": "feed",
+    "is-property": false,
+    "description": "A scrollable list of articles where scrolling may cause articles\n              to be added to or removed from either end of the list.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "radiogroup",
+    "is-property": false,
+    "description": "A group of radio buttons.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

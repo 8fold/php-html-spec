@@ -1,23 +1,27 @@
 {
-    "element": "rt",
+    "name": "rt",
     "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-rt-element",
-    "specs": [
+    "versions": [
         "X1.1",
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Ruby annotation text",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "ruby"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "ruby"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

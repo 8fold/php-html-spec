@@ -1,7 +1,7 @@
 {
-    "element": "button",
+    "name": "button",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-button-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "X1.1",
@@ -10,24 +10,28 @@
         "5.2"
     ],
     "description": "Button control",
-    "categories": [
-        "flow",
-        "phrasing",
-        "interactive",
-        "listed",
-        "labelable",
-        "submittable",
-        "form-associated",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLButtonElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "interactive",
+            "listed",
+            "labelable",
+            "submittable",
+            "form-associated",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

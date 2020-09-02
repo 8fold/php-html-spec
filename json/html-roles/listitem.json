@@ -1,0 +1,11 @@
+{
+    "name": "listitem",
+    "is-property": false,
+    "description": "A single item in a `list` or `directory`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

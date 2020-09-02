@@ -1,0 +1,14 @@
+{
+    "name": "embedded",
+    "elements": [
+        "picture",
+        "audio",
+        "embed",
+        "iframe",
+        "img",
+        "object",
+        "video",
+        "canvas"
+    ],
+    "exceptions": "none"
+}

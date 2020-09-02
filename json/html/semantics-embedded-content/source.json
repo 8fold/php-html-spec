@@ -1,25 +1,29 @@
 {
-    "element": "source",
+    "name": "source",
     "link": "https:\/\/w3c.github.io\/html\/semantics-embedded-content.html#the-source-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Image source for img or media source for video or audio",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "picture",
-        "video",
-        "audio"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLSourceElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "picture",
+            "video",
+            "audio"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

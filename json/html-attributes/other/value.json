@@ -1,0 +1,12 @@
+{
+    "name": "value",
+    "elements": [
+        "param"
+    ],
+    "roles": [],
+    "description": "Value of parameter",
+    "value": "Text",
+    "categories": [
+        "other"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "itemscope",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Introduces a microdata item",
+    "value": "Boolean attribute",
+    "categories": [
+        "global"
+    ]
+}

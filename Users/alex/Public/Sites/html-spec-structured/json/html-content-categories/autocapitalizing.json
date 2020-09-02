@@ -1,0 +1,12 @@
+{
+    "name": "autocapitalizing",
+    "elements": [
+        "button",
+        "fieldset",
+        "input",
+        "output",
+        "select",
+        "textarea"
+    ],
+    "exceptions": "none"
+}

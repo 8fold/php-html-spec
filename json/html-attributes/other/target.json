@@ -1,0 +1,12 @@
+{
+    "name": "target",
+    "elements": [
+        "form"
+    ],
+    "roles": [],
+    "description": "Browsing context for form submission",
+    "value": "Valid browsing context name or keyword",
+    "categories": [
+        "other"
+    ]
+}

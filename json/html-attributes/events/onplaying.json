@@ -1,0 +1,12 @@
+{
+    "name": "onplaying",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "playing event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

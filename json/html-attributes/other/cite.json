@@ -1,0 +1,15 @@
+{
+    "name": "cite",
+    "elements": [
+        "blockquote",
+        "del",
+        "ins",
+        "q"
+    ],
+    "roles": [],
+    "description": "Link to the source of the quotation or more information about the edit",
+    "value": "Valid URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
+}

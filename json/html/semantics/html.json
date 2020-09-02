@@ -1,7 +1,7 @@
 {
-    "element": "html",
+    "name": "html",
     "link": "https:\/\/w3c.github.io\/html\/semantics.html#the-html-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,18 +12,22 @@
         "5.2"
     ],
     "description": "Root element",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "none"
-    ],
-    "children": [
-        "head",
-        "body"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLHtmlElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "none"
+        ],
+        "children": [
+            "head",
+            "body"
+        ]
+    }
 }

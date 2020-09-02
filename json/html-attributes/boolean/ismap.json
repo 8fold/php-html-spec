@@ -1,0 +1,12 @@
+{
+    "name": "ismap",
+    "elements": [
+        "img"
+    ],
+    "roles": [],
+    "description": "Whether the image is a server-side image map",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

@@ -1,7 +1,7 @@
 {
-    "element": "td",
+    "name": "td",
     "link": "https:\/\/w3c.github.io\/html\/tabular-data.html#the-td-element",
-    "specs": [
+    "versions": [
         "3.2",
         "4.01",
         "X1.0",
@@ -11,17 +11,21 @@
         "5.2"
     ],
     "description": "Table cell",
-    "categories": [
-        "sectioning root"
-    ],
-    "parents": [
-        "tr"
-    ],
-    "children": [
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLTableCellElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "sectioning root"
+        ],
+        "parents": [
+            "tr"
+        ],
+        "children": [
+            "flow"
+        ]
+    }
 }

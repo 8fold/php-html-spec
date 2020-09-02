@@ -14,6 +14,7 @@
     "script-supporting-elements":"script-supporting",
     "sectioning-content":"sectioning",
     "sectioning-roots":"sectioning-root",
-    "submittable-elements":"submittable"
+    "submittable-elements":"submittable",
+    "autocapitalize-inheriting-elements":"autocapitalizing"
   }
 }

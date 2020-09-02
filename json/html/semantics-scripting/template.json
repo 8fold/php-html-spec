@@ -1,29 +1,33 @@
 {
-    "element": "template",
+    "name": "template",
     "link": "https:\/\/w3c.github.io\/html\/semantics-scripting.html#the-template-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Template",
-    "categories": [
-        "metadata",
-        "flow",
-        "phrasing",
-        "script-supporting"
-    ],
-    "parents": [
-        "metadata",
-        "phrasing",
-        "script-supporting",
-        "colgroup"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLTemplateElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "metadata",
+            "flow",
+            "phrasing",
+            "script-supporting"
+        ],
+        "parents": [
+            "metadata",
+            "phrasing",
+            "script-supporting",
+            "colgroup"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

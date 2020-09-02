@@ -1,0 +1,12 @@
+{
+    "name": "itemtype",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Item types of a microdata item",
+    "value": "Unordered set of unique space-separated tokens consisting of valid absolute URLs*",
+    "categories": [
+        "global"
+    ]
+}

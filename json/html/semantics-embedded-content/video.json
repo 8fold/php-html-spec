@@ -1,30 +1,34 @@
 {
-    "element": "video",
+    "name": "video",
     "link": "https:\/\/w3c.github.io\/html\/semantics-embedded-content.html#the-video-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Video player",
-    "categories": [
-        "flow",
-        "phrasing",
-        "embedded",
-        "interactive",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "source",
-        "track",
-        "transparent"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLVideoElement",
         "HTMLMediaElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "embedded",
+            "interactive",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "source",
+            "track",
+            "transparent"
+        ]
+    }
 }

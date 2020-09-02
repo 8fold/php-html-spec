@@ -1,9 +1,18 @@
 {
-    "element": "input[type=\"date\"]",
+    "name": "input[type=\"date\"]",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#date-state-typedate",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
-    ]
+    ],
+    "description": "",
+    "implicit-role": "",
+    "optional-roles": [],
+    "interfaces": [],
+    "categories": {
+        "self": [],
+        "parents": [],
+        "children": []
+    }
 }

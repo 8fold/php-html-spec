@@ -1,30 +1,34 @@
 {
-    "element": "audio",
+    "name": "audio",
     "link": "https:\/\/w3c.github.io\/html\/semantics-embedded-content.html#the-audio-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Audio player",
-    "categories": [
-        "flow",
-        "phrasing",
-        "embedded",
-        "interactive",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "source",
-        "track",
-        "transparent"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLAudioElement",
         "HTMLMediaElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "embedded",
+            "interactive",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "source",
+            "track",
+            "transparent"
+        ]
+    }
 }

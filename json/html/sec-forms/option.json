@@ -1,7 +1,7 @@
 {
-    "element": "option",
+    "name": "option",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-option-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,19 +12,23 @@
         "5.2"
     ],
     "description": "Option in a list box or combo box control",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "select",
-        "datalist",
-        "optgroup"
-    ],
-    "children": [
-        "text"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLOptionElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "select",
+            "datalist",
+            "optgroup"
+        ],
+        "children": [
+            "text"
+        ]
+    }
 }

@@ -1,0 +1,13 @@
+{
+    "name": "contentinfo",
+    "is-property": false,
+    "description": "A large perceivable region that contains information about the\n              parent document.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content, but\n              with no main element descendants, or header,\n              footer elements that are not descendants of sectioning content which\n              is a descendant of the header."
+}

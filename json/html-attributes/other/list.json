@@ -1,0 +1,12 @@
+{
+    "name": "list",
+    "elements": [
+        "input"
+    ],
+    "roles": [],
+    "description": "List of autocomplete options",
+    "value": "ID*",
+    "categories": [
+        "other"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "table",
+    "is-property": false,
+    "description": "A section containing data arranged in rows and columns. The table\n              role is intended for tabular containers which are not interactive.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

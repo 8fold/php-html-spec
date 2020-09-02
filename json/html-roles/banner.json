@@ -1,0 +1,13 @@
+{
+    "name": "banner",
+    "is-property": false,
+    "description": "A region that contains mostly site-oriented content, rather than\n              page-specific content.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "document-region",
+    "descendent-restrictions": "no main element descendants, or header,\n              footer elements that are not descendants of\n              sectioning content\n              which is a descendant of the header."
+}

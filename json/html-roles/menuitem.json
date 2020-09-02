@@ -1,0 +1,11 @@
+{
+    "name": "menuitem",
+    "is-property": false,
+    "description": "An option in a group of choices contained by a `menu` or `menubar`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "interactive",
+    "descendent-restrictions": "Flow content, but\n              with no interactive content\n              descendants."
+}

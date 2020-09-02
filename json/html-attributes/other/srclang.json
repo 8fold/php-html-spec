@@ -1,0 +1,12 @@
+{
+    "name": "srclang",
+    "elements": [
+        "track"
+    ],
+    "roles": [],
+    "description": "Language of the text track",
+    "value": "Valid BCP 47 language tag",
+    "categories": [
+        "other"
+    ]
+}

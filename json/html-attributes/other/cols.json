@@ -1,0 +1,12 @@
+{
+    "name": "cols",
+    "elements": [
+        "textarea"
+    ],
+    "roles": [],
+    "description": "Maximum number of characters per line",
+    "value": "Valid non-negative integer greater than zero",
+    "categories": [
+        "other"
+    ]
+}

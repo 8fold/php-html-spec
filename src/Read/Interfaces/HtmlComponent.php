@@ -3,23 +3,13 @@
 
 namespace Eightfold\HtmlSpecStructured\Read\Interfaces;
 
-interface HtmlComponent
+use Eightfold\HtmlSpecStructured\Read\Interfaces\Fileable;
+
+interface HtmlComponent extends Fileable
 {
-    public function component(): object;
+    static public function fromPath(string $path): HtmlComponent;
 
-    public function name(): string;
+    static public function fromObject(object $component): HtmlComponent;
 
-    public function elements(): array;
-
-    public function categories(): array;
-
-    public function folderPathParts(): array;
-
-    public function filePathParts(): array;
-
-    public function filePath(): string;
-
-    public function filePathPartsRelative(): array;
-
-    public function fileName(): string;
+    public function __construct(object $component);
 }

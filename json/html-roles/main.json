@@ -1,0 +1,13 @@
+{
+    "name": "main",
+    "is-property": false,
+    "description": "The main content of a document.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content, but\n              with no main element descendants"
+}

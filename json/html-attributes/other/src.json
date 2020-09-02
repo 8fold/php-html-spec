@@ -1,0 +1,20 @@
+{
+    "name": "src",
+    "elements": [
+        "audio",
+        "embed",
+        "iframe",
+        "img",
+        "input",
+        "script",
+        "source",
+        "track",
+        "video"
+    ],
+    "roles": [],
+    "description": "Address of the resource",
+    "value": "Valid non-empty URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
+}

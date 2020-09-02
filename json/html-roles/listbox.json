@@ -1,0 +1,11 @@
+{
+    "name": "listbox",
+    "is-property": false,
+    "description": "A widget that allows the user to select one or more items from a\n              list of choices. See related `combobox` and `list`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow-content-interactive-content",
+    "descendent-restrictions": "Flow content"
+}

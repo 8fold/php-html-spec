@@ -1,0 +1,15 @@
+{
+    "name": "scrollbar",
+    "is-property": false,
+    "description": "A graphical object that controls the scrolling of content within\n              a viewing area, regardless of whether the content is fully\n              displayed within the viewing area.",
+    "required-properties": [
+        "aria-controls",
+        "aria-orientation",
+        "aria-valuemax",
+        "aria-valuemin",
+        "aria-valuenow"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow-content-interactive-content",
+    "descendent-restrictions": "Flow content"
+}

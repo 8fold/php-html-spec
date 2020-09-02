@@ -1,0 +1,13 @@
+{
+    "name": "ping",
+    "elements": [
+        "a",
+        "area"
+    ],
+    "roles": [],
+    "description": "URLs to ping",
+    "value": "Set of space-separated tokens consisting of valid non-empty URLs",
+    "categories": [
+        "other"
+    ]
+}

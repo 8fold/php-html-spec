@@ -1,0 +1,12 @@
+{
+    "name": "checked",
+    "elements": [
+        "input"
+    ],
+    "roles": [],
+    "description": "Whether the control is checked",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

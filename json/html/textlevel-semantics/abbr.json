@@ -1,7 +1,7 @@
 {
-    "element": "abbr",
+    "name": "abbr",
     "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-abbr-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "X1.1",
@@ -10,18 +10,22 @@
         "5.2"
     ],
     "description": "Abbreviation",
-    "categories": [
-        "flow",
-        "phrasing",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

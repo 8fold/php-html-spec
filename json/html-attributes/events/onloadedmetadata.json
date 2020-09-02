@@ -1,0 +1,12 @@
+{
+    "name": "onloadedmetadata",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "loadedmetadata event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

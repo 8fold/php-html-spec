@@ -1,7 +1,7 @@
 {
-    "element": "var",
+    "name": "var",
     "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-var-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,18 +12,22 @@
         "5.2"
     ],
     "description": "Variable",
-    "categories": [
-        "flow",
-        "phrasing",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

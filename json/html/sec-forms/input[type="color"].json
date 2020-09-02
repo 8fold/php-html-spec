@@ -1,9 +1,18 @@
 {
-    "element": "input[type=\"color\"]",
+    "name": "input[type=\"color\"]",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#color-state-typecolor",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
-    ]
+    ],
+    "description": "",
+    "implicit-role": "",
+    "optional-roles": [],
+    "interfaces": [],
+    "categories": {
+        "self": [],
+        "parents": [],
+        "children": []
+    }
 }

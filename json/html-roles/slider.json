@@ -1,0 +1,13 @@
+{
+    "name": "slider",
+    "is-property": false,
+    "description": "A user input where the user selects a value from within a given range.",
+    "required-properties": [
+        "aria-valuemax",
+        "aria-valuemin",
+        "aria-valuenow"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "interactive",
+    "descendent-restrictions": "Flow content"
+}

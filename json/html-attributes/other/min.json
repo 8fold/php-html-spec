@@ -1,0 +1,12 @@
+{
+    "name": "min",
+    "elements": [
+        "meter"
+    ],
+    "roles": [],
+    "description": "Lower bound of range",
+    "value": "Valid floating-point number*",
+    "categories": [
+        "other"
+    ]
+}

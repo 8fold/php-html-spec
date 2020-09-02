@@ -1,0 +1,14 @@
+{
+    "name": "media",
+    "elements": [
+        "link",
+        "source",
+        "style"
+    ],
+    "roles": [],
+    "description": "Applicable media",
+    "value": "Valid media query list",
+    "categories": [
+        "other"
+    ]
+}

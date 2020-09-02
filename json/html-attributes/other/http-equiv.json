@@ -1,0 +1,12 @@
+{
+    "name": "http-equiv",
+    "elements": [
+        "meta"
+    ],
+    "roles": [],
+    "description": "Pragma directive",
+    "value": "\"content-type\";\n          \"default-style\";\n          \"refresh\";\n          \"x-ua-compatible\";\n          \"content-security-policy\"",
+    "categories": [
+        "other"
+    ]
+}

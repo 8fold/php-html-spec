@@ -1,0 +1,13 @@
+{
+    "name": "tabpanel",
+    "is-property": false,
+    "description": "A container for the resources associated with a `tab`,\n              where each `tab` is contained in a `tablist`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

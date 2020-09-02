@@ -1,7 +1,7 @@
 {
-    "element": "tr",
+    "name": "tr",
     "link": "https:\/\/w3c.github.io\/html\/tabular-data.html#the-tr-element",
-    "specs": [
+    "versions": [
         "3.2",
         "4.01",
         "X1.0",
@@ -11,22 +11,26 @@
         "5.2"
     ],
     "description": "Table row",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "table",
-        "thead",
-        "tbody",
-        "tfoot"
-    ],
-    "children": [
-        "th",
-        "td",
-        "script-supporting elements"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLTableRowElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "table",
+            "thead",
+            "tbody",
+            "tfoot"
+        ],
+        "children": [
+            "th",
+            "td",
+            "script-supporting elements"
+        ]
+    }
 }

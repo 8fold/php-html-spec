@@ -1,0 +1,13 @@
+{
+    "name": "article",
+    "is-property": false,
+    "description": "A section of a page that consists of a composition that forms an\n              independent part of a document, page, or site.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "No main element descendants."
+}

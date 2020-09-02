@@ -1,0 +1,15 @@
+{
+    "name": "form-associated",
+    "elements": [
+        "button",
+        "fieldset",
+        "input",
+        "label",
+        "output",
+        "select",
+        "textarea",
+        "img",
+        "object"
+    ],
+    "exceptions": "none"
+}

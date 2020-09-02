@@ -1,0 +1,13 @@
+{
+    "name": "title",
+    "elements": [
+        "link",
+        "style"
+    ],
+    "roles": [],
+    "description": "CSS style sheet set name",
+    "value": "Text",
+    "categories": [
+        "other"
+    ]
+}

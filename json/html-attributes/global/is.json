@@ -1,0 +1,12 @@
+{
+    "name": "is",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Creates a customized built-in element",
+    "value": "Valid custom element name of a defined customized built-in element",
+    "categories": [
+        "global"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "timer",
+    "is-property": false,
+    "description": "A type of live region containing a numerical counter which\n              indicates an amount of elapsed time from a start point, or the\n              time remaining until an end point.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

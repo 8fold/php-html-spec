@@ -1,7 +1,7 @@
 {
-    "element": "legend",
+    "name": "legend",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-legend-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "X1.1",
@@ -10,18 +10,22 @@
         "5.2"
     ],
     "description": "Caption for fieldset",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "fieldset"
-    ],
-    "children": [
-        "phrasing",
-        "heading content"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLLegendElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "fieldset"
+        ],
+        "children": [
+            "phrasing",
+            "heading content"
+        ]
+    }
 }

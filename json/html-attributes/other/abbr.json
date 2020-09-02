@@ -1,0 +1,12 @@
+{
+    "name": "abbr",
+    "elements": [
+        "th"
+    ],
+    "roles": [],
+    "description": "Alternative label to use for the header cell when referencing the cell in other contexts",
+    "value": "Text*",
+    "categories": [
+        "other"
+    ]
+}

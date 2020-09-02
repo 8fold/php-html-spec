@@ -1,0 +1,11 @@
+{
+    "name": "menuitemradio",
+    "is-property": false,
+    "description": "A checkable `menuitem` in a group of `menuitemradio`\n              roles, only one of which can be checked at a time.",
+    "required-properties": [
+        "`aria-checked` (state)"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "interactive",
+    "descendent-restrictions": "Flow content, but\n              with no interactive content\n              descendants."
+}

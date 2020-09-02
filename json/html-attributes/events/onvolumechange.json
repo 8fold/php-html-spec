@@ -1,0 +1,12 @@
+{
+    "name": "onvolumechange",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "volumechange event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

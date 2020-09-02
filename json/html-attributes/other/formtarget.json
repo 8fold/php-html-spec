@@ -1,0 +1,13 @@
+{
+    "name": "formtarget",
+    "elements": [
+        "button",
+        "input"
+    ],
+    "roles": [],
+    "description": "Browsing context for form submission",
+    "value": "Valid browsing context name or keyword",
+    "categories": [
+        "other"
+    ]
+}

@@ -1,7 +1,7 @@
 {
-    "element": "blockquote",
+    "name": "blockquote",
     "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-blockquote-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,19 +12,23 @@
         "5.2"
     ],
     "description": "A section quoted from another source",
-    "categories": [
-        "flow",
-        "sectioning root",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLQuoteElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "sectioning root",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "flow"
+        ]
+    }
 }

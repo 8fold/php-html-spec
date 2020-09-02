@@ -1,7 +1,7 @@
 {
-    "element": "iframe",
+    "name": "iframe",
     "link": "https:\/\/w3c.github.io\/html\/semantics-embedded-content.html#the-iframe-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "5",
@@ -9,21 +9,25 @@
         "5.2"
     ],
     "description": "Nested browsing context",
-    "categories": [
-        "flow",
-        "phrasing",
-        "embedded",
-        "interactive",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLIFrameElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "embedded",
+            "interactive",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

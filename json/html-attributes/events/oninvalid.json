@@ -1,0 +1,12 @@
+{
+    "name": "oninvalid",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "invalid event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

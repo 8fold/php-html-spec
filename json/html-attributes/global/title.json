@@ -1,0 +1,12 @@
+{
+    "name": "title",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Advisory information for the element",
+    "value": "Text",
+    "categories": [
+        "global"
+    ]
+}

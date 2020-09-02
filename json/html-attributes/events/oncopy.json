@@ -1,0 +1,12 @@
+{
+    "name": "oncopy",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "copy event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

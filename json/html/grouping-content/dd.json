@@ -1,7 +1,7 @@
 {
-    "element": "dd",
+    "name": "dd",
     "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-dd-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,17 +12,21 @@
         "5.2"
     ],
     "description": "Content for corresponding dt element(s)",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "dl",
-        "div"
-    ],
-    "children": [
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "dl",
+            "div"
+        ],
+        "children": [
+            "flow"
+        ]
+    }
 }

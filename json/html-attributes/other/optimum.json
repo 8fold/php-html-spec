@@ -1,0 +1,12 @@
+{
+    "name": "optimum",
+    "elements": [
+        "meter"
+    ],
+    "roles": [],
+    "description": "Optimum value in gauge",
+    "value": "Valid floating-point number*",
+    "categories": [
+        "other"
+    ]
+}

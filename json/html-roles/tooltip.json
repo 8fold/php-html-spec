@@ -1,0 +1,13 @@
+{
+    "name": "tooltip",
+    "is-property": false,
+    "description": "A contextual pop-up that displays a description for an element.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

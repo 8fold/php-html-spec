@@ -1,0 +1,11 @@
+{
+    "name": "application",
+    "is-property": false,
+    "description": "A structure containing one or more focusable elements requiring\n              user input, such as keyboard or gesture events, that do not\n              follow a standard interaction pattern supported by a widget role.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

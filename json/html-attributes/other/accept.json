@@ -1,0 +1,12 @@
+{
+    "name": "accept",
+    "elements": [
+        "input"
+    ],
+    "roles": [],
+    "description": "Hint for expected file type in file upload controls",
+    "value": "Set of comma-separated tokens* consisting of valid MIME type strings with no parameters or audio\/*, video\/*, or image\/*",
+    "categories": [
+        "other"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "grid",
+    "is-property": false,
+    "description": "A grid is an interactive control which contains cells of tabular\n              data arranged in rows and columns, like a table.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow-content-interactive-content",
+    "descendent-restrictions": "Flow content"
+}

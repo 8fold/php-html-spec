@@ -1,0 +1,10 @@
+{
+    "name": "sectioning",
+    "elements": [
+        "article",
+        "aside",
+        "nav",
+        "section"
+    ],
+    "exceptions": "none"
+}

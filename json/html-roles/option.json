@@ -1,0 +1,11 @@
+{
+    "name": "option",
+    "is-property": false,
+    "description": "A selectable item in a select list.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "interactive",
+    "descendent-restrictions": "Flow content, but\n              with no interactive content\n              descendants."
+}

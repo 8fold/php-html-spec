@@ -1,0 +1,12 @@
+{
+    "name": "defer",
+    "elements": [
+        "script"
+    ],
+    "roles": [],
+    "description": "Defer script execution",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

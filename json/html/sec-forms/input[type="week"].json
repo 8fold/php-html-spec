@@ -1,8 +1,17 @@
 {
-    "element": "input[type=\"week\"]",
+    "name": "input[type=\"week\"]",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#week-state-typeweek",
-    "specs": [
+    "versions": [
         "5.1",
         "5.2"
-    ]
+    ],
+    "description": "",
+    "implicit-role": "",
+    "optional-roles": [],
+    "interfaces": [],
+    "categories": {
+        "self": [],
+        "parents": [],
+        "children": []
+    }
 }

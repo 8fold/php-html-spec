@@ -1,0 +1,13 @@
+{
+    "name": "log",
+    "is-property": false,
+    "description": "A type of live region where new information is added in meaningful\n              order and old information may disappear. See related `marquee`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

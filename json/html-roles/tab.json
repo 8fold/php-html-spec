@@ -1,0 +1,11 @@
+{
+    "name": "tab",
+    "is-property": false,
+    "description": "A grouping label providing a mechanism for selecting the tab\n              content that is to be rendered to the user.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "interactive",
+    "descendent-restrictions": "Flow content"
+}

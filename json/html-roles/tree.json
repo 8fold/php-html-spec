@@ -1,0 +1,11 @@
+{
+    "name": "tree",
+    "is-property": false,
+    "description": "A type of list that may contain sub-level nested groups that can\n              be collapsed and expanded.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

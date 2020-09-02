@@ -1,0 +1,13 @@
+{
+    "name": "figure",
+    "is-property": false,
+    "description": "A perceivable section of content that typically contains a\n              graphical document, images, code snippets, or example text.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

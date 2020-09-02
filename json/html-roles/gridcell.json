@@ -1,0 +1,11 @@
+{
+    "name": "gridcell",
+    "is-property": false,
+    "description": "A cell in a `grid` or `treegrid`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow-content-interactive-content",
+    "descendent-restrictions": "Flow content"
+}

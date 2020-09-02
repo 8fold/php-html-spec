@@ -1,7 +1,7 @@
 {
-    "element": "area",
+    "name": "area",
     "link": "https:\/\/w3c.github.io\/html\/semantics-embedded-content.html#the-area-element",
-    "specs": [
+    "versions": [
         "3.2",
         "4.01",
         "X1.0",
@@ -11,18 +11,22 @@
         "5.2"
     ],
     "description": "Hyperlink or dead area on an image map",
-    "categories": [
-        "flow",
-        "phrasing"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLAreaElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

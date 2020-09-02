@@ -1,0 +1,13 @@
+{
+    "name": "minlength",
+    "elements": [
+        "input",
+        "textarea"
+    ],
+    "roles": [],
+    "description": "Minimum length of value",
+    "value": "Valid non-negative integer",
+    "categories": [
+        "other"
+    ]
+}

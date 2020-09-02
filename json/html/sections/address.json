@@ -1,7 +1,7 @@
 {
-    "element": "address",
+    "name": "address",
     "link": "https:\/\/w3c.github.io\/html\/sections.html#the-address-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,17 +12,21 @@
         "5.2"
     ],
     "description": "Contact information for a page or article element",
-    "categories": [
-        "flow",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "flow"
+        ]
+    }
 }

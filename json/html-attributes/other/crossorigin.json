@@ -1,0 +1,16 @@
+{
+    "name": "crossorigin",
+    "elements": [
+        "audio",
+        "img",
+        "link",
+        "script",
+        "video"
+    ],
+    "roles": [],
+    "description": "How the element handles crossorigin requests",
+    "value": "\"anonymous\"; \"use-credentials\"",
+    "categories": [
+        "other"
+    ]
+}

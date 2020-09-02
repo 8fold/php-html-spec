@@ -1,0 +1,18 @@
+{
+    "name": "height",
+    "elements": [
+        "canvas",
+        "embed",
+        "iframe",
+        "img",
+        "input",
+        "object",
+        "video"
+    ],
+    "roles": [],
+    "description": "Vertical dimension",
+    "value": "Valid non-negative integer",
+    "categories": [
+        "other"
+    ]
+}

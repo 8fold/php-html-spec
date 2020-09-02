@@ -1,0 +1,12 @@
+{
+    "name": "async",
+    "elements": [
+        "script"
+    ],
+    "roles": [],
+    "description": "Execute script when available, without blocking while fetching",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

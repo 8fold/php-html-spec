@@ -1,0 +1,12 @@
+{
+    "name": "ondragenter",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "dragenter event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

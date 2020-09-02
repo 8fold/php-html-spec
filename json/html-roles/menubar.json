@@ -1,0 +1,11 @@
+{
+    "name": "menubar",
+    "is-property": false,
+    "description": "A presentation of menu that usually remains visible and is\n              usually presented horizontally.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow-content-interactive-content",
+    "descendent-restrictions": "Flow content"
+}

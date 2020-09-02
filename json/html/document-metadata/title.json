@@ -1,7 +1,7 @@
 {
-    "element": "title",
+    "name": "title",
     "link": "https:\/\/w3c.github.io\/html\/document-metadata.html#the-title-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,17 +12,21 @@
         "5.2"
     ],
     "description": "Document title",
-    "categories": [
-        "metadata"
-    ],
-    "parents": [
-        "head"
-    ],
-    "children": [
-        "text"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLTitleElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "metadata"
+        ],
+        "parents": [
+            "head"
+        ],
+        "children": [
+            "text"
+        ]
+    }
 }

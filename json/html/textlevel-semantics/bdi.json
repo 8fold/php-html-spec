@@ -1,24 +1,28 @@
 {
-    "element": "bdi",
+    "name": "bdi",
     "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-bdi-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Text directionality isolation",
-    "categories": [
-        "flow",
-        "phrasing",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

@@ -1,9 +1,18 @@
 {
-    "element": "keygen",
+    "name": "keygen",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-keygen-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
-    ]
+    ],
+    "description": "",
+    "implicit-role": "",
+    "optional-roles": [],
+    "interfaces": [],
+    "categories": {
+        "self": [],
+        "parents": [],
+        "children": []
+    }
 }

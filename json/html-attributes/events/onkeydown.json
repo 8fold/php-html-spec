@@ -1,0 +1,12 @@
+{
+    "name": "onkeydown",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "keydown event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

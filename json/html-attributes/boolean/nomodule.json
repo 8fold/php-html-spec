@@ -1,0 +1,12 @@
+{
+    "name": "nomodule",
+    "elements": [
+        "script"
+    ],
+    "roles": [],
+    "description": "Prevents execution in user agents that support module scripts",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

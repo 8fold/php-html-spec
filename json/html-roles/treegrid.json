@@ -1,0 +1,11 @@
+{
+    "name": "treegrid",
+    "is-property": false,
+    "description": "A grid whose rows can be expanded and collapsed in the same\n              manner as for a tree.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

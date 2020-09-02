@@ -1,0 +1,11 @@
+{
+    "name": "menu",
+    "is-property": false,
+    "description": "A type of widget that offers a list of choices to the user.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow-content-interactive-content",
+    "descendent-restrictions": "Flow content"
+}

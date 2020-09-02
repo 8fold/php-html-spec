@@ -1,0 +1,12 @@
+{
+    "name": "step",
+    "elements": [
+        "input"
+    ],
+    "roles": [],
+    "description": "Granularity to be matched by the form control's value",
+    "value": "Valid floating-point number greater than zero, or \"any\"",
+    "categories": [
+        "other"
+    ]
+}

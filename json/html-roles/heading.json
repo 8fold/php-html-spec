@@ -1,0 +1,11 @@
+{
+    "name": "heading",
+    "is-property": false,
+    "description": "A heading for a section of the page.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "heading",
+    "descendent-restrictions": "Flow content, but\n              with no Heading content,\n              Sectioning content,\n              Sectioning roots."
+}

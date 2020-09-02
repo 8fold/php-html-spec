@@ -1,9 +1,18 @@
 {
-    "element": "input[type=\"url\"]",
+    "name": "input[type=\"url\"]",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#url-state-typeurl",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
-    ]
+    ],
+    "description": "",
+    "implicit-role": "",
+    "optional-roles": [],
+    "interfaces": [],
+    "categories": {
+        "self": [],
+        "parents": [],
+        "children": []
+    }
 }

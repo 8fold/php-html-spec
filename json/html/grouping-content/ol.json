@@ -1,7 +1,7 @@
 {
-    "element": "ol",
+    "name": "ol",
     "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-ol-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,19 +12,23 @@
         "5.2"
     ],
     "description": "Ordered list",
-    "categories": [
-        "flow",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "li",
-        "script-supporting elements"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLOListElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "li",
+            "script-supporting elements"
+        ]
+    }
 }

@@ -1,7 +1,7 @@
 {
-    "element": "br",
+    "name": "br",
     "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-br-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,18 +12,22 @@
         "5.2"
     ],
     "description": "Line break, e.g. in poem or postal address",
-    "categories": [
-        "flow",
-        "phrasing"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLBRElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

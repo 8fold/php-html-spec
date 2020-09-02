@@ -1,0 +1,12 @@
+{
+    "name": "dir",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "The text directionality of the element",
+    "value": "\"ltr\"; \"rtl\"; \"auto\"",
+    "categories": [
+        "global"
+    ]
+}

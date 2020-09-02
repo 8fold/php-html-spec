@@ -1,0 +1,12 @@
+{
+    "name": "dir",
+    "elements": [
+        "bdo"
+    ],
+    "roles": [],
+    "description": "The text directionality of the element",
+    "value": "\"ltr\"; \"rtl\"",
+    "categories": [
+        "other"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "max",
+    "elements": [
+        "meter",
+        "progress"
+    ],
+    "roles": [],
+    "description": "Upper bound of range",
+    "value": "Valid floating-point number*",
+    "categories": [
+        "other"
+    ]
+}

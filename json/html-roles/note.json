@@ -1,0 +1,13 @@
+{
+    "name": "note",
+    "is-property": false,
+    "description": "A section whose content is parenthetic or ancillary to the main\n              content of the resource.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

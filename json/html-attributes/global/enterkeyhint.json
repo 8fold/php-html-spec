@@ -1,0 +1,12 @@
+{
+    "name": "enterkeyhint",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Hint for selecting an enter key action",
+    "value": "\"enter\";\n          \"done\";\n          \"go\";\n          \"next\";\n          \"previous\";\n          \"search\";\n          \"send\"",
+    "categories": [
+        "global"
+    ]
+}

@@ -1,7 +1,7 @@
 {
-    "element": "optgroup",
+    "name": "optgroup",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-optgroup-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "X1.1",
@@ -10,18 +10,22 @@
         "5.2"
     ],
     "description": "Group of options in a list box",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "select"
-    ],
-    "children": [
-        "option",
-        "script-supporting elements"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLOptGroupElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "select"
+        ],
+        "children": [
+            "option",
+            "script-supporting elements"
+        ]
+    }
 }

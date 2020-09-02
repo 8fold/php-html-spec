@@ -1,0 +1,13 @@
+{
+    "name": "maxlength",
+    "elements": [
+        "input",
+        "textarea"
+    ],
+    "roles": [],
+    "description": "Maximum length of value",
+    "value": "Valid non-negative integer",
+    "categories": [
+        "other"
+    ]
+}

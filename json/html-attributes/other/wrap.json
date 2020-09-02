@@ -1,0 +1,12 @@
+{
+    "name": "wrap",
+    "elements": [
+        "textarea"
+    ],
+    "roles": [],
+    "description": "How the value of the form control is to be wrapped for form submission",
+    "value": "\"soft\";\n          \"hard\"",
+    "categories": [
+        "other"
+    ]
+}

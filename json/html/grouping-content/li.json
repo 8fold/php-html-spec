@@ -1,7 +1,7 @@
 {
-    "element": "li",
+    "name": "li",
     "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-li-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,19 +12,23 @@
         "5.2"
     ],
     "description": "List item",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "ol",
-        "ul",
-        "menu"
-    ],
-    "children": [
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLLIElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "ol",
+            "ul",
+            "menu"
+        ],
+        "children": [
+            "flow"
+        ]
+    }
 }

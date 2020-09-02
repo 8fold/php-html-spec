@@ -1,0 +1,11 @@
+{
+    "name": "textbox",
+    "is-property": false,
+    "description": "Input that allows free-form text as its value.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "interactive",
+    "descendent-restrictions": "Flow content, but\n              with no interactive content\n              descendants."
+}

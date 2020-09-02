@@ -1,0 +1,11 @@
+{
+    "name": "button",
+    "is-property": false,
+    "description": "An input that allows for user-triggered actions when clicked or\n              pressed. See related `link`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "interactive",
+    "descendent-restrictions": "Flow content,\n              but there must be no interactive content descendant."
+}

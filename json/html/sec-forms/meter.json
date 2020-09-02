@@ -1,26 +1,30 @@
 {
-    "element": "meter",
+    "name": "meter",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-meter-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Gauge",
-    "categories": [
-        "flow",
-        "phrasing",
-        "labelable",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLMeterElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "labelable",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

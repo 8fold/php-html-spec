@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Eightfold\HtmlSpecStructured\Write;
 
-use Eightfold\HtmlSpecStructured\PhpToJson;
+use Eightfold\HtmlSpecStructured\Compiler;
 
 use Eightfold\HtmlSpecStructured\Read\HtmlAttribute as HtmlAttributeReader;
 

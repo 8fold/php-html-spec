@@ -1,0 +1,10 @@
+{
+    "name": "resettable",
+    "elements": [
+        "input",
+        "output",
+        "select",
+        "textarea"
+    ],
+    "exceptions": "none"
+}

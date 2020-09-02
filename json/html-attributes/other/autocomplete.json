@@ -1,0 +1,14 @@
+{
+    "name": "autocomplete",
+    "elements": [
+        "input",
+        "select",
+        "textarea"
+    ],
+    "roles": [],
+    "description": "Hint for form autofill feature",
+    "value": "Autofill field name and related tokens*",
+    "categories": [
+        "other"
+    ]
+}

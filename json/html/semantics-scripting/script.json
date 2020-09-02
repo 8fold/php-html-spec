@@ -1,7 +1,7 @@
 {
-    "element": "script",
+    "name": "script",
     "link": "https:\/\/w3c.github.io\/html\/semantics-scripting.html#the-script-element",
-    "specs": [
+    "versions": [
         "3.2",
         "4.01",
         "X1.0",
@@ -11,22 +11,26 @@
         "5.2"
     ],
     "description": "Embedded script",
-    "categories": [
-        "metadata",
-        "flow",
-        "phrasing",
-        "script-supporting"
-    ],
-    "parents": [
-        "head",
-        "phrasing",
-        "script-supporting"
-    ],
-    "children": [
-        "script, data, or script documentation"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLScriptElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "metadata",
+            "flow",
+            "phrasing",
+            "script-supporting"
+        ],
+        "parents": [
+            "head",
+            "phrasing",
+            "script-supporting"
+        ],
+        "children": [
+            "script, data, or script documentation"
+        ]
+    }
 }

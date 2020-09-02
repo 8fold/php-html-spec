@@ -1,0 +1,12 @@
+{
+    "name": "imagesizes",
+    "elements": [
+        "link"
+    ],
+    "roles": [],
+    "description": "Image sizes for different page layouts (for rel=\"preload\")",
+    "value": "Valid source size list",
+    "categories": [
+        "other"
+    ]
+}

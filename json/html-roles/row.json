@@ -1,0 +1,11 @@
+{
+    "name": "row",
+    "is-property": false,
+    "description": "A row of cells in a tabular container.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "none",
+    "descendent-restrictions": "Flow content"
+}

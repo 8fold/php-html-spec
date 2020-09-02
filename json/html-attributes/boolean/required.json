@@ -1,0 +1,14 @@
+{
+    "name": "required",
+    "elements": [
+        "input",
+        "select",
+        "textarea"
+    ],
+    "roles": [],
+    "description": "Whether the control is required for form submission",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

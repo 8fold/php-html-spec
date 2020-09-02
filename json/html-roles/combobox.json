@@ -1,0 +1,12 @@
+{
+    "name": "combobox",
+    "is-property": false,
+    "description": "A presentation of a select; usually similar to a textbox where\n              users can type ahead to select an option, or type to enter\n              arbitrary text as a new item in the list. See related `listbox`.",
+    "required-properties": [
+        "aria-controls",
+        "aria-expanded (state)"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "interactive",
+    "descendent-restrictions": "Flow content"
+}

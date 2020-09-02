@@ -1,0 +1,12 @@
+{
+    "name": "onmouseup",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "mouseup event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

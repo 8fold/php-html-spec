@@ -1,0 +1,12 @@
+{
+    "name": "onerror",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "error event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

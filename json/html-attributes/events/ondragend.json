@@ -1,0 +1,12 @@
+{
+    "name": "ondragend",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "dragend event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

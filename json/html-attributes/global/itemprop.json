@@ -1,0 +1,12 @@
+{
+    "name": "itemprop",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Property names of a microdata item",
+    "value": "Unordered set of unique space-separated tokens consisting of valid absolute URLs, defined property names, or text*",
+    "categories": [
+        "global"
+    ]
+}

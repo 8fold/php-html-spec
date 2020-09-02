@@ -1,0 +1,12 @@
+{
+    "name": "slot",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "The element's desired slot",
+    "value": "Text",
+    "categories": [
+        "global"
+    ]
+}

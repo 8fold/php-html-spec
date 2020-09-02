@@ -1,0 +1,13 @@
+{
+    "name": "complementary",
+    "is-property": false,
+    "description": "A supporting section of the document, designed to be\n              complementary to the main content at a similar level in the DOM\n              hierarchy, but remains meaningful when separated from the main\n              content.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content, but\n              with no main element descendants."
+}

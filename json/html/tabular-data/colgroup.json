@@ -1,7 +1,7 @@
 {
-    "element": "colgroup",
+    "name": "colgroup",
     "link": "https:\/\/w3c.github.io\/html\/tabular-data.html#the-colgroup-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "X1.1",
@@ -10,18 +10,22 @@
         "5.2"
     ],
     "description": "Group of columns in a table",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "table"
-    ],
-    "children": [
-        "col",
-        "template"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLTableColElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "table"
+        ],
+        "children": [
+            "col",
+            "template"
+        ]
+    }
 }

@@ -1,22 +1,26 @@
 {
-    "element": "summary",
+    "name": "summary",
     "link": "https:\/\/w3c.github.io\/html\/interactive-elements.html#the-summary-element",
-    "specs": [
+    "versions": [
         "5.1",
         "5.2"
     ],
     "description": "Caption for details",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "details"
-    ],
-    "children": [
-        "phrasing",
-        "heading content"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "details"
+        ],
+        "children": [
+            "phrasing",
+            "heading content"
+        ]
+    }
 }

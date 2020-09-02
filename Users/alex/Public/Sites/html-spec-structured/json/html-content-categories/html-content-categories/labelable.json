@@ -1,0 +1,13 @@
+{
+    "name": "labelable",
+    "elements": [
+        "button",
+        "input",
+        "meter",
+        "output",
+        "progress",
+        "select",
+        "textarea"
+    ],
+    "exceptions": "none"
+}

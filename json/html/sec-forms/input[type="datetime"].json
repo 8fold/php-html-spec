@@ -1,8 +1,17 @@
 {
-    "element": "input[type=\"datetime\"]",
+    "name": "input[type=\"datetime\"]",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#date-and-time-state-typedatetime",
-    "specs": [
+    "versions": [
         "5.1",
         "5.2"
-    ]
+    ],
+    "description": "",
+    "implicit-role": "",
+    "optional-roles": [],
+    "interfaces": [],
+    "categories": {
+        "self": [],
+        "parents": [],
+        "children": []
+    }
 }

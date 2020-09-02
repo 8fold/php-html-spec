@@ -1,0 +1,12 @@
+{
+    "name": "class",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Classes to which the element belongs",
+    "value": "Set of space-separated tokens",
+    "categories": [
+        "global"
+    ]
+}

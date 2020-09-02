@@ -1,7 +1,7 @@
 {
-    "element": "thead",
+    "name": "thead",
     "link": "https:\/\/w3c.github.io\/html\/tabular-data.html#the-thead-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "X1.1",
@@ -10,18 +10,22 @@
         "5.2"
     ],
     "description": "Group of heading rows in a table",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "table"
-    ],
-    "children": [
-        "tr",
-        "script-supporting elements"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLTableSectionElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "table"
+        ],
+        "children": [
+            "tr",
+            "script-supporting elements"
+        ]
+    }
 }

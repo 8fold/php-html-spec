@@ -1,7 +1,7 @@
 {
-    "element": "th",
+    "name": "th",
     "link": "https:\/\/w3c.github.io\/html\/tabular-data.html#the-th-element",
-    "specs": [
+    "versions": [
         "3.2",
         "4.01",
         "X1.0",
@@ -11,17 +11,21 @@
         "5.2"
     ],
     "description": "Table header cell",
-    "categories": [
-        "interactive"
-    ],
-    "parents": [
-        "tr"
-    ],
-    "children": [
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLTableCellElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "interactive"
+        ],
+        "parents": [
+            "tr"
+        ],
+        "children": [
+            "flow"
+        ]
+    }
 }

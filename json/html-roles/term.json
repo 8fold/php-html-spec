@@ -1,0 +1,13 @@
+{
+    "name": "term",
+    "is-property": false,
+    "description": "A word or phrase with a corresponding definition. See related\n              `definition`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "phrasing",
+    "descendent-restrictions": "Phrasing content"
+}

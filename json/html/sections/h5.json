@@ -1,7 +1,7 @@
 {
-    "element": "h5",
+    "name": "h5",
     "link": "https:\/\/w3c.github.io\/html\/sections.html#the-h5-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -10,5 +10,24 @@
         "5",
         "5.1",
         "5.2"
-    ]
+    ],
+    "description": "Section heading",
+    "implicit-role": "",
+    "optional-roles": [],
+    "interfaces": null,
+    "categories": {
+        "self": [
+            "flow",
+            "heading",
+            "palpable"
+        ],
+        "parents": [
+            "legend",
+            "summary",
+            "flow"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

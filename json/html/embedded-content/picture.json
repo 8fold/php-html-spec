@@ -1,26 +1,30 @@
 {
-    "element": "picture",
+    "name": "picture",
     "link": "https:\/\/w3c.github.io\/html\/embedded-content.html#the-picture-element",
-    "specs": [
+    "versions": [
         "5.1",
         "5.2"
     ],
     "description": "Image",
-    "categories": [
-        "flow",
-        "phrasing",
-        "embedded"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "source",
-        "one img",
-        "script-supporting elements"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLPictureElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "embedded"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "source",
+            "one img",
+            "script-supporting elements"
+        ]
+    }
 }

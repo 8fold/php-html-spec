@@ -1,0 +1,13 @@
+{
+    "name": "marquee",
+    "is-property": false,
+    "description": "A type of live region where non-essential information changes\n              frequently. See related `log`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

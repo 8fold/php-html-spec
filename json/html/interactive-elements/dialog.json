@@ -1,22 +1,26 @@
 {
-    "element": "dialog",
+    "name": "dialog",
     "link": "https:\/\/w3c.github.io\/html\/interactive-elements.html#the-dialog-element",
-    "specs": [
+    "versions": [
         "5.2"
     ],
     "description": "Dialog box or window",
-    "categories": [
-        "flow",
-        "sectioning root"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLDialogElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "sectioning root"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "flow"
+        ]
+    }
 }

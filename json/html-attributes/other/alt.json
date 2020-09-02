@@ -1,0 +1,14 @@
+{
+    "name": "alt",
+    "elements": [
+        "area",
+        "img",
+        "input"
+    ],
+    "roles": [],
+    "description": "Replacement text for use when images are not available",
+    "value": "Text*",
+    "categories": [
+        "other"
+    ]
+}

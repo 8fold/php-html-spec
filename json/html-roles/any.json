@@ -1,0 +1,11 @@
+{
+    "name": "any",
+    "is-property": false,
+    "description": "ARIA global states and properties can be used on any\n              HTML element.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "na",
+    "descendent-restrictions": "n\/a"
+}

@@ -1,8 +1,17 @@
 {
-    "element": "menuitem",
+    "name": "menuitem",
     "link": "https:\/\/w3c.github.io\/html\/interactive-elements.html#the-menuitem-element",
-    "specs": [
+    "versions": [
         "5.1",
         "5.2"
-    ]
+    ],
+    "description": "",
+    "implicit-role": "",
+    "optional-roles": [],
+    "interfaces": [],
+    "categories": {
+        "self": [],
+        "parents": [],
+        "children": []
+    }
 }

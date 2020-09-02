@@ -1,0 +1,12 @@
+{
+    "name": "onended",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "ended event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

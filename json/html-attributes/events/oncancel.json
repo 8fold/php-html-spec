@@ -1,0 +1,12 @@
+{
+    "name": "oncancel",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "cancel event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

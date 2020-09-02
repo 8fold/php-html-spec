@@ -1,0 +1,12 @@
+{
+    "name": "high",
+    "elements": [
+        "meter"
+    ],
+    "roles": [],
+    "description": "Low limit of high range",
+    "value": "Valid floating-point number*",
+    "categories": [
+        "other"
+    ]
+}

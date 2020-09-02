@@ -1,7 +1,7 @@
 {
-    "element": "fieldset",
+    "name": "fieldset",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-fieldset-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "X1.1",
@@ -10,22 +10,26 @@
         "5.2"
     ],
     "description": "Group of form controls",
-    "categories": [
-        "flow",
-        "sectioning root",
-        "listed",
-        "form-associated",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "legend",
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLFieldSetElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "sectioning root",
+            "listed",
+            "form-associated",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "legend",
+            "flow"
+        ]
+    }
 }

@@ -1,0 +1,12 @@
+{
+    "name": "start",
+    "elements": [
+        "ol"
+    ],
+    "roles": [],
+    "description": "Starting value of the list",
+    "value": "Valid integer",
+    "categories": [
+        "other"
+    ]
+}

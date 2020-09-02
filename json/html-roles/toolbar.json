@@ -1,0 +1,11 @@
+{
+    "name": "toolbar",
+    "is-property": false,
+    "description": "A collection of commonly used function buttons represented in\n              compact visual form.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

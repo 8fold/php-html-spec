@@ -1,0 +1,13 @@
+{
+    "name": "document",
+    "is-property": false,
+    "description": "A region containing related information that is declared as\n              document content, as opposed to a web application.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

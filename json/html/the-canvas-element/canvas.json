@@ -1,26 +1,30 @@
 {
-    "element": "canvas",
+    "name": "canvas",
     "link": "https:\/\/w3c.github.io\/html\/the-canvas-element.html#the-canvas-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Scriptable bitmap canvas",
-    "categories": [
-        "flow",
-        "phrasing",
-        "embedded",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "transparent"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLCanvasElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "embedded",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "transparent"
+        ]
+    }
 }

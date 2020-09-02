@@ -1,0 +1,13 @@
+{
+    "name": "hreflang",
+    "elements": [
+        "a",
+        "link"
+    ],
+    "roles": [],
+    "description": "Language of the linked resource",
+    "value": "Valid BCP 47 language tag",
+    "categories": [
+        "other"
+    ]
+}

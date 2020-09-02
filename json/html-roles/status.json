@@ -1,0 +1,13 @@
+{
+    "name": "status",
+    "is-property": false,
+    "description": "A container whose content is advisory information for the user\n              but is not important enough to justify an alert, often but not\n              necessarily presented as a status bar. See related `alert`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

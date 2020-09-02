@@ -1,0 +1,19 @@
+{
+    "name": "form",
+    "elements": [
+        "button",
+        "fieldset",
+        "input",
+        "object",
+        "output",
+        "select",
+        "textarea",
+        "form-associated custom elements"
+    ],
+    "roles": [],
+    "description": "Associates the element with a form element",
+    "value": "ID*",
+    "categories": [
+        "other"
+    ]
+}

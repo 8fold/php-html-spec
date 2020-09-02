@@ -1,7 +1,7 @@
 {
-    "element": "input",
+    "name": "input",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-input-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,25 +12,29 @@
         "5.2"
     ],
     "description": "Form control",
-    "categories": [
-        "flow",
-        "phrasing",
-        "interactive",
-        "listed",
-        "labelable",
-        "submittable",
-        "resettable",
-        "form-associated",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLInputElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "interactive",
+            "listed",
+            "labelable",
+            "submittable",
+            "resettable",
+            "form-associated",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

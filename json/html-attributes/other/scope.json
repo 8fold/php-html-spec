@@ -1,0 +1,12 @@
+{
+    "name": "scope",
+    "elements": [
+        "th"
+    ],
+    "roles": [],
+    "description": "Specifies which cells the header cell applies to",
+    "value": "\"row\";\n          \"col\";\n          \"rowgroup\";\n          \"colgroup\"",
+    "categories": [
+        "other"
+    ]
+}

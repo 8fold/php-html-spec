@@ -1,0 +1,13 @@
+{
+    "name": "region",
+    "is-property": false,
+    "description": "A large perceivable section of a web page or document, that the\n              author feels is important enough to be included in a page summary\n              or table of contents, for example, an area of the page containing\n              live sporting event statistics.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

@@ -1,0 +1,66 @@
+{
+    "autocapitalizing": [
+        "html-content-categories",
+        "autocapitalizing.json"
+    ],
+    "embedded": [
+        "html-content-categories",
+        "embedded.json"
+    ],
+    "flow": [
+        "html-content-categories",
+        "flow.json"
+    ],
+    "form-associated": [
+        "html-content-categories",
+        "form-associated.json"
+    ],
+    "heading": [
+        "html-content-categories",
+        "heading.json"
+    ],
+    "interactive": [
+        "html-content-categories",
+        "interactive.json"
+    ],
+    "labelable": [
+        "html-content-categories",
+        "labelable.json"
+    ],
+    "listed": [
+        "html-content-categories",
+        "listed.json"
+    ],
+    "metadata": [
+        "html-content-categories",
+        "metadata.json"
+    ],
+    "palpable": [
+        "html-content-categories",
+        "palpable.json"
+    ],
+    "phrasing": [
+        "html-content-categories",
+        "phrasing.json"
+    ],
+    "resettable": [
+        "html-content-categories",
+        "resettable.json"
+    ],
+    "script-supporting": [
+        "html-content-categories",
+        "script-supporting.json"
+    ],
+    "sectioning": [
+        "html-content-categories",
+        "sectioning.json"
+    ],
+    "sectioning-root": [
+        "html-content-categories",
+        "sectioning-root.json"
+    ],
+    "submittable": [
+        "html-content-categories",
+        "submittable.json"
+    ]
+}

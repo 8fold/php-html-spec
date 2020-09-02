@@ -1,0 +1,12 @@
+{
+    "name": "ondragover",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "dragover event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "manifest",
+    "elements": [
+        "html"
+    ],
+    "roles": [],
+    "description": "Application cache manifest",
+    "value": "Valid non-empty URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
+}

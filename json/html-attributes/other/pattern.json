@@ -1,0 +1,12 @@
+{
+    "name": "pattern",
+    "elements": [
+        "input"
+    ],
+    "roles": [],
+    "description": "Pattern to be matched by the form control's value",
+    "value": "Regular expression matching the JavaScript Pattern production",
+    "categories": [
+        "other"
+    ]
+}

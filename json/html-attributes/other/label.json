@@ -1,0 +1,14 @@
+{
+    "name": "label",
+    "elements": [
+        "optgroup",
+        "option",
+        "track"
+    ],
+    "roles": [],
+    "description": "User-visible label",
+    "value": "Text",
+    "categories": [
+        "other"
+    ]
+}

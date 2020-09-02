@@ -1,0 +1,13 @@
+{
+    "name": "download",
+    "elements": [
+        "a",
+        "area"
+    ],
+    "roles": [],
+    "description": "Whether to download the resource instead of navigating to it, and its file name if so",
+    "value": "Text",
+    "categories": [
+        "other"
+    ]
+}

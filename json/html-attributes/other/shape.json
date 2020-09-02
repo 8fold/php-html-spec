@@ -1,0 +1,12 @@
+{
+    "name": "shape",
+    "elements": [
+        "area"
+    ],
+    "roles": [],
+    "description": "The kind of shape to be created in an image map",
+    "value": "\"circle\";\n          \"default\";\n          \"poly\";\n          \"rect\"",
+    "categories": [
+        "other"
+    ]
+}

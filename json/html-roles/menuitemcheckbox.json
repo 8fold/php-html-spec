@@ -1,0 +1,11 @@
+{
+    "name": "menuitemcheckbox",
+    "is-property": false,
+    "description": "A checkable menuitem that has three possible values: true, false,\n              or mixed.",
+    "required-properties": [
+        "`aria-checked` (state)"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "interactive",
+    "descendent-restrictions": "Flow content, but\n              with no interactive content\n              descendants."
+}

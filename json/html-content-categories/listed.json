@@ -1,0 +1,13 @@
+{
+    "name": "listed",
+    "elements": [
+        "button",
+        "fieldset",
+        "input",
+        "output",
+        "select",
+        "textarea",
+        "object"
+    ],
+    "exceptions": "none"
+}

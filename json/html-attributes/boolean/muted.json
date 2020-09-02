@@ -1,0 +1,13 @@
+{
+    "name": "muted",
+    "elements": [
+        "audio",
+        "video"
+    ],
+    "roles": [],
+    "description": "Whether to mute the media resource by default",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

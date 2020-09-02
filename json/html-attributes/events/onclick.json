@@ -1,0 +1,12 @@
+{
+    "name": "onclick",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "click event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

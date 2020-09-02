@@ -1,0 +1,12 @@
+{
+    "name": "onwheel",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "wheel event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

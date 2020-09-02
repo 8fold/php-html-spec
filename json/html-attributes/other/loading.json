@@ -1,0 +1,13 @@
+{
+    "name": "loading",
+    "elements": [
+        "img",
+        "iframe"
+    ],
+    "roles": [],
+    "description": "Used when determining loading deferral",
+    "value": "\"lazy\";\n          \"eager\"",
+    "categories": [
+        "other"
+    ]
+}

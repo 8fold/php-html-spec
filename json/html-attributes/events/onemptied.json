@@ -1,0 +1,12 @@
+{
+    "name": "onemptied",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "emptied event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

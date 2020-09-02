@@ -1,0 +1,282 @@
+{
+    "alert": [
+        "html-roles",
+        "alert.json"
+    ],
+    "alertdialog": [
+        "html-roles",
+        "alertdialog.json"
+    ],
+    "any": [
+        "html-roles",
+        "any.json"
+    ],
+    "application": [
+        "html-roles",
+        "application.json"
+    ],
+    "article": [
+        "html-roles",
+        "article.json"
+    ],
+    "banner": [
+        "html-roles",
+        "banner.json"
+    ],
+    "button": [
+        "html-roles",
+        "button.json"
+    ],
+    "cell": [
+        "html-roles",
+        "cell.json"
+    ],
+    "checkbox": [
+        "html-roles",
+        "checkbox.json"
+    ],
+    "columnheader": [
+        "html-roles",
+        "columnheader.json"
+    ],
+    "combobox": [
+        "html-roles",
+        "combobox.json"
+    ],
+    "complementary": [
+        "html-roles",
+        "complementary.json"
+    ],
+    "contentinfo": [
+        "html-roles",
+        "contentinfo.json"
+    ],
+    "definition": [
+        "html-roles",
+        "definition.json"
+    ],
+    "dialog": [
+        "html-roles",
+        "dialog.json"
+    ],
+    "directory": [
+        "html-roles",
+        "directory.json"
+    ],
+    "document": [
+        "html-roles",
+        "document.json"
+    ],
+    "feed": [
+        "html-roles",
+        "feed.json"
+    ],
+    "figure": [
+        "html-roles",
+        "figure.json"
+    ],
+    "form": [
+        "html-roles",
+        "form.json"
+    ],
+    "grid": [
+        "html-roles",
+        "grid.json"
+    ],
+    "gridcell": [
+        "html-roles",
+        "gridcell.json"
+    ],
+    "group": [
+        "html-roles",
+        "group.json"
+    ],
+    "heading": [
+        "html-roles",
+        "heading.json"
+    ],
+    "img": [
+        "html-roles",
+        "img.json"
+    ],
+    "link": [
+        "html-roles",
+        "link.json"
+    ],
+    "list": [
+        "html-roles",
+        "list.json"
+    ],
+    "listbox": [
+        "html-roles",
+        "listbox.json"
+    ],
+    "listitem": [
+        "html-roles",
+        "listitem.json"
+    ],
+    "log": [
+        "html-roles",
+        "log.json"
+    ],
+    "main": [
+        "html-roles",
+        "main.json"
+    ],
+    "marquee": [
+        "html-roles",
+        "marquee.json"
+    ],
+    "math": [
+        "html-roles",
+        "math.json"
+    ],
+    "menu": [
+        "html-roles",
+        "menu.json"
+    ],
+    "menubar": [
+        "html-roles",
+        "menubar.json"
+    ],
+    "menuitem": [
+        "html-roles",
+        "menuitem.json"
+    ],
+    "menuitemcheckbox": [
+        "html-roles",
+        "menuitemcheckbox.json"
+    ],
+    "menuitemradio": [
+        "html-roles",
+        "menuitemradio.json"
+    ],
+    "navigation": [
+        "html-roles",
+        "navigation.json"
+    ],
+    "none": [
+        "html-roles",
+        "none.json"
+    ],
+    "note": [
+        "html-roles",
+        "note.json"
+    ],
+    "option": [
+        "html-roles",
+        "option.json"
+    ],
+    "presentation": [
+        "html-roles",
+        "presentation.json"
+    ],
+    "progressbar": [
+        "html-roles",
+        "progressbar.json"
+    ],
+    "radio": [
+        "html-roles",
+        "radio.json"
+    ],
+    "radiogroup": [
+        "html-roles",
+        "radiogroup.json"
+    ],
+    "region": [
+        "html-roles",
+        "region.json"
+    ],
+    "row": [
+        "html-roles",
+        "row.json"
+    ],
+    "rowgroup": [
+        "html-roles",
+        "rowgroup.json"
+    ],
+    "rowheader": [
+        "html-roles",
+        "rowheader.json"
+    ],
+    "scrollbar": [
+        "html-roles",
+        "scrollbar.json"
+    ],
+    "search": [
+        "html-roles",
+        "search.json"
+    ],
+    "searchbox": [
+        "html-roles",
+        "searchbox.json"
+    ],
+    "separator": [
+        "html-roles",
+        "separator.json"
+    ],
+    "slider": [
+        "html-roles",
+        "slider.json"
+    ],
+    "spinbutton": [
+        "html-roles",
+        "spinbutton.json"
+    ],
+    "status": [
+        "html-roles",
+        "status.json"
+    ],
+    "switch": [
+        "html-roles",
+        "switch.json"
+    ],
+    "tab": [
+        "html-roles",
+        "tab.json"
+    ],
+    "table": [
+        "html-roles",
+        "table.json"
+    ],
+    "tablist": [
+        "html-roles",
+        "tablist.json"
+    ],
+    "tabpanel": [
+        "html-roles",
+        "tabpanel.json"
+    ],
+    "term": [
+        "html-roles",
+        "term.json"
+    ],
+    "textbox": [
+        "html-roles",
+        "textbox.json"
+    ],
+    "timer": [
+        "html-roles",
+        "timer.json"
+    ],
+    "toolbar": [
+        "html-roles",
+        "toolbar.json"
+    ],
+    "tooltip": [
+        "html-roles",
+        "tooltip.json"
+    ],
+    "tree": [
+        "html-roles",
+        "tree.json"
+    ],
+    "treegrid": [
+        "html-roles",
+        "treegrid.json"
+    ],
+    "treeitem": [
+        "html-roles",
+        "treeitem.json"
+    ]
+}

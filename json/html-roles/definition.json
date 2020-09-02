@@ -1,0 +1,13 @@
+{
+    "name": "definition",
+    "is-property": false,
+    "description": "A definition of a term or concept.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "phrasing",
+    "descendent-restrictions": "Phrasing content"
+}

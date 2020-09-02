@@ -1,1046 +1,1052 @@
 {
-    "aria-drag-and-drop": {
-        "aria-dropeffect": [
-            "html-attributes-aria-drag-and-drop",
-            "aria-dropeffect.json"
-        ],
-        "aria-grabbed": [
-            "html-attributes-aria-drag-and-drop",
-            "aria-grabbed.json"
-        ]
-    },
-    "aria-live-regions": {
-        "aria-atomic": [
-            "html-attributes-aria-live-regions",
-            "aria-atomic.json"
-        ],
-        "aria-busy": [
-            "html-attributes-aria-live-regions",
-            "aria-busy.json"
-        ],
-        "aria-live": [
-            "html-attributes-aria-live-regions",
-            "aria-live.json"
-        ],
-        "aria-relevant": [
-            "html-attributes-aria-live-regions",
-            "aria-relevant.json"
-        ]
-    },
-    "aria-other": {
-        "aria-current": [
-            "html-attributes-aria-other",
-            "aria-current.json"
-        ],
-        "aria-keyshortcuts": [
-            "html-attributes-aria-other",
-            "aria-keyshortcuts.json"
-        ],
-        "aria-roledescription": [
-            "html-attributes-aria-other",
-            "aria-roledescription.json"
-        ]
-    },
-    "aria-relationships": {
-        "aria-activedescendant": [
-            "html-attributes-aria-relationships",
-            "aria-activedescendant.json"
-        ],
-        "aria-colcount": [
-            "html-attributes-aria-relationships",
-            "aria-colcount.json"
-        ],
-        "aria-colindex": [
-            "html-attributes-aria-relationships",
-            "aria-colindex.json"
-        ],
-        "aria-colspan": [
-            "html-attributes-aria-relationships",
-            "aria-colspan.json"
-        ],
-        "aria-controls": [
-            "html-attributes-aria-relationships",
-            "aria-controls.json"
-        ],
-        "aria-describedby": [
-            "html-attributes-aria-relationships",
-            "aria-describedby.json"
-        ],
-        "aria-details": [
-            "html-attributes-aria-relationships",
-            "aria-details.json"
-        ],
-        "aria-errormessage": [
-            "html-attributes-aria-relationships",
-            "aria-errormessage.json"
-        ],
-        "aria-flowto": [
-            "html-attributes-aria-relationships",
-            "aria-flowto.json"
-        ],
-        "aria-labelledby": [
-            "html-attributes-aria-relationships",
-            "aria-labelledby.json"
-        ],
-        "aria-owns": [
-            "html-attributes-aria-relationships",
-            "aria-owns.json"
-        ],
-        "aria-posinset": [
-            "html-attributes-aria-relationships",
-            "aria-posinset.json"
-        ],
-        "aria-rowcount": [
-            "html-attributes-aria-relationships",
-            "aria-rowcount.json"
-        ],
-        "aria-rowindex": [
-            "html-attributes-aria-relationships",
-            "aria-rowindex.json"
-        ],
-        "aria-rowspan": [
-            "html-attributes-aria-relationships",
-            "aria-rowspan.json"
-        ],
-        "aria-setsize": [
-            "html-attributes-aria-relationships",
-            "aria-setsize.json"
-        ]
-    },
-    "aria-widgets": {
-        "aria-autocomplete": [
-            "html-attributes-aria-widgets",
-            "aria-autocomplete.json"
-        ],
-        "aria-checked": [
-            "html-attributes-aria-widgets",
-            "aria-checked.json"
-        ],
-        "aria-disabled": [
-            "html-attributes-aria-widgets",
-            "aria-disabled.json"
-        ],
-        "aria-expanded": [
-            "html-attributes-aria-widgets",
-            "aria-expanded.json"
-        ],
-        "aria-haspopup": [
-            "html-attributes-aria-widgets",
-            "aria-haspopup.json"
-        ],
-        "aria-hidden": [
-            "html-attributes-aria-widgets",
-            "aria-hidden.json"
-        ],
-        "aria-invalid": [
-            "html-attributes-aria-widgets",
-            "aria-invalid.json"
-        ],
-        "aria-label": [
-            "html-attributes-aria-widgets",
-            "aria-label.json"
-        ],
-        "aria-level": [
-            "html-attributes-aria-widgets",
-            "aria-level.json"
-        ],
-        "aria-modal": [
-            "html-attributes-aria-widgets",
-            "aria-modal.json"
-        ],
-        "aria-multiline": [
-            "html-attributes-aria-widgets",
-            "aria-multiline.json"
-        ],
-        "aria-multiselectable": [
-            "html-attributes-aria-widgets",
-            "aria-multiselectable.json"
-        ],
-        "aria-orientation": [
-            "html-attributes-aria-widgets",
-            "aria-orientation.json"
-        ],
-        "aria-placeholder": [
-            "html-attributes-aria-widgets",
-            "aria-placeholder.json"
-        ],
-        "aria-pressed": [
-            "html-attributes-aria-widgets",
-            "aria-pressed.json"
-        ],
-        "aria-readonly": [
-            "html-attributes-aria-widgets",
-            "aria-readonly.json"
-        ],
-        "aria-required": [
-            "html-attributes-aria-widgets",
-            "aria-required.json"
-        ],
-        "aria-selected": [
-            "html-attributes-aria-widgets",
-            "aria-selected.json"
-        ],
-        "aria-sort": [
-            "html-attributes-aria-widgets",
-            "aria-sort.json"
-        ],
-        "aria-valuemax": [
-            "html-attributes-aria-widgets",
-            "aria-valuemax.json"
-        ],
-        "aria-valuemin": [
-            "html-attributes-aria-widgets",
-            "aria-valuemin.json"
-        ],
-        "aria-valuenow": [
-            "html-attributes-aria-widgets",
-            "aria-valuenow.json"
-        ],
-        "aria-valuetext": [
-            "html-attributes-aria-widgets",
-            "aria-valuetext.json"
-        ]
-    },
     "boolean": {
         "allowfullscreen": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "allowfullscreen.json"
         ],
         "allowpaymentrequest": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "allowpaymentrequest.json"
         ],
         "async": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "async.json"
         ],
         "autoplay": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "autoplay.json"
         ],
         "checked": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "checked.json"
         ],
         "controls": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "controls.json"
         ],
         "default": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "default.json"
         ],
         "defer": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "defer.json"
         ],
         "disabled": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "disabled.json"
         ],
         "formnovalidate": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "formnovalidate.json"
         ],
         "ismap": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "ismap.json"
         ],
         "loop": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "loop.json"
         ],
         "multiple": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "multiple.json"
         ],
         "muted": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "muted.json"
         ],
         "nomodule": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "nomodule.json"
         ],
         "novalidate": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "novalidate.json"
         ],
         "open": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "open.json"
         ],
         "playsinline": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "playsinline.json"
         ],
         "readonly": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "readonly.json"
         ],
         "required": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "required.json"
         ],
         "reversed": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "reversed.json"
         ],
         "selected": [
-            "html-attributes-boolean",
+            "html-attributes",
+            "boolean",
             "selected.json"
+        ]
+    },
+    "data": {
+        "data": [
+            "html-attributes",
+            "data",
+            "data.json"
+        ]
+    },
+    "events": {
+        "onabort": [
+            "html-attributes",
+            "events",
+            "onabort.json"
+        ],
+        "onafterprint": [
+            "html-attributes",
+            "events",
+            "onafterprint.json"
+        ],
+        "onauxclick": [
+            "html-attributes",
+            "events",
+            "onauxclick.json"
+        ],
+        "onbeforeprint": [
+            "html-attributes",
+            "events",
+            "onbeforeprint.json"
+        ],
+        "onbeforeunload": [
+            "html-attributes",
+            "events",
+            "onbeforeunload.json"
+        ],
+        "onblur": [
+            "html-attributes",
+            "events",
+            "onblur.json"
+        ],
+        "oncancel": [
+            "html-attributes",
+            "events",
+            "oncancel.json"
+        ],
+        "oncanplay": [
+            "html-attributes",
+            "events",
+            "oncanplay.json"
+        ],
+        "oncanplaythrough": [
+            "html-attributes",
+            "events",
+            "oncanplaythrough.json"
+        ],
+        "onchange": [
+            "html-attributes",
+            "events",
+            "onchange.json"
+        ],
+        "onclick": [
+            "html-attributes",
+            "events",
+            "onclick.json"
+        ],
+        "onclose": [
+            "html-attributes",
+            "events",
+            "onclose.json"
+        ],
+        "oncontextmenu": [
+            "html-attributes",
+            "events",
+            "oncontextmenu.json"
+        ],
+        "oncopy": [
+            "html-attributes",
+            "events",
+            "oncopy.json"
+        ],
+        "oncuechange": [
+            "html-attributes",
+            "events",
+            "oncuechange.json"
+        ],
+        "oncut": [
+            "html-attributes",
+            "events",
+            "oncut.json"
+        ],
+        "ondblclick": [
+            "html-attributes",
+            "events",
+            "ondblclick.json"
+        ],
+        "ondrag": [
+            "html-attributes",
+            "events",
+            "ondrag.json"
+        ],
+        "ondragend": [
+            "html-attributes",
+            "events",
+            "ondragend.json"
+        ],
+        "ondragenter": [
+            "html-attributes",
+            "events",
+            "ondragenter.json"
+        ],
+        "ondragleave": [
+            "html-attributes",
+            "events",
+            "ondragleave.json"
+        ],
+        "ondragover": [
+            "html-attributes",
+            "events",
+            "ondragover.json"
+        ],
+        "ondragstart": [
+            "html-attributes",
+            "events",
+            "ondragstart.json"
+        ],
+        "ondrop": [
+            "html-attributes",
+            "events",
+            "ondrop.json"
+        ],
+        "ondurationchange": [
+            "html-attributes",
+            "events",
+            "ondurationchange.json"
+        ],
+        "onemptied": [
+            "html-attributes",
+            "events",
+            "onemptied.json"
+        ],
+        "onended": [
+            "html-attributes",
+            "events",
+            "onended.json"
+        ],
+        "onerror": [
+            "html-attributes",
+            "events",
+            "onerror.json"
+        ],
+        "onfocus": [
+            "html-attributes",
+            "events",
+            "onfocus.json"
+        ],
+        "onformdata": [
+            "html-attributes",
+            "events",
+            "onformdata.json"
+        ],
+        "onhashchange": [
+            "html-attributes",
+            "events",
+            "onhashchange.json"
+        ],
+        "oninput": [
+            "html-attributes",
+            "events",
+            "oninput.json"
+        ],
+        "oninvalid": [
+            "html-attributes",
+            "events",
+            "oninvalid.json"
+        ],
+        "onkeydown": [
+            "html-attributes",
+            "events",
+            "onkeydown.json"
+        ],
+        "onkeypress": [
+            "html-attributes",
+            "events",
+            "onkeypress.json"
+        ],
+        "onkeyup": [
+            "html-attributes",
+            "events",
+            "onkeyup.json"
+        ],
+        "onlanguagechange": [
+            "html-attributes",
+            "events",
+            "onlanguagechange.json"
+        ],
+        "onload": [
+            "html-attributes",
+            "events",
+            "onload.json"
+        ],
+        "onloadeddata": [
+            "html-attributes",
+            "events",
+            "onloadeddata.json"
+        ],
+        "onloadedmetadata": [
+            "html-attributes",
+            "events",
+            "onloadedmetadata.json"
+        ],
+        "onloadstart": [
+            "html-attributes",
+            "events",
+            "onloadstart.json"
+        ],
+        "onmessage": [
+            "html-attributes",
+            "events",
+            "onmessage.json"
+        ],
+        "onmessageerror": [
+            "html-attributes",
+            "events",
+            "onmessageerror.json"
+        ],
+        "onmousedown": [
+            "html-attributes",
+            "events",
+            "onmousedown.json"
+        ],
+        "onmouseenter": [
+            "html-attributes",
+            "events",
+            "onmouseenter.json"
+        ],
+        "onmouseleave": [
+            "html-attributes",
+            "events",
+            "onmouseleave.json"
+        ],
+        "onmousemove": [
+            "html-attributes",
+            "events",
+            "onmousemove.json"
+        ],
+        "onmouseout": [
+            "html-attributes",
+            "events",
+            "onmouseout.json"
+        ],
+        "onmouseover": [
+            "html-attributes",
+            "events",
+            "onmouseover.json"
+        ],
+        "onmouseup": [
+            "html-attributes",
+            "events",
+            "onmouseup.json"
+        ],
+        "onoffline": [
+            "html-attributes",
+            "events",
+            "onoffline.json"
+        ],
+        "ononline": [
+            "html-attributes",
+            "events",
+            "ononline.json"
+        ],
+        "onpagehide": [
+            "html-attributes",
+            "events",
+            "onpagehide.json"
+        ],
+        "onpageshow": [
+            "html-attributes",
+            "events",
+            "onpageshow.json"
+        ],
+        "onpaste": [
+            "html-attributes",
+            "events",
+            "onpaste.json"
+        ],
+        "onpause": [
+            "html-attributes",
+            "events",
+            "onpause.json"
+        ],
+        "onplay": [
+            "html-attributes",
+            "events",
+            "onplay.json"
+        ],
+        "onplaying": [
+            "html-attributes",
+            "events",
+            "onplaying.json"
+        ],
+        "onpopstate": [
+            "html-attributes",
+            "events",
+            "onpopstate.json"
+        ],
+        "onprogress": [
+            "html-attributes",
+            "events",
+            "onprogress.json"
+        ],
+        "onratechange": [
+            "html-attributes",
+            "events",
+            "onratechange.json"
+        ],
+        "onrejectionhandled": [
+            "html-attributes",
+            "events",
+            "onrejectionhandled.json"
+        ],
+        "onreset": [
+            "html-attributes",
+            "events",
+            "onreset.json"
+        ],
+        "onresize": [
+            "html-attributes",
+            "events",
+            "onresize.json"
+        ],
+        "onscroll": [
+            "html-attributes",
+            "events",
+            "onscroll.json"
+        ],
+        "onsecuritypolicyviolation": [
+            "html-attributes",
+            "events",
+            "onsecuritypolicyviolation.json"
+        ],
+        "onseeked": [
+            "html-attributes",
+            "events",
+            "onseeked.json"
+        ],
+        "onseeking": [
+            "html-attributes",
+            "events",
+            "onseeking.json"
+        ],
+        "onselect": [
+            "html-attributes",
+            "events",
+            "onselect.json"
+        ],
+        "onslotchange": [
+            "html-attributes",
+            "events",
+            "onslotchange.json"
+        ],
+        "onstalled": [
+            "html-attributes",
+            "events",
+            "onstalled.json"
+        ],
+        "onstorage": [
+            "html-attributes",
+            "events",
+            "onstorage.json"
+        ],
+        "onsubmit": [
+            "html-attributes",
+            "events",
+            "onsubmit.json"
+        ],
+        "onsuspend": [
+            "html-attributes",
+            "events",
+            "onsuspend.json"
+        ],
+        "ontimeupdate": [
+            "html-attributes",
+            "events",
+            "ontimeupdate.json"
+        ],
+        "ontoggle": [
+            "html-attributes",
+            "events",
+            "ontoggle.json"
+        ],
+        "onunhandledrejection": [
+            "html-attributes",
+            "events",
+            "onunhandledrejection.json"
+        ],
+        "onunload": [
+            "html-attributes",
+            "events",
+            "onunload.json"
+        ],
+        "onvolumechange": [
+            "html-attributes",
+            "events",
+            "onvolumechange.json"
+        ],
+        "onwaiting": [
+            "html-attributes",
+            "events",
+            "onwaiting.json"
+        ],
+        "onwheel": [
+            "html-attributes",
+            "events",
+            "onwheel.json"
         ]
     },
     "global": {
         "accesskey": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "accesskey.json"
         ],
         "autocapitalize": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "autocapitalize.json"
         ],
         "autofocus": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "autofocus.json"
         ],
         "class": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "class.json"
         ],
         "contenteditable": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "contenteditable.json"
         ],
         "dir": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "dir.json"
         ],
         "draggable": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "draggable.json"
         ],
         "enterkeyhint": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "enterkeyhint.json"
         ],
         "hidden": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "hidden.json"
         ],
         "id": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "id.json"
         ],
         "inputmode": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "inputmode.json"
         ],
         "is": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "is.json"
         ],
         "itemid": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "itemid.json"
         ],
         "itemprop": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "itemprop.json"
         ],
         "itemref": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "itemref.json"
         ],
         "itemscope": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "itemscope.json"
         ],
         "itemtype": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "itemtype.json"
         ],
         "lang": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "lang.json"
         ],
         "nonce": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "nonce.json"
         ],
         "slot": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "slot.json"
         ],
         "spellcheck": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "spellcheck.json"
         ],
         "style": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "style.json"
         ],
         "tabindex": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "tabindex.json"
         ],
         "title": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "title.json"
         ],
         "translate": [
-            "html-attributes-global",
+            "html-attributes",
+            "global",
             "translate.json"
-        ]
-    },
-    "global-events": {
-        "onabort": [
-            "html-attributes-events",
-            "onabort.json"
-        ],
-        "onauxclick": [
-            "html-attributes-events",
-            "onauxclick.json"
-        ],
-        "onblur": [
-            "html-attributes-events",
-            "onblur.json"
-        ],
-        "oncancel": [
-            "html-attributes-events",
-            "oncancel.json"
-        ],
-        "oncanplay": [
-            "html-attributes-events",
-            "oncanplay.json"
-        ],
-        "oncanplaythrough": [
-            "html-attributes-events",
-            "oncanplaythrough.json"
-        ],
-        "onchange": [
-            "html-attributes-events",
-            "onchange.json"
-        ],
-        "onclick": [
-            "html-attributes-events",
-            "onclick.json"
-        ],
-        "onclose": [
-            "html-attributes-events",
-            "onclose.json"
-        ],
-        "oncontextmenu": [
-            "html-attributes-events",
-            "oncontextmenu.json"
-        ],
-        "oncopy": [
-            "html-attributes-events",
-            "oncopy.json"
-        ],
-        "oncuechange": [
-            "html-attributes-events",
-            "oncuechange.json"
-        ],
-        "oncut": [
-            "html-attributes-events",
-            "oncut.json"
-        ],
-        "ondblclick": [
-            "html-attributes-events",
-            "ondblclick.json"
-        ],
-        "ondrag": [
-            "html-attributes-events",
-            "ondrag.json"
-        ],
-        "ondragend": [
-            "html-attributes-events",
-            "ondragend.json"
-        ],
-        "ondragenter": [
-            "html-attributes-events",
-            "ondragenter.json"
-        ],
-        "ondragleave": [
-            "html-attributes-events",
-            "ondragleave.json"
-        ],
-        "ondragover": [
-            "html-attributes-events",
-            "ondragover.json"
-        ],
-        "ondragstart": [
-            "html-attributes-events",
-            "ondragstart.json"
-        ],
-        "ondrop": [
-            "html-attributes-events",
-            "ondrop.json"
-        ],
-        "ondurationchange": [
-            "html-attributes-events",
-            "ondurationchange.json"
-        ],
-        "onemptied": [
-            "html-attributes-events",
-            "onemptied.json"
-        ],
-        "onended": [
-            "html-attributes-events",
-            "onended.json"
-        ],
-        "onerror": [
-            "html-attributes-events",
-            "onerror.json"
-        ],
-        "onfocus": [
-            "html-attributes-events",
-            "onfocus.json"
-        ],
-        "onformdata": [
-            "html-attributes-events",
-            "onformdata.json"
-        ],
-        "oninput": [
-            "html-attributes-events",
-            "oninput.json"
-        ],
-        "oninvalid": [
-            "html-attributes-events",
-            "oninvalid.json"
-        ],
-        "onkeydown": [
-            "html-attributes-events",
-            "onkeydown.json"
-        ],
-        "onkeypress": [
-            "html-attributes-events",
-            "onkeypress.json"
-        ],
-        "onkeyup": [
-            "html-attributes-events",
-            "onkeyup.json"
-        ],
-        "onload": [
-            "html-attributes-events",
-            "onload.json"
-        ],
-        "onloadeddata": [
-            "html-attributes-events",
-            "onloadeddata.json"
-        ],
-        "onloadedmetadata": [
-            "html-attributes-events",
-            "onloadedmetadata.json"
-        ],
-        "onloadstart": [
-            "html-attributes-events",
-            "onloadstart.json"
-        ],
-        "onmousedown": [
-            "html-attributes-events",
-            "onmousedown.json"
-        ],
-        "onmouseenter": [
-            "html-attributes-events",
-            "onmouseenter.json"
-        ],
-        "onmouseleave": [
-            "html-attributes-events",
-            "onmouseleave.json"
-        ],
-        "onmousemove": [
-            "html-attributes-events",
-            "onmousemove.json"
-        ],
-        "onmouseout": [
-            "html-attributes-events",
-            "onmouseout.json"
-        ],
-        "onmouseover": [
-            "html-attributes-events",
-            "onmouseover.json"
-        ],
-        "onmouseup": [
-            "html-attributes-events",
-            "onmouseup.json"
-        ],
-        "onpaste": [
-            "html-attributes-events",
-            "onpaste.json"
-        ],
-        "onpause": [
-            "html-attributes-events",
-            "onpause.json"
-        ],
-        "onplay": [
-            "html-attributes-events",
-            "onplay.json"
-        ],
-        "onplaying": [
-            "html-attributes-events",
-            "onplaying.json"
-        ],
-        "onprogress": [
-            "html-attributes-events",
-            "onprogress.json"
-        ],
-        "onratechange": [
-            "html-attributes-events",
-            "onratechange.json"
-        ],
-        "onreset": [
-            "html-attributes-events",
-            "onreset.json"
-        ],
-        "onresize": [
-            "html-attributes-events",
-            "onresize.json"
-        ],
-        "onscroll": [
-            "html-attributes-events",
-            "onscroll.json"
-        ],
-        "onsecuritypolicyviolation": [
-            "html-attributes-events",
-            "onsecuritypolicyviolation.json"
-        ],
-        "onseeked": [
-            "html-attributes-events",
-            "onseeked.json"
-        ],
-        "onseeking": [
-            "html-attributes-events",
-            "onseeking.json"
-        ],
-        "onselect": [
-            "html-attributes-events",
-            "onselect.json"
-        ],
-        "onslotchange": [
-            "html-attributes-events",
-            "onslotchange.json"
-        ],
-        "onstalled": [
-            "html-attributes-events",
-            "onstalled.json"
-        ],
-        "onsubmit": [
-            "html-attributes-events",
-            "onsubmit.json"
-        ],
-        "onsuspend": [
-            "html-attributes-events",
-            "onsuspend.json"
-        ],
-        "ontimeupdate": [
-            "html-attributes-events",
-            "ontimeupdate.json"
-        ],
-        "ontoggle": [
-            "html-attributes-events",
-            "ontoggle.json"
-        ],
-        "onvolumechange": [
-            "html-attributes-events",
-            "onvolumechange.json"
-        ],
-        "onwaiting": [
-            "html-attributes-events",
-            "onwaiting.json"
-        ],
-        "onwheel": [
-            "html-attributes-events",
-            "onwheel.json"
         ]
     },
     "other": {
         "abbr": [
             "html-attributes",
+            "other",
             "abbr.json"
         ],
         "accept": [
             "html-attributes",
+            "other",
             "accept.json"
         ],
         "accept-charset": [
             "html-attributes",
+            "other",
             "accept-charset.json"
         ],
         "action": [
             "html-attributes",
+            "other",
             "action.json"
         ],
         "allow": [
             "html-attributes",
+            "other",
             "allow.json"
         ],
         "alt": [
             "html-attributes",
+            "other",
             "alt.json"
         ],
         "as": [
             "html-attributes",
+            "other",
             "as.json"
         ],
         "autocomplete": [
             "html-attributes",
+            "other",
             "autocomplete.json"
         ],
         "charset": [
             "html-attributes",
+            "other",
             "charset.json"
         ],
         "cite": [
             "html-attributes",
+            "other",
             "cite.json"
         ],
         "color": [
             "html-attributes",
+            "other",
             "color.json"
         ],
         "cols": [
             "html-attributes",
+            "other",
             "cols.json"
         ],
         "colspan": [
             "html-attributes",
+            "other",
             "colspan.json"
         ],
         "content": [
             "html-attributes",
+            "other",
             "content.json"
         ],
         "coords": [
             "html-attributes",
+            "other",
             "coords.json"
         ],
         "crossorigin": [
             "html-attributes",
+            "other",
             "crossorigin.json"
-        ],
-        "data": [
-            "html-attributes",
-            "data.json"
         ],
         "datetime": [
             "html-attributes",
+            "other",
             "datetime.json"
         ],
         "decoding": [
             "html-attributes",
+            "other",
             "decoding.json"
         ],
         "dir": [
             "html-attributes",
+            "other",
             "dir.json"
         ],
         "dirname": [
             "html-attributes",
+            "other",
             "dirname.json"
         ],
         "download": [
             "html-attributes",
+            "other",
             "download.json"
         ],
         "enctype": [
             "html-attributes",
+            "other",
             "enctype.json"
         ],
         "for": [
             "html-attributes",
+            "other",
             "for.json"
         ],
         "form": [
             "html-attributes",
+            "other",
             "form.json"
         ],
         "formaction": [
             "html-attributes",
+            "other",
             "formaction.json"
         ],
         "formenctype": [
             "html-attributes",
+            "other",
             "formenctype.json"
         ],
         "formmethod": [
             "html-attributes",
+            "other",
             "formmethod.json"
         ],
         "formtarget": [
             "html-attributes",
+            "other",
             "formtarget.json"
         ],
         "headers": [
             "html-attributes",
+            "other",
             "headers.json"
         ],
         "height": [
             "html-attributes",
+            "other",
             "height.json"
         ],
         "high": [
             "html-attributes",
+            "other",
             "high.json"
         ],
         "href": [
             "html-attributes",
+            "other",
             "href.json"
         ],
         "hreflang": [
             "html-attributes",
+            "other",
             "hreflang.json"
         ],
         "http-equiv": [
             "html-attributes",
+            "other",
             "http-equiv.json"
         ],
         "imagesizes": [
             "html-attributes",
+            "other",
             "imagesizes.json"
         ],
         "imagesrcset": [
             "html-attributes",
+            "other",
             "imagesrcset.json"
         ],
         "integrity": [
             "html-attributes",
+            "other",
             "integrity.json"
         ],
         "kind": [
             "html-attributes",
+            "other",
             "kind.json"
         ],
         "label": [
             "html-attributes",
+            "other",
             "label.json"
         ],
         "list": [
             "html-attributes",
+            "other",
             "list.json"
         ],
         "loading": [
             "html-attributes",
+            "other",
             "loading.json"
         ],
         "low": [
             "html-attributes",
+            "other",
             "low.json"
         ],
         "manifest": [
             "html-attributes",
+            "other",
             "manifest.json"
         ],
         "max": [
             "html-attributes",
+            "other",
             "max.json"
         ],
         "maxlength": [
             "html-attributes",
+            "other",
             "maxlength.json"
         ],
         "media": [
             "html-attributes",
+            "other",
             "media.json"
         ],
         "method": [
             "html-attributes",
+            "other",
             "method.json"
         ],
         "min": [
             "html-attributes",
+            "other",
             "min.json"
         ],
         "minlength": [
             "html-attributes",
+            "other",
             "minlength.json"
         ],
         "name": [
             "html-attributes",
+            "other",
             "name.json"
         ],
         "optimum": [
             "html-attributes",
+            "other",
             "optimum.json"
         ],
         "pattern": [
             "html-attributes",
+            "other",
             "pattern.json"
         ],
         "ping": [
             "html-attributes",
+            "other",
             "ping.json"
         ],
         "placeholder": [
             "html-attributes",
+            "other",
             "placeholder.json"
         ],
         "poster": [
             "html-attributes",
+            "other",
             "poster.json"
         ],
         "preload": [
             "html-attributes",
+            "other",
             "preload.json"
         ],
         "referrerpolicy": [
             "html-attributes",
+            "other",
             "referrerpolicy.json"
         ],
         "rel": [
             "html-attributes",
+            "other",
             "rel.json"
         ],
         "rows": [
             "html-attributes",
+            "other",
             "rows.json"
         ],
         "rowspan": [
             "html-attributes",
+            "other",
             "rowspan.json"
         ],
         "sandbox": [
             "html-attributes",
+            "other",
             "sandbox.json"
         ],
         "scope": [
             "html-attributes",
+            "other",
             "scope.json"
         ],
         "shape": [
             "html-attributes",
+            "other",
             "shape.json"
         ],
         "size": [
             "html-attributes",
+            "other",
             "size.json"
         ],
         "sizes": [
             "html-attributes",
+            "other",
             "sizes.json"
         ],
         "span": [
             "html-attributes",
+            "other",
             "span.json"
         ],
         "src": [
             "html-attributes",
+            "other",
             "src.json"
         ],
         "srcdoc": [
             "html-attributes",
+            "other",
             "srcdoc.json"
         ],
         "srclang": [
             "html-attributes",
+            "other",
             "srclang.json"
         ],
         "srcset": [
             "html-attributes",
+            "other",
             "srcset.json"
         ],
         "start": [
             "html-attributes",
+            "other",
             "start.json"
         ],
         "step": [
             "html-attributes",
+            "other",
             "step.json"
         ],
         "target": [
             "html-attributes",
+            "other",
             "target.json"
         ],
         "title": [
             "html-attributes",
+            "other",
             "title.json"
         ],
         "type": [
             "html-attributes",
+            "other",
             "type.json"
         ],
         "usemap": [
             "html-attributes",
+            "other",
             "usemap.json"
         ],
         "value": [
             "html-attributes",
+            "other",
             "value.json"
         ],
         "width": [
             "html-attributes",
+            "other",
             "width.json"
         ],
         "wrap": [
             "html-attributes",
+            "other",
             "wrap.json"
-        ]
-    },
-    "other-events": {
-        "onafterprint": [
-            "html-attributes-events",
-            "onafterprint.json"
-        ],
-        "onbeforeprint": [
-            "html-attributes-events",
-            "onbeforeprint.json"
-        ],
-        "onbeforeunload": [
-            "html-attributes-events",
-            "onbeforeunload.json"
-        ],
-        "onhashchange": [
-            "html-attributes-events",
-            "onhashchange.json"
-        ],
-        "onlanguagechange": [
-            "html-attributes-events",
-            "onlanguagechange.json"
-        ],
-        "onmessage": [
-            "html-attributes-events",
-            "onmessage.json"
-        ],
-        "onmessageerror": [
-            "html-attributes-events",
-            "onmessageerror.json"
-        ],
-        "onoffline": [
-            "html-attributes-events",
-            "onoffline.json"
-        ],
-        "ononline": [
-            "html-attributes-events",
-            "ononline.json"
-        ],
-        "onpagehide": [
-            "html-attributes-events",
-            "onpagehide.json"
-        ],
-        "onpageshow": [
-            "html-attributes-events",
-            "onpageshow.json"
-        ],
-        "onpopstate": [
-            "html-attributes-events",
-            "onpopstate.json"
-        ],
-        "onrejectionhandled": [
-            "html-attributes-events",
-            "onrejectionhandled.json"
-        ],
-        "onstorage": [
-            "html-attributes-events",
-            "onstorage.json"
-        ],
-        "onunhandledrejection": [
-            "html-attributes-events",
-            "onunhandledrejection.json"
-        ],
-        "onunload": [
-            "html-attributes-events",
-            "onunload.json"
         ]
     }
 }

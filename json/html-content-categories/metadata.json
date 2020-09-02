@@ -1,0 +1,14 @@
+{
+    "name": "metadata",
+    "elements": [
+        "base",
+        "link",
+        "meta",
+        "style",
+        "title",
+        "noscript",
+        "script",
+        "template"
+    ],
+    "exceptions": "none"
+}

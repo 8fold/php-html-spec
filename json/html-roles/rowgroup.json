@@ -1,0 +1,13 @@
+{
+    "name": "rowgroup",
+    "is-property": false,
+    "description": "A group containing one or more row elements in a grid.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "\u00a0"
+    ],
+    "kind-of-content": "none",
+    "descendent-restrictions": "Flow content"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "alertdialog",
+    "is-property": false,
+    "description": "A type of dialog that contains an alert message, where initial\n              focus goes to an element within the dialog. See related\n              `alert` and `dialog`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

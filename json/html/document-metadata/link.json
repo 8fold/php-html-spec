@@ -1,7 +1,7 @@
 {
-    "element": "link",
+    "name": "link",
     "link": "https:\/\/w3c.github.io\/html\/document-metadata.html#the-link-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,21 +12,25 @@
         "5.2"
     ],
     "description": "Link metadata",
-    "categories": [
-        "metadata",
-        "flow",
-        "phrasing"
-    ],
-    "parents": [
-        "head",
-        "noscript",
-        "phrasing"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLLinkElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "metadata",
+            "flow",
+            "phrasing"
+        ],
+        "parents": [
+            "head",
+            "noscript",
+            "phrasing"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

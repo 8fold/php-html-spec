@@ -1,0 +1,13 @@
+{
+    "name": "math",
+    "is-property": false,
+    "description": "Content that represents a mathematical expression.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "link",
+    "is-property": false,
+    "description": "An interactive reference to an internal or external resource\n              that, when activated, causes the user agent to navigate to that\n              resource. See related `button`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content, but\n              with no interactive content or\n              a element descendants."
+}

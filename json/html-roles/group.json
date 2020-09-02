@@ -1,0 +1,11 @@
+{
+    "name": "group",
+    "is-property": false,
+    "description": "A set of user interface objects which are not intended to be\n              included in a page summary or table of contents by assistive technologies.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

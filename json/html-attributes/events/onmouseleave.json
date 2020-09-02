@@ -1,0 +1,12 @@
+{
+    "name": "onmouseleave",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "mouseleave event handler",
+    "value": "Event handler content attribute",
+    "categories": [
+        "events"
+    ]
+}

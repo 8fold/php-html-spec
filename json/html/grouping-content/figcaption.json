@@ -1,22 +1,26 @@
 {
-    "element": "figcaption",
+    "name": "figcaption",
     "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-figcaption-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Caption for figure",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "figure"
-    ],
-    "children": [
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "figure"
+        ],
+        "children": [
+            "flow"
+        ]
+    }
 }

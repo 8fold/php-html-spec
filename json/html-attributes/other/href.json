@@ -1,0 +1,12 @@
+{
+    "name": "href",
+    "elements": [
+        "base"
+    ],
+    "roles": [],
+    "description": "Document base URL",
+    "value": "Valid URL potentially surrounded by spaces",
+    "categories": [
+        "other"
+    ]
+}

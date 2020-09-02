@@ -1,23 +1,27 @@
 {
-    "element": "wbr",
+    "name": "wbr",
     "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-wbr-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Line breaking opportunity",
-    "categories": [
-        "flow",
-        "phrasing"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

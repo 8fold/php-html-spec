@@ -1,0 +1,11 @@
+{
+    "name": "submittable",
+    "elements": [
+        "button",
+        "input",
+        "select",
+        "textarea",
+        "object"
+    ],
+    "exceptions": "none"
+}

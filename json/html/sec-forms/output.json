@@ -1,29 +1,33 @@
 {
-    "element": "output",
+    "name": "output",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#the-output-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Calculated output value",
-    "categories": [
-        "flow",
-        "phrasing",
-        "listed",
-        "labelable",
-        "resettable",
-        "form-associated",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "phrasing"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLOutputElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "listed",
+            "labelable",
+            "resettable",
+            "form-associated",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

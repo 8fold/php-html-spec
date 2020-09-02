@@ -1,7 +1,7 @@
 {
-    "element": "head",
+    "name": "head",
     "link": "https:\/\/w3c.github.io\/html\/document-metadata.html#the-head-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,17 +12,21 @@
         "5.2"
     ],
     "description": "Container for document metadata",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "html"
-    ],
-    "children": [
-        "metadata content"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLHeadElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "html"
+        ],
+        "children": [
+            "metadata content"
+        ]
+    }
 }

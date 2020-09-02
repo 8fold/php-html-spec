@@ -1,7 +1,7 @@
 {
-    "element": "col",
+    "name": "col",
     "link": "https:\/\/w3c.github.io\/html\/tabular-data.html#the-col-element",
-    "specs": [
+    "versions": [
         "4.01",
         "X1.0",
         "X1.1",
@@ -10,17 +10,21 @@
         "5.2"
     ],
     "description": "Table column",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "colgroup"
-    ],
-    "children": [
-        "empty"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLTableColElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "colgroup"
+        ],
+        "children": [
+            "empty"
+        ]
+    }
 }

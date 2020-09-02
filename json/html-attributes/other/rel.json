@@ -1,0 +1,12 @@
+{
+    "name": "rel",
+    "elements": [
+        "link"
+    ],
+    "roles": [],
+    "description": "Relationship between the document containing the hyperlink and the destination resource",
+    "value": "Unordered set of unique space-separated tokens*",
+    "categories": [
+        "other"
+    ]
+}

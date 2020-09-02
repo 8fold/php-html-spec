@@ -1,0 +1,12 @@
+{
+    "name": "style",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Presentational and formatting instructions",
+    "value": "CSS declarations*",
+    "categories": [
+        "global"
+    ]
+}

@@ -1,28 +1,32 @@
 {
-    "element": "hgroup",
+    "name": "hgroup",
     "link": "https:\/\/w3c.github.io\/html\/obsolete.html#hgroup",
-    "specs": [],
+    "versions": [],
     "description": "heading group",
-    "categories": [
-        "flow",
-        "heading",
-        "palpable"
-    ],
-    "parents": [
-        "legend",
-        "summary",
-        "flow"
-    ],
-    "children": [
-        "h1",
-        "h2",
-        "h3",
-        "h4",
-        "h5",
-        "h6",
-        "script-supporting elements"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "heading",
+            "palpable"
+        ],
+        "parents": [
+            "legend",
+            "summary",
+            "flow"
+        ],
+        "children": [
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "h5",
+            "h6",
+            "script-supporting elements"
+        ]
+    }
 }

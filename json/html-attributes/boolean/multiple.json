@@ -1,0 +1,13 @@
+{
+    "name": "multiple",
+    "elements": [
+        "input",
+        "select"
+    ],
+    "roles": [],
+    "description": "Whether to allow multiple values",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

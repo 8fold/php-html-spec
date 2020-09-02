@@ -1,8 +1,17 @@
 {
-    "element": "input[type=\"datetime-local\"]",
+    "name": "input[type=\"datetime-local\"]",
     "link": "https:\/\/w3c.github.io\/html\/sec-forms.html#local-date-and-time-state-typedatetimelocal",
-    "specs": [
+    "versions": [
         "5.1",
         "5.2"
-    ]
+    ],
+    "description": "",
+    "implicit-role": "",
+    "optional-roles": [],
+    "interfaces": [],
+    "categories": {
+        "self": [],
+        "parents": [],
+        "children": []
+    }
 }

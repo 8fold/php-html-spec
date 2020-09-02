@@ -1,0 +1,12 @@
+{
+    "name": "decoding",
+    "elements": [
+        "img"
+    ],
+    "roles": [],
+    "description": "Decoding hint to use when processing this image for presentation",
+    "value": "\"sync\";\n          \"async\";\n          \"auto\"",
+    "categories": [
+        "other"
+    ]
+}

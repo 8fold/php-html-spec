@@ -1,0 +1,13 @@
+{
+    "name": "preload",
+    "elements": [
+        "audio",
+        "video"
+    ],
+    "roles": [],
+    "description": "Hints how much buffering the media resource will likely need",
+    "value": "\"none\";\n          \"metadata\";\n          \"auto\"",
+    "categories": [
+        "other"
+    ]
+}

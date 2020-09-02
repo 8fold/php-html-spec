@@ -1,0 +1,13 @@
+{
+    "name": "separator",
+    "is-property": false,
+    "description": "A divider that separates and distinguishes sections of content or\n              groups of menuitems.",
+    "required-properties": [
+        "aria-valuemax (if\n                  focusable)",
+        "aria-valuemin (if\n                  focusable)",
+        "aria-valuenow (if\n                  focusable)"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "interactive-content-if-focusable",
+    "descendent-restrictions": "Flow content"
+}

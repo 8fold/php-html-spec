@@ -1,7 +1,7 @@
 {
-    "element": "h1",
+    "name": "h1",
     "link": "https:\/\/w3c.github.io\/html\/sections.html#the-h1-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,21 +12,22 @@
         "5.2"
     ],
     "description": "Section heading",
-    "categories": [
-        "flow",
-        "heading",
-        "palpable"
-    ],
-    "parents": [
-        "legend",
-        "summary",
-        "flow"
-    ],
-    "children": [
-        "phrasing"
-    ],
-    "interfaces": [
-        "HTMLHeadingElement",
-        "HTMLElement"
-    ]
+    "implicit-role": "",
+    "optional-roles": [],
+    "interfaces": null,
+    "categories": {
+        "self": [
+            "flow",
+            "heading",
+            "palpable"
+        ],
+        "parents": [
+            "legend",
+            "summary",
+            "flow"
+        ],
+        "children": [
+            "phrasing"
+        ]
+    }
 }

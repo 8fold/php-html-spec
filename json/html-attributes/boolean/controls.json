@@ -1,0 +1,13 @@
+{
+    "name": "controls",
+    "elements": [
+        "audio",
+        "video"
+    ],
+    "roles": [],
+    "description": "Show user agent controls",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "colspan",
+    "elements": [
+        "td",
+        "th"
+    ],
+    "roles": [],
+    "description": "Number of columns that the cell is to span",
+    "value": "Valid non-negative integer greater than zero",
+    "categories": [
+        "other"
+    ]
+}

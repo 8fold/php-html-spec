@@ -1,24 +1,28 @@
 {
-    "element": "article",
+    "name": "article",
     "link": "https:\/\/w3c.github.io\/html\/sections.html#the-article-element",
-    "specs": [
+    "versions": [
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Self-contained syndicatable or reusable composition",
-    "categories": [
-        "flow",
-        "sectioning",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "flow"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "sectioning",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "flow"
+        ]
+    }
 }

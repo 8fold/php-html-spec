@@ -1,0 +1,12 @@
+{
+    "name": "default",
+    "elements": [
+        "track"
+    ],
+    "roles": [],
+    "description": "Enable the track if no other text track is more suitable",
+    "value": "Boolean attribute",
+    "categories": [
+        "boolean"
+    ]
+}

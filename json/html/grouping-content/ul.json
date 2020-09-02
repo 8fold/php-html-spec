@@ -1,7 +1,7 @@
 {
-    "element": "ul",
+    "name": "ul",
     "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-ul-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,19 +12,23 @@
         "5.2"
     ],
     "description": "List",
-    "categories": [
-        "flow",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "li",
-        "script-supporting elements"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLUListElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "li",
+            "script-supporting elements"
+        ]
+    }
 }

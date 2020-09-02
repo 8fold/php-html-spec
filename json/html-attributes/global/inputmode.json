@@ -1,0 +1,12 @@
+{
+    "name": "inputmode",
+    "elements": [
+        "HTML elements"
+    ],
+    "roles": [],
+    "description": "Hint for selecting an input modality",
+    "value": "\"none\";\n          \"text\";\n          \"tel\";\n          \"email\";\n          \"url\";\n          \"numeric\";\n          \"decimal\";\n          \"search\"",
+    "categories": [
+        "global"
+    ]
+}

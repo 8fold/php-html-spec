@@ -1,27 +1,31 @@
 {
-    "element": "ruby",
+    "name": "ruby",
     "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-ruby-element",
-    "specs": [
+    "versions": [
         "X1.1",
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Ruby annotation(s)",
-    "categories": [
-        "flow",
-        "phrasing",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "phrasing",
-        "rt",
-        "rp"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "phrasing",
+            "rt",
+            "rp"
+        ]
+    }
 }

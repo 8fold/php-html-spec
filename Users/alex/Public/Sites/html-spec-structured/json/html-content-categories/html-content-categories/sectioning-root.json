@@ -1,0 +1,13 @@
+{
+    "name": "sectioning-root",
+    "elements": [
+        "body",
+        "blockquote",
+        "figure",
+        "fieldset",
+        "td",
+        "details",
+        "dialog"
+    ],
+    "exceptions": "none"
+}

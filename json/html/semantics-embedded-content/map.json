@@ -1,7 +1,7 @@
 {
-    "element": "map",
+    "name": "map",
     "link": "https:\/\/w3c.github.io\/html\/semantics-embedded-content.html#the-map-element",
-    "specs": [
+    "versions": [
         "3.2",
         "4.01",
         "X1.0",
@@ -11,20 +11,24 @@
         "5.2"
     ],
     "description": "Image map",
-    "categories": [
-        "flow",
-        "phrasing",
-        "palpable"
-    ],
-    "parents": [
-        "phrasing"
-    ],
-    "children": [
-        "transparent",
-        "area"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLMapElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "phrasing",
+            "palpable"
+        ],
+        "parents": [
+            "phrasing"
+        ],
+        "children": [
+            "transparent",
+            "area"
+        ]
+    }
 }

@@ -1,0 +1,13 @@
+{
+    "name": "alert",
+    "is-property": false,
+    "description": "A type of live region with important, and usually\n              time-sensitive, information. See related `alertdialog`\n              and `status`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

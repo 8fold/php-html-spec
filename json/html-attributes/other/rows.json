@@ -1,0 +1,12 @@
+{
+    "name": "rows",
+    "elements": [
+        "textarea"
+    ],
+    "roles": [],
+    "description": "Number of lines to show",
+    "value": "Valid non-negative integer greater than zero",
+    "categories": [
+        "other"
+    ]
+}

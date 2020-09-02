@@ -1,0 +1,13 @@
+{
+    "name": "directory",
+    "is-property": false,
+    "description": "A list of references to members of a group, such as a static\n              table of contents.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

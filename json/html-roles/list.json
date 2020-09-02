@@ -1,0 +1,13 @@
+{
+    "name": "list",
+    "is-property": false,
+    "description": "A group of non-interactive list items. See related `listbox`.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "img",
+    "is-property": false,
+    "description": "A container for a collection of elements that form an image.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": [
+        "`aria-expanded` (state)"
+    ],
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

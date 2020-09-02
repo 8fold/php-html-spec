@@ -1,0 +1,8 @@
+{
+    "name": "script-supporting",
+    "elements": [
+        "script",
+        "template"
+    ],
+    "exceptions": "none"
+}

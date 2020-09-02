@@ -1,0 +1,11 @@
+{
+    "name": "tablist",
+    "is-property": false,
+    "description": "A list of `tab` elements, which are references to `tabpanel` elements.",
+    "required-properties": [
+        "none"
+    ],
+    "supported-properties": {},
+    "kind-of-content": "flow",
+    "descendent-restrictions": "Flow content"
+}

@@ -1,0 +1,12 @@
+{
+    "name": "data",
+    "elements": [
+        "object"
+    ],
+    "roles": [],
+    "description": "Address of the resource",
+    "value": "Valid non-empty URL potentially surrounded by spaces",
+    "categories": [
+        "data"
+    ]
+}

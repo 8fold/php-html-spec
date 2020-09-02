@@ -3,156 +3,81 @@ declare(strict_types=1);
 
 namespace Eightfold\HtmlSpecStructured\Read;
 
-use Eightfold\HtmlSpecStructured\PhpToJson;
+use Eightfold\HtmlSpecStructured\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\Interfaces\HtmlComponent;
+use Eightfold\HtmlSpecStructured\Read\AbstractComponent;
 
-use Eightfold\HtmlSpecStructured\Write\Interfaces\ComponentWriter;
-
-class HtmlAttribute implements HtmlComponent
+class HtmlAttribute extends AbstractComponent
 {
-    private $component;
+    const TEMPLATE = [
+        "name"        => "",
+        "elements"    => [],
+        "roles"       => [],
+        "description" => "",
+        "value"       => [],
+        "categories"  => []
+    ];
 
-    static public function fromPath(string $path): ComponentWriter
+    public function elements(int $index = PHP_INT_MAX)
     {
-        $json = file_get_contents($path);
-        $component = json_decode($json);
-        return static::fromObject($component);
-    }
-
-    static public function fromObject(object $component): ComponentWriter
-    {
-        return new static($component);
-    }
-
-    public function __construct(object $component)
-    {
-        $this->component = $component;
-    }
-
-    public function component(): object
-    {
-        return $this->component;
-    }
-
-    public function name(): string
-    {
-        return $this->component()->name;
-    }
-
-    public function elements(): array
-    {
-        if (isset($this->component()->elements) and
-            is_array($this->component()->elements)
-        ){
-            return $this->component()->elements;
+        $component = (array) $this->component();
+        if ($index === PHP_INT_MAX) {
+            return $component["elements"];
         }
-        return [];
+        return $component["elements"][$index];
     }
 
-    private function misc()
+    public function value(): string
     {
-        if (isset($this->component()->misc)) {
-            return $this->component()->misc;
-        }
-        return [];
+        $component = (array) $this->component();
+        return $component["value"];
     }
 
     public function categories(): array
     {
+        if (count($this->component()->categories) === 0) {
+            $name = $this->name();
+            if (substr($name, 0, 2) === "on") {
+                $this->component->categories = ["events"];
+
+            } elseif (substr($name, 0, 4) === "aria") {
+                $this->component->categories = ["aria"];
+
+            } elseif (substr($name, 0, 4) === "data") {
+                $this->component->categories = ["data"];
+
+            } elseif ($this->elements(0) === "HTML elements") {
+                $this->component->categories = ["global"];
+
+            } elseif ($this->value() === "Boolean attribute") {
+                $this->component->categories = ["boolean"];
+
+            } else {
+                $this->component->categories = ["other"];
+
+            }
+        }
         return $this->component()->categories;
+    }
+
+    public function subFolder(): string
+    {
+        $categories = $this->categories();
+        return $categories[0];
+
     }
 
     public function folderPathParts(): array
     {
-        return PhpToJson::pathPartsToJson();
-    }
-
-    // TODO: Move to Fileable interface - make HtmlComponent and IndexWriter extensions of
-    public function filePathParts(): array
-    {
-        $parts = $this->folderPathParts();
-        if (in_array("aria-widgets", $this->categories())) {
-            $build = "html-attributes-aria-widgets";
-            if (in_array("global", $this->categories())) {
-                $build .= "-global";
-            }
-            $parts[] = $build;
-
-        } elseif (in_array("aria-live-regions", $this->categories())) {
-            $build = "html-attributes-aria-live-regions";
-            if (in_array("global", $this->categories())) {
-                $build .= "-global";
-            }
-            $parts[] = $build;
-
-        } elseif (in_array("aria-drag-and-drop", $this->categories())) {
-            $build = "html-attributes-aria-drag-and-drop";
-            if (in_array("global", $this->categories())) {
-                $build .= "-global";
-            }
-            $parts[] = $build;
-
-        } elseif (in_array("aria-relationships", $this->categories())) {
-            $build = "html-attributes-aria-relationships";
-            if (in_array("global", $this->categories())) {
-                $build .= "-global";
-            }
-            $parts[] = $build;
-
-        } elseif (in_array("aria-other", $this->categories())) {
-            $build = "html-attributes-aria-other";
-            if (in_array("global", $this->categories())) {
-                $build .= "-global";
-            }
-            $parts[] = $build;
-
-        } elseif (in_array("other", $this->categories())) {
-            $parts[] = "html-attributes";
-
-        } elseif (in_array("global", $this->categories())) {
-            $parts[] = "html-attributes-global";
-
-        } elseif (in_array("boolean", $this->categories())) {
-            $parts[] = "html-attributes-boolean";
-
-        } elseif (substr($this->name(), 0, 2) === "on") {
-            if (in_array("global", $this->categories())) {
-                $parts[] = "html-attributes-events-global";
-
-            } else {
-                $parts[] = "html-attributes-events";
-
-            }
-        }
+        $parts   = Compiler::pathPartsToJson();
+        $parts[] = "html-attributes";
+        $parts[] = $this->subFolder();
 
         $path = implode("/", $parts);
         if (! file_exists($path)) {
             mkdir($path, 0755, true);
         }
-        $parts[] = "{$this->name()}.json";
+
         return $parts;
-    }
-
-    // TODO: Move to Fileable interface - make HtmlComponent and IndexWriter extensions of
-    public function filePath(): string
-    {
-        $parts = $this->filePathParts();
-        return implode("/", $parts);
-    }
-
-    public function filePathPartsRelative(): array
-    {
-        $jsonPathParts = PhpToJson::pathPartsToJson();
-        $filePath = $this->filePathParts();
-
-        $relativePathParts = array_diff($filePath, $jsonPathParts);
-
-        return array_values($relativePathParts);
-    }
-
-    public function fileName(): string
-    {
-        return "{$this->name()}.json";
     }
 }

@@ -1,7 +1,7 @@
 {
-    "element": "dl",
+    "name": "dl",
     "link": "https:\/\/w3c.github.io\/html\/grouping-content.html#the-dl-element",
-    "specs": [
+    "versions": [
         "2.0",
         "3.2",
         "4.01",
@@ -12,21 +12,25 @@
         "5.2"
     ],
     "description": "Association list consisting of zero or more name-value groups",
-    "categories": [
-        "flow",
-        "palpable"
-    ],
-    "parents": [
-        "flow"
-    ],
-    "children": [
-        "dt",
-        "dd",
-        "div",
-        "script-supporting elements"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLDListElement",
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "flow",
+            "palpable"
+        ],
+        "parents": [
+            "flow"
+        ],
+        "children": [
+            "dt",
+            "dd",
+            "div",
+            "script-supporting elements"
+        ]
+    }
 }

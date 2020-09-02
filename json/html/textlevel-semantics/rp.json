@@ -1,23 +1,27 @@
 {
-    "element": "rp",
+    "name": "rp",
     "link": "https:\/\/w3c.github.io\/html\/textlevel-semantics.html#the-rp-element",
-    "specs": [
+    "versions": [
         "X1.1",
         "5",
         "5.1",
         "5.2"
     ],
     "description": "Parenthesis for ruby annotation text",
-    "categories": [
-        "none"
-    ],
-    "parents": [
-        "ruby"
-    ],
-    "children": [
-        "text"
-    ],
+    "implicit-role": "",
+    "optional-roles": [],
     "interfaces": [
         "HTMLElement"
-    ]
+    ],
+    "categories": {
+        "self": [
+            "none"
+        ],
+        "parents": [
+            "ruby"
+        ],
+        "children": [
+            "text"
+        ]
+    }
 }
