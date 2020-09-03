@@ -33,7 +33,7 @@ class HtmlElement extends AbstractComponent
         return ! $this->categories()->children[0] === "empty";
     }
 
-    public function categories(): array
+    public function categories(): object
     {
         return $this->component()->categories;
     }
