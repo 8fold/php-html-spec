@@ -28,6 +28,11 @@ class HtmlElement extends AbstractComponent
         ]
     ];
 
+    public function acceptsChildren(): bool
+    {
+        return ! $this->categories()->children[0] === "empty";
+    }
+
     public function categories(): array
     {
         return $this->component()->categories;
