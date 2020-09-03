@@ -28,8 +28,8 @@ abstract class AbstractIndex implements IndexReader
 
     public function hasComponentNamed(string $name): bool
     {
-        $name = $this->componentNamed($name)->name();
-        return ! empty($name);
+        $pathParts = $this->filePathPartsFor($name);
+        return ! empty($pathParts);
     }
 
     public function index(): array

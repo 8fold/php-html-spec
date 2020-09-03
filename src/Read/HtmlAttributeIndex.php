@@ -42,5 +42,6 @@ class HtmlAttributeIndex extends AbstractIndex
 
             }
         }
+        return [];
     }
 }
