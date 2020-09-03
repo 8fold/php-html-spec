@@ -60,6 +60,42 @@ class HtmlAttribute extends AbstractComponent
         return $this->component()->categories;
     }
 
+    public function isEvent(): bool
+    {
+        $categories = $this->categories();
+        return $categories[0] === "events";
+    }
+
+    public function isAria(): bool
+    {
+        $categories = $this->categories();
+        return $categories[0] === "aria";
+    }
+
+    public function isData(): bool
+    {
+        $categories = $this->categories();
+        return $categories[0] === "data";
+    }
+
+    public function isGlobal(): bool
+    {
+        $categories = $this->categories();
+        return $categories[0] === "global";
+    }
+
+    public function isBoolean(): bool
+    {
+        $categories = $this->categories();
+        return $categories[0] === "boolean";
+    }
+
+    public function isOther(): bool
+    {
+        $categories = $this->categories();
+        return $categories[0] === "other";
+    }
+
     public function subFolder(): string
     {
         $categories = $this->categories();
