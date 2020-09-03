@@ -38,6 +38,8 @@ class HtmlElement extends AbstractComponent
         return $this->component()->categories;
     }
 
+    // TODO: categoryArray - ??
+
     public function link(): string
     {
         return $this->component()->link;
