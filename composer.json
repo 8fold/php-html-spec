@@ -1,6 +1,6 @@
 {
-  "name": "8fold/html-spec-structured",
-  "description": "The elements of the HTML specification as structured data",
+  "name": "8fold/php-html-spec",
+  "description": "The HTML and ARIA-HTML specifications as structured data",
   "type": "library",
   "license": "MIT",
   "authors": [],
@@ -13,12 +13,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Eightfold\\HtmlSpecStructured\\":"./src"
+      "Eightfold\\HtmlSpec\\":"./src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Eightfold\\HtmlSpecStructured\\Tests\\":"./tests"
+      "Eightfold\\HtmlSpec\\Tests\\":"./tests"
     }
   },
   "config": {

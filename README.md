@@ -1,4 +1,4 @@
-# 8fold HTML Specification Structured
+# 8fold HTML Spec
 
 The mission here is to present the [Living HTML Specification](https://html.spec.whatwg.org/) as structured, and interconnected data.
 
