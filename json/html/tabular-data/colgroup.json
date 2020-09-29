@@ -12,10 +12,7 @@
     "description": "Group of columns in a table",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTableColElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

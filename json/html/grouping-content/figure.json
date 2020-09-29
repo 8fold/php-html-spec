@@ -9,9 +9,7 @@
     "description": "Figure with optional caption",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

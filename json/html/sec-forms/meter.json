@@ -9,10 +9,7 @@
     "description": "Gauge",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLMeterElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

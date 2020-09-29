@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Write;
+namespace Eightfold\HtmlSpec\Write;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\HtmlIndex as HtmlIndexReader;
+use Eightfold\HtmlSpec\Read\HtmlIndex as HtmlIndexReader;
 
-use Eightfold\HtmlSpecStructured\Write\HtmlElement;
+use Eightfold\HtmlSpec\Write\HtmlElement;
 
 class HtmlIndex extends HtmlIndexReader
 {
@@ -37,7 +37,7 @@ class HtmlIndex extends HtmlIndexReader
         $index->save();
     }
 
-    public function storeDetails()
+    static public function storeDetails()
     {
         $index = static::init();
 
@@ -48,9 +48,10 @@ class HtmlIndex extends HtmlIndexReader
         $rows = [];
         foreach ($headers as $node) {
             $table;
+
             $isInterfacesHeading = $node->nodeValue === "Element Interfaces";
             if ($isInterfacesHeading) {
-                while ($node->tagName !== "table") {
+                while ($node->nodeName !== "table") {
                     $node = $node->nextSibling;
 
                 }
@@ -83,11 +84,14 @@ class HtmlIndex extends HtmlIndexReader
         $rows = [];
         foreach ($headers as $node) {
             $isElementsHeading = $node->nodeValue === "Elements";
-            $isCorrectHeading = $node->nextSibling->nextSibling->nodeValue !== "Semantics";
+            $isCorrectHeading = false;
+            if ($node->nextSibling->nextSibling !== null) {
+                $isCorrectHeading = $node->nextSibling->nextSibling->nodeValue !== "Semantics";
+            }
 
             if ($isElementsHeading and $isCorrectHeading) {
                 // TODO: DRY break
-                while ($node->tagName !== "table") {
+                while ($node->nodeName !== "table") {
                     $node = $node->nextSibling;
                 }
                 $table = $node;
@@ -103,53 +107,56 @@ class HtmlIndex extends HtmlIndexReader
         foreach ($rows as $row) {
             $cells = $row->getElementsByTagName("td");
 
-            $elementName = $row->getElementsByTagName("th");
-            $elementName = $elementName[0];
-            $elementName = $elementName->nodeValue;
-            $elementName = strip_tags($elementName);
+            $descriptNode = $cells[0];
+            $description  = strip_tags(trim($descriptNode->nodeValue));
 
-            $multiple = explode(",", $elementName);
-            foreach ($multiple as $elem) {
-                $elem = trim($elem);
-                if (HtmlIndex::init()->hasComponentNamed($elem)) {
-                    $element = HtmlIndex::init()->componentNamed($elem);
-                    $element = $element->component();
+            $catNode       = $cells[1];
+            $categories = strip_tags(trim($catNode->nodeValue));
+            $categories = explode(";", $categories);
+            $categories = array_map(function($v) {
+                $v = trim($v);
+                return str_replace("*", "", $v);
+            }, $categories);
 
-                    $descriptNode  = $cells[0];
-                    $catNode       = $cells[1];
-                    $parentNode    = $cells[2];
-                    $childrenNode  = $cells[3];
-                    $interfaceNode = $cells[5];
+            $parentNode    = $cells[2];
+            $parents = strip_tags(trim($parentNode->nodeValue));
+            $parents = explode(";", $parents);
+            $parents = array_map(function($v) {
+                $v = trim($v);
+                return str_replace("*", "", $v);
+            }, $parents);
 
-                    $element->description = strip_tags(trim($descriptNode->nodeValue));
+            $childrenNode  = $cells[3];
+            $children = strip_tags(trim($childrenNode->nodeValue));
+            $children = explode(";", $children);
+            $children = array_map(function($v) {
+                $v = trim($v);
+                return str_replace("*", "", $v);
+            }, $children);
 
-                    $categories = strip_tags(trim($catNode->nodeValue));
-                    $categories = explode(";", $categories);
-                    $element->categories->self = array_map(function($v) {
-                        $v = trim($v);
-                        return str_replace("*", "", $v);
-                    }, $categories);
+            $elem = $row->getElementsByTagName("th");
+            $elem = $elem[0];
+            $elem = $elem->nodeValue;
+            $elem = strip_tags($elem);
 
-                    // TODO: DRY with previous
-                    $parents = strip_tags(trim($parentNode->nodeValue));
-                    $parents = explode(";", $parents);
-                    $element->categories->parents = array_map(function($v) {
-                        $v = trim($v);
-                        return str_replace("*", "", $v);
-                    }, $parents);
+            $elems = explode(",", $elem);
+            foreach ($elems as $e) {
+                $e = trim($e);
 
-                    $children = strip_tags(trim($childrenNode->nodeValue));
-                    $children = explode(";", $children);
-                    $element->categories->children = array_map(function($v) {
-                        $v = trim($v);
-                        return str_replace("*", "", $v);
-                    }, $children);
+                if (HtmlIndex::init()->hasComponentNamed($e)) {
+                    // TODO: Interfaces
+                    // $interfaces = $interfaces[$e];
 
-                    $element->interfaces = $interfaces[$elementName];
+                    $e = HtmlIndex::init()->componentNamed($e);
+                    $e = $e->component();
 
-                    $element = HtmlElement::fromObject($element);
+                    $e->description          = $description;
+                    $e->categories->self     = $categories;
+                    $e->categories->parents  = $parents;
+                    $e->categories->children = $children;
 
-                    $element->save();
+                    $e = HtmlElement::fromObject($e);
+                    $e->save();
                 }
             }
         }

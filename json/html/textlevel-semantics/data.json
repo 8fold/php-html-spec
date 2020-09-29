@@ -9,10 +9,7 @@
     "description": "Machine-readable equivalent",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLDataElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

@@ -9,10 +9,7 @@
     "description": "Template",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTemplateElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "metadata",

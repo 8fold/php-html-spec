@@ -14,7 +14,7 @@
     "description": "Section heading",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": null,
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

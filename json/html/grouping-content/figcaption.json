@@ -9,9 +9,7 @@
     "description": "Caption for figure",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

@@ -5,11 +5,6 @@
             "boolean",
             "allowfullscreen.json"
         ],
-        "allowpaymentrequest": [
-            "html-attributes",
-            "boolean",
-            "allowpaymentrequest.json"
-        ],
         "async": [
             "html-attributes",
             "boolean",
@@ -947,11 +942,6 @@
             "html-attributes",
             "other",
             "rel.json"
-        ],
-        "role": [
-            "html-attributes",
-            "other",
-            "role.json"
         ],
         "rows": [
             "html-attributes",

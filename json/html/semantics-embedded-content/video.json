@@ -9,11 +9,7 @@
     "description": "Video player",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLVideoElement",
-        "HTMLMediaElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

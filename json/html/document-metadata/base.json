@@ -14,10 +14,7 @@
     "description": "Base URL and default target browsing context for hyperlinks and forms",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLBaseElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "metadata"

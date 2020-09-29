@@ -14,10 +14,7 @@
     "description": "User-submittable form",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLFormElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

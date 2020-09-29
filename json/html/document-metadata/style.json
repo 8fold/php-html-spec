@@ -13,10 +13,7 @@
     "description": "Embedded styling information",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLStyleElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "metadata"

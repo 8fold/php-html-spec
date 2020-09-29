@@ -9,10 +9,7 @@
     "description": "Machine-readable equivalent of date- or time-related data",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTimeElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

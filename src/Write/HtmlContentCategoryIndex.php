@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Write;
+namespace Eightfold\HtmlSpec\Write;
 
-use Eightfold\HtmlSpecStructured\Read\HtmlContentCategoryIndex as HtmlContentCategoryIndexReader;
+use Eightfold\HtmlSpec\Read\HtmlContentCategoryIndex as HtmlContentCategoryIndexReader;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\HtmlIndex;
-use Eightfold\HtmlSpecStructured\Read\Interfaces\Fileable;
+use Eightfold\HtmlSpec\Read\HtmlIndex;
+use Eightfold\HtmlSpec\Read\Interfaces\Fileable;
 
-use Eightfold\HtmlSpecStructured\Write\Interfaces\IndexWriter;
-use Eightfold\HtmlSpecStructured\Write\HtmlContentCategory;
+use Eightfold\HtmlSpec\Write\Interfaces\IndexWriter;
+use Eightfold\HtmlSpec\Write\HtmlContentCategory;
 
 class HtmlContentCategoryIndex extends HtmlContentCategoryIndexReader
 {
@@ -28,9 +28,10 @@ class HtmlContentCategoryIndex extends HtmlContentCategoryIndexReader
         foreach ($headings as $heading) {
             $isCategoriesHeading = $heading->nodeValue === static::HEADER_TEXT;
             $table = $heading->nextSibling;
+
             if ($isCategoriesHeading) {
                 // TODO: DRY with HtmlIndex
-                while ($table->tagName !== "table") {
+                while ($table->nodeName !== "table") {
                     $table = $table->nextSibling;
                 }
                 $tBody = $table->getElementsByTagName("tbody");
@@ -55,6 +56,7 @@ class HtmlContentCategoryIndex extends HtmlContentCategoryIndexReader
 
             $exceptions = $cells[2];
             $exceptions = trim($exceptions->nodeValue);
+            $exceptions = str_replace("\n     ", "", $exceptions);
             $exceptions = ($exceptions === "—") ? "none" : $exceptions;
 
             $dictionary               = HtmlContentCategory::TEMPLATE;

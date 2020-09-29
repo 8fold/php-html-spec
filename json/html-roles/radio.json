@@ -3,9 +3,9 @@
     "is-property": false,
     "description": "A checkable input in a group of radio roles, only one of which\n              can be checked at a time.",
     "required-properties": [
-        "`aria-checked` (state)"
+        "aria-checked (state)"
     ],
     "supported-properties": {},
     "kind-of-content": "interactive",
-    "descendent-restrictions": "Flow content, but\n              with no interactive content\n              descendants."
+    "descendent-restrictions": "Flow content, but with no interactive content descendants."
 }

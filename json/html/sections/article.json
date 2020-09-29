@@ -9,9 +9,7 @@
     "description": "Self-contained syndicatable or reusable composition",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

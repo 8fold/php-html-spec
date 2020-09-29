@@ -12,10 +12,7 @@
     "description": "A removal from the document",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLModElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

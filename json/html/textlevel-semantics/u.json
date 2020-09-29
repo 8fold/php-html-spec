@@ -12,9 +12,7 @@
     "description": "Unarticulated annotation",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

@@ -8,9 +8,7 @@
     "description": "Caption for details",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

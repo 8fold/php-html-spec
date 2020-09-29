@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Read;
+namespace Eightfold\HtmlSpec\Read;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\AbstractComponent;
+use Eightfold\HtmlSpec\Read\AbstractComponent;
 
 class HtmlAttribute extends AbstractComponent
 {

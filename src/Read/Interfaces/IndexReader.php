@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Read\Interfaces;
+namespace Eightfold\HtmlSpec\Read\Interfaces;
 
-use Eightfold\HtmlSpecStructured\Read\Interfaces\Fileable;
-use Eightfold\HtmlSpecStructured\Read\Interfaces\HtmlComponent;
+use Eightfold\HtmlSpec\Read\Interfaces\Fileable;
+use Eightfold\HtmlSpec\Read\Interfaces\HtmlComponent;
 
 interface IndexReader extends Fileable
 {

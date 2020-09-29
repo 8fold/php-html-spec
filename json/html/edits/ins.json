@@ -12,10 +12,7 @@
     "description": "An addition to the document",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLModElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

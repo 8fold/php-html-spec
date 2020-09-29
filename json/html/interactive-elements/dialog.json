@@ -7,10 +7,7 @@
     "description": "Dialog box or window",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLDialogElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

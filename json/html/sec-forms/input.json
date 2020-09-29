@@ -14,10 +14,7 @@
     "description": "Form control",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLInputElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

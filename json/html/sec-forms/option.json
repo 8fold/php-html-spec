@@ -14,10 +14,7 @@
     "description": "Option in a list box or combo box control",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLOptionElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

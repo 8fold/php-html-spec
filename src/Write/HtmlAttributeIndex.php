@@ -1,20 +1,20 @@
 <?php
 // declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Write;
+namespace Eightfold\HtmlSpec\Write;
 
 use \ArrayAccess;
 use \Iterator;
 use \DomNode;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\HtmlAttributeIndex as HtmlAttributeIndexReader;
-use Eightfold\HtmlSpecStructured\Read\Interfaces\HtmlComponent;
+use Eightfold\HtmlSpec\Read\HtmlAttributeIndex as HtmlAttributeIndexReader;
+use Eightfold\HtmlSpec\Read\Interfaces\HtmlComponent;
 
-use Eightfold\HtmlSpecStructured\Write\HtmlAttribute;
-use Eightfold\HtmlSpecStructured\Write\Interfaces\IndexWriter;
-use Eightfold\HtmlSpecStructured\Write\Traits\TableProcessing;
+use Eightfold\HtmlSpec\Write\HtmlAttribute;
+use Eightfold\HtmlSpec\Write\Interfaces\IndexWriter;
+use Eightfold\HtmlSpec\Write\Traits\TableProcessing;
 
 class HtmlAttributeIndex extends HtmlAttributeIndexReader
 {

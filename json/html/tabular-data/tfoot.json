@@ -12,10 +12,7 @@
     "description": "Group of footer rows in a table",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTableSectionElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

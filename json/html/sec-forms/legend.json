@@ -12,10 +12,7 @@
     "description": "Caption for fieldset",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLLegendElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

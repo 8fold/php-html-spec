@@ -14,10 +14,7 @@
     "description": "Block of preformatted text",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLPreElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

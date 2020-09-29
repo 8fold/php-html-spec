@@ -14,10 +14,7 @@
     "description": "Text metadata",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLMetaElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "metadata",

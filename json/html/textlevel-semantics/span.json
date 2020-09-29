@@ -12,10 +12,7 @@
     "description": "Generic phrasing container",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLSpanElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

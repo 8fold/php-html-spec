@@ -9,10 +9,7 @@
     "description": "Scriptable bitmap canvas",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLCanvasElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

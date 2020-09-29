@@ -14,10 +14,7 @@
     "description": "Document body",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLBodyElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "sectioning root"

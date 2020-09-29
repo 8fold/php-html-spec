@@ -8,10 +8,7 @@
     "description": "Disclosure control for hiding details",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLDetailsElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

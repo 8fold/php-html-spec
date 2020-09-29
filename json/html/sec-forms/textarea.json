@@ -14,10 +14,7 @@
     "description": "Multiline text controls",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTextAreaElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

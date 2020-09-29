@@ -13,10 +13,7 @@
     "description": "Hyperlink or dead area on an image map",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLAreaElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

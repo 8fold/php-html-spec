@@ -12,10 +12,7 @@
     "description": "Button control",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLButtonElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

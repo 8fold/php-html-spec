@@ -14,10 +14,7 @@
     "description": "Thematic break",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLHRElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow"

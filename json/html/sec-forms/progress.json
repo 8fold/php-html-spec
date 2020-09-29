@@ -9,10 +9,7 @@
     "description": "Progress bar",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLProgressElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

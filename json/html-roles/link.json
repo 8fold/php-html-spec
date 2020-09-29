@@ -6,8 +6,8 @@
         "none"
     ],
     "supported-properties": [
-        "`aria-expanded` (state)"
+        "aria-expanded (state)"
     ],
     "kind-of-content": "flow",
-    "descendent-restrictions": "Flow content, but\n              with no interactive content or\n              a element descendants."
+    "descendent-restrictions": "Flow content, but with no interactive content or a element descendants."
 }

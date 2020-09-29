@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Read;
+namespace Eightfold\HtmlSpec\Read;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\HtmlIndex;
-use Eightfold\HtmlSpecStructured\Read\HtmlAttribute;
-use Eightfold\HtmlSpecStructured\Read\Interfaces\HtmlComponent;
+use Eightfold\HtmlSpec\Read\HtmlIndex;
+use Eightfold\HtmlSpec\Read\HtmlAttribute;
+use Eightfold\HtmlSpec\Read\Interfaces\HtmlComponent;
 
 abstract class AbstractComponent implements HtmlComponent
 {

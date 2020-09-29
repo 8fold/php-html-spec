@@ -7,5 +7,5 @@
     ],
     "supported-properties": {},
     "kind-of-content": "interactive",
-    "descendent-restrictions": "Flow content, but\n              with no interactive content\n              descendants."
+    "descendent-restrictions": "Flow content, but with no interactive content descendants."
 }

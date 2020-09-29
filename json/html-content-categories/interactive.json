@@ -9,5 +9,5 @@
         "embed",
         "iframe"
     ],
-    "exceptions": "a (if the href attribute is present);\n      audio (if the controls attribute is present);\n      img (if the usemap attribute is present);\n      input (if the type attribute is not in the Hidden state);\n      object (if the usemap attribute is present);\n      video (if the controls attribute is present)"
+    "exceptions": "a (if the href attribute is present); audio (if the controls attribute is present); img (if the usemap attribute is present); input (if the type attribute is not in the Hidden state); object (if the usemap attribute is present); video (if the controls attribute is present)"
 }

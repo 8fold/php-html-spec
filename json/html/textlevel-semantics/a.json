@@ -14,10 +14,7 @@
     "description": "Hyperlink",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLAnchorElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

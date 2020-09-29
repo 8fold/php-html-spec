@@ -1,20 +1,20 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Read;
+namespace Eightfold\HtmlSpec\Read;
 
 use Illuminate\Support\Str;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\AbstractIndex;
+use Eightfold\HtmlSpec\Read\AbstractIndex;
 
-use Eightfold\HtmlSpecStructured\Read\Interfaces\IndexReader;
+use Eightfold\HtmlSpec\Read\Interfaces\IndexReader;
 
-use Eightfold\HtmlSpecStructured\Read\Interfaces\Fileable;
-use Eightfold\HtmlSpecStructured\Read\Traits\FileableImp;
+use Eightfold\HtmlSpec\Read\Interfaces\Fileable;
+use Eightfold\HtmlSpec\Read\Traits\FileableImp;
 
-use Eightfold\HtmlSpecStructured\Read\HtmlContentCategory;
+use Eightfold\HtmlSpec\Read\HtmlContentCategory;
 
 class HtmlContentCategoryIndex extends AbstractIndex
 {

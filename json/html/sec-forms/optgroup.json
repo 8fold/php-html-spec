@@ -12,10 +12,7 @@
     "description": "Group of options in a list box",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLOptGroupElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

@@ -6,7 +6,7 @@
         "none"
     ],
     "supported-properties": [
-        "`aria-expanded` (state)"
+        "aria-expanded (state)"
     ],
     "kind-of-content": "flow",
     "descendent-restrictions": "No main element descendants."

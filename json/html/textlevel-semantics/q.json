@@ -12,10 +12,7 @@
     "description": "Quotation",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLQuoteElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

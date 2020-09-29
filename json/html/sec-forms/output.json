@@ -9,10 +9,7 @@
     "description": "Calculated output value",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLOutputElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

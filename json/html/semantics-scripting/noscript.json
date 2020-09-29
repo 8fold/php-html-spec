@@ -12,9 +12,7 @@
     "description": "Fallback content for script",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "metadata",

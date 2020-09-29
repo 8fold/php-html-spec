@@ -12,10 +12,7 @@
     "description": "Table column",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTableColElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

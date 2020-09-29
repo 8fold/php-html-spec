@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Write;
+namespace Eightfold\HtmlSpec\Write;
 
-use Eightfold\HtmlSpecStructured\Read\HtmlRolesIndex as HtmlRolesIndexReader;
+use Eightfold\HtmlSpec\Read\HtmlRolesIndex as HtmlRolesIndexReader;
 
 use Illuminate\Support\Str;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Write\HtmlRole;
+use Eightfold\HtmlSpec\Write\HtmlRole;
 
 class HtmlRolesIndex extends HtmlRolesIndexReader
 {
@@ -47,7 +47,8 @@ class HtmlRolesIndex extends HtmlRolesIndexReader
                 $requiredProps = $r;
 
             } else {
-                $requiredProps = [trim($requiredProps->nodeValue)];
+                $trimmed = trim($requiredProps->nodeValue);
+                $requiredProps = [str_replace("`", "", $trimmed)];
 
             }
 
@@ -58,7 +59,8 @@ class HtmlRolesIndex extends HtmlRolesIndexReader
                 $supportedProps = $list->getElementsByTagName("li");
 
             } else {
-                $supportedProps = [trim($supportedProps->nodeValue)];
+                $trimmed = trim($supportedProps->nodeValue);
+                $supportedProps = [str_replace("`", "", $trimmed)];
 
             }
 
@@ -81,7 +83,11 @@ class HtmlRolesIndex extends HtmlRolesIndexReader
             $content  = static::stringToSlug($children);
 
             $restrictions = $cells[5];
-            $restrictions = trim($restrictions->nodeValue);
+            $restrictions = str_replace(
+                "\n             ",
+                "",
+                trim($restrictions->nodeValue)
+            );
 
             $template = HtmlRole::TEMPLATE;
 

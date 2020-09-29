@@ -14,10 +14,7 @@
     "description": "A section quoted from another source",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLQuoteElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

@@ -11,10 +11,7 @@
     "description": "Nested browsing context",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLIFrameElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

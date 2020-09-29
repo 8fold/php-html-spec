@@ -12,10 +12,7 @@
     "description": "Image, nested browsing context, or plugin",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLObjectElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

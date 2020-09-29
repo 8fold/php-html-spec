@@ -6,7 +6,7 @@
         "none"
     ],
     "supported-properties": [
-        "`aria-expanded` (state)"
+        "aria-expanded (state)"
     ],
     "kind-of-content": "phrasing",
     "descendent-restrictions": "Phrasing content"

@@ -9,10 +9,7 @@
     "description": "Image source for img or media source for video or audio",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLSourceElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

@@ -9,10 +9,7 @@
     "description": "Plugin",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLEmbedElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

@@ -14,10 +14,7 @@
     "description": "Link metadata",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLLinkElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "metadata",

@@ -14,10 +14,7 @@
     "description": "Document title",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTitleElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "metadata"

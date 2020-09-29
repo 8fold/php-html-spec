@@ -9,10 +9,7 @@
     "description": "Timed text track",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTrackElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

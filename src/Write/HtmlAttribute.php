@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Write;
+namespace Eightfold\HtmlSpec\Write;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\HtmlAttribute as HtmlAttributeReader;
+use Eightfold\HtmlSpec\Read\HtmlAttribute as HtmlAttributeReader;
 
-use Eightfold\HtmlSpecStructured\Write\Interfaces\ComponentWriter;
+use Eightfold\HtmlSpec\Write\Interfaces\ComponentWriter;
 
 class HtmlAttribute extends HtmlAttributeReader implements ComponentWriter
 {

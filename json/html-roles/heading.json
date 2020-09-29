@@ -7,5 +7,5 @@
     ],
     "supported-properties": {},
     "kind-of-content": "heading",
-    "descendent-restrictions": "Flow content, but\n              with no Heading content,\n              Sectioning content,\n              Sectioning roots."
+    "descendent-restrictions": "Flow content, but with no Heading content, Sectioning content, Sectioning roots."
 }

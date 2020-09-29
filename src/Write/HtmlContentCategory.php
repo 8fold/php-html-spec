@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Write;
+namespace Eightfold\HtmlSpec\Write;
 
-use Eightfold\HtmlSpecStructured\Read\HtmlContentCategory as HtmlContentCategoryReader;
+use Eightfold\HtmlSpec\Read\HtmlContentCategory as HtmlContentCategoryReader;
 
 class HtmlContentCategory extends HtmlContentCategoryReader
 {

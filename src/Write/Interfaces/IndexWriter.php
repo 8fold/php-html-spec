@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Write\Interfaces;
+namespace Eightfold\HtmlSpec\Write\Interfaces;
 
-use Eightfold\HtmlSpecStructured\Read\Interfaces\Fileable;
+use Eightfold\HtmlSpec\Read\Interfaces\Fileable;
 
 interface IndexWriter
 {

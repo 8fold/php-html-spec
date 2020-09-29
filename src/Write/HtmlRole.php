@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Write;
+namespace Eightfold\HtmlSpec\Write;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\HtmlRole as HtmlRoleReader;
+use Eightfold\HtmlSpec\Read\HtmlRole as HtmlRoleReader;
 
-use Eightfold\HtmlSpecStructured\Write\HtmlIndex;
-use Eightfold\HtmlSpecStructured\Write\HtmlAttribute;
+use Eightfold\HtmlSpec\Write\HtmlIndex;
+use Eightfold\HtmlSpec\Write\HtmlAttribute;
 
 class HtmlRole extends HtmlRoleReader
 {

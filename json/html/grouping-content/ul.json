@@ -14,10 +14,7 @@
     "description": "List",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLUListElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

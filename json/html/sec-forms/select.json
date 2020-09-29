@@ -14,10 +14,7 @@
     "description": "List box control",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLSelectElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

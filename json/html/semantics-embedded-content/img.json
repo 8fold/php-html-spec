@@ -14,10 +14,7 @@
     "description": "Image",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLImageElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

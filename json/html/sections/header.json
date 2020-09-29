@@ -9,9 +9,7 @@
     "description": "Introductory or navigational aids for a page or section",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

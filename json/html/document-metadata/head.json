@@ -14,10 +14,7 @@
     "description": "Container for document metadata",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLHeadElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

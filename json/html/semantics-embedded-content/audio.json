@@ -9,11 +9,7 @@
     "description": "Audio player",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLAudioElement",
-        "HTMLMediaElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

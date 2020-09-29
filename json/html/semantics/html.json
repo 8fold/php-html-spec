@@ -14,10 +14,7 @@
     "description": "Root element",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLHtmlElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

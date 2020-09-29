@@ -1,7 +1,7 @@
 <?php
 // declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Read\Interfaces;
+namespace Eightfold\HtmlSpec\Read\Interfaces;
 
 interface Fileable
 {

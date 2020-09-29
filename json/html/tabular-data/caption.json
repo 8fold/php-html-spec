@@ -13,10 +13,7 @@
     "description": "Table caption",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTableCaptionElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

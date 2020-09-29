@@ -14,9 +14,7 @@
     "description": "Content for corresponding dt element(s)",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

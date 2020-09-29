@@ -14,10 +14,7 @@
     "description": "Paragraph",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLParagraphElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

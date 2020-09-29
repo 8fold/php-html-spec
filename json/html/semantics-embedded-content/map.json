@@ -13,10 +13,7 @@
     "description": "Image map",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLMapElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

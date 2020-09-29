@@ -3,11 +3,11 @@
     "is-property": false,
     "description": "A checkable input that has three possible values: true, false, or mixed.",
     "required-properties": [
-        "`aria-checked` (state)"
+        "aria-checked (state)"
     ],
     "supported-properties": [
-        "`aria-readonly`"
+        "aria-readonly"
     ],
     "kind-of-content": "interactive",
-    "descendent-restrictions": "Flow content,\n              but there must be no interactive content descendant."
+    "descendent-restrictions": "Flow content, but there must be no interactive content descendant."
 }

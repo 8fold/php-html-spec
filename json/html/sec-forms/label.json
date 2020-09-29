@@ -12,10 +12,7 @@
     "description": "Caption for a form control",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLLabelElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

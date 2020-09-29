@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Read;
+namespace Eightfold\HtmlSpec\Read;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\Interfaces\IndexReader;
-use Eightfold\HtmlSpecStructured\Read\Interfaces\HtmlComponent;
+use Eightfold\HtmlSpec\Read\Interfaces\IndexReader;
+use Eightfold\HtmlSpec\Read\Interfaces\HtmlComponent;
 
 abstract class AbstractIndex implements IndexReader
 {

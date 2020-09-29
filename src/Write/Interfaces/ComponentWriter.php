@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Write\Interfaces;
+namespace Eightfold\HtmlSpec\Write\Interfaces;
 
 interface ComponentWriter
 {

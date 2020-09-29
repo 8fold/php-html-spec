@@ -1,28 +1,53 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured;
+namespace Eightfold\HtmlSpec;
 
 use \DomDocument;
 
-use Eightfold\HtmlSpecStructured\Write\HtmlIndex; // TODO: move to Write
-use Eightfold\HtmlSpecStructured\Write\HtmlRolesIndex;
-use Eightfold\HtmlSpecStructured\Write\HtmlContentCategoryIndex;
-use Eightfold\HtmlSpecStructured\Write\HtmlAttributeIndex;
+use Eightfold\HtmlSpec\Write\HtmlIndex; // TODO: move to Write
+use Eightfold\HtmlSpec\Write\HtmlRolesIndex;
+use Eightfold\HtmlSpec\Write\HtmlContentCategoryIndex;
+use Eightfold\HtmlSpec\Write\HtmlAttributeIndex;
 
 // TODO: rename -> Compiler
 class Compiler
 {
     static public function compile(): void
     {
-        HtmlIndex::storeInitial(); // Initial HTML elements set.
-        HtmlRolesIndex::storeInitial();
+        static::compileInitialElements();
+        static::compileInitialRoles();
 
-        HtmlContentCategoryIndex::storeInitial();
-        HtmlAttributeIndex::storeInitial(); // Add attributes
+        static::compileInitialCategories();
+        static::compileInitialAttributes();
 
-        HtmlIndex::storeDetails(); // Update elements with details
+        static::compileElementDetails();
         // HtmlIndex::storeAriaRoles(); // "roles" => ["default" => "", "optional" => []]
+    }
+
+    static public function compileInitialElements()
+    {
+        HtmlIndex::storeInitial(); // htmlElementList
+    }
+
+    static public function compileElementDetails()
+    {
+        HtmlIndex::storeDetails(); // Update elements with details
+    }
+
+    static public function compileInitialRoles()
+    {
+        HtmlRolesIndex::storeInitial();
+    }
+
+    static public function compileInitialCategories()
+    {
+        HtmlContentCategoryIndex::storeInitial();
+    }
+
+    static public function compileInitialAttributes()
+    {
+        HtmlAttributeIndex::storeInitial(); // Add attributes
     }
 
     static public function htmlElementList(): array

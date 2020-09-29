@@ -12,10 +12,7 @@
     "description": "Menu of commands",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLMenuElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

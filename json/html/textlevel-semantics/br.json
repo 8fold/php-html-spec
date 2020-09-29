@@ -14,10 +14,7 @@
     "description": "Line break, e.g. in poem or postal address",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLBRElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

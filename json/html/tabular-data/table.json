@@ -13,10 +13,7 @@
     "description": "Table",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTableElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

@@ -13,10 +13,7 @@
     "description": "Table row",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTableRowElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

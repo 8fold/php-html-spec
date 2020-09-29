@@ -9,10 +9,7 @@
     "description": "Container for options for combo box control",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLDataListElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

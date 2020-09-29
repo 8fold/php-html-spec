@@ -13,10 +13,7 @@
     "description": "Embedded script",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLScriptElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "metadata",

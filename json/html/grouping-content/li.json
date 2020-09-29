@@ -14,10 +14,7 @@
     "description": "List item",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLLIElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"

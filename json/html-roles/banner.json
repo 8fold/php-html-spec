@@ -6,8 +6,8 @@
         "none"
     ],
     "supported-properties": [
-        "`aria-expanded` (state)"
+        "aria-expanded (state)"
     ],
     "kind-of-content": "document-region",
-    "descendent-restrictions": "no main element descendants, or header,\n              footer elements that are not descendants of\n              sectioning content\n              which is a descendant of the header."
+    "descendent-restrictions": "no main element descendants, or header, footer elements that are not descendants of sectioning content which is a descendant of the header."
 }

@@ -14,10 +14,7 @@
     "description": "Ordered list",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLOListElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "flow",

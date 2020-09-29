@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Eightfold\HtmlSpecStructured\Read;
+namespace Eightfold\HtmlSpec\Read;
 
-use Eightfold\HtmlSpecStructured\Compiler;
+use Eightfold\HtmlSpec\Compiler;
 
-use Eightfold\HtmlSpecStructured\Read\AbstractIndex;
+use Eightfold\HtmlSpec\Read\AbstractIndex;
 
-use Eightfold\HtmlSpecStructured\Read\Interfaces\HtmlComponent;
+use Eightfold\HtmlSpec\Read\Interfaces\HtmlComponent;
 
 class HtmlRolesIndex extends AbstractIndex
 {

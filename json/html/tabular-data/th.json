@@ -13,10 +13,7 @@
     "description": "Table header cell",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLTableCellElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "interactive"

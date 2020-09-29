@@ -65,5 +65,5 @@
         "var",
         "canvas"
     ],
-    "exceptions": "audio (if the controls attribute is present);\n      dl (if the element's children include at least one name-value group);\n      input (if the type attribute is not in the Hidden state);\n      menu (if the element's children include at least one li element);\n      ol (if the element's children include at least one li element);\n      ul (if the element's children include at least one li element);\n      Text that is not inter-element whitespace"
+    "exceptions": "audio (if the controls attribute is present); dl (if the element's children include at least one name-value group); input (if the type attribute is not in the Hidden state); menu (if the element's children include at least one li element); ol (if the element's children include at least one li element); ul (if the element's children include at least one li element); Text that is not inter-element whitespace"
 }

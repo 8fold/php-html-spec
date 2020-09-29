@@ -13,10 +13,7 @@
     "description": "Parameter for object",
     "implicit-role": "",
     "optional-roles": [],
-    "interfaces": [
-        "HTMLParamElement",
-        "HTMLElement"
-    ],
+    "interfaces": [],
     "categories": {
         "self": [
             "none"
