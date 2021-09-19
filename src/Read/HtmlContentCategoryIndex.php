@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Eightfold\HtmlSpec\Read;
 
-use Illuminate\Support\Str;
+use Eightfold\HtmlSpec\Helpers\String as Str;
 
 use Eightfold\HtmlSpec\Compiler;
 

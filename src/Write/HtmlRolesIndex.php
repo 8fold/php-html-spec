@@ -5,7 +5,7 @@ namespace Eightfold\HtmlSpec\Write;
 
 use Eightfold\HtmlSpec\Read\HtmlRolesIndex as HtmlRolesIndexReader;
 
-use Illuminate\Support\Str;
+use Eightfold\HtmlSpec\Helpers\String as Str;
 
 use Eightfold\HtmlSpec\Compiler;
 
